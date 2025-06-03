@@ -1,0 +1,29 @@
+{
+    "metadata": {
+        "filename": "6ENXIJTTJXAYKZEVQFQ5EB4J4L65CQPV.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Stability analysis of electrical powered wheelchair-mounted robotic-assisted transfer device\nHongwu Wang, PhD; Chung-Ying Tsai, MS; Hervens Jeannis, MS; Cheng-Shiu Chung, MS; Annmarie Kelleher, MS; \u000bGarrett G. Grindle, MS; Rory A. Cooper, PhD"
+        },
+        {
+            "slide_number": 2,
+            "text": "Aim\nInvestigate stability of newly developed Strong Arm.\nAttaches and integrates with electrical powered wheelchair to assist with transfers.\nRelevance\nAn easy-to-use robotic system that assists with transfers could significantly increase quality of life and independence for people with disabilities."
+        },
+        {
+            "slide_number": 3,
+            "text": "Method\nAnalyzed and verified  stability of Strong Arm system through experiments:\nApplying different loads.\nUsing different system configurations."
+        },
+        {
+            "slide_number": 4,
+            "text": "Results\nModel predicted system’s center of mass distributions very well compared with experimental results. \nWhen real transfers were conducted with 50 and 75 kg loads and an 83.25 kg dummy, current Strong Arm could transfer all weights safely without tip-over."
+        },
+        {
+            "slide_number": 5,
+            "text": "Conclusion\nOur modeling:\nAccurately predicted system stability.\nIs suitable for developing better control algorithms to enhance device safety."
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "metadata": {
+        "filename": "2BAXW45Y275TQX4RSSQ7E2GPM6QNJQSL.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Geocenter, Copenhagen \n13-15 September 2007 \n\nInstructors: Mary C. Hill (US Geological Survey, USA)\n                    Matthew Tonkin (SS Papadopulos and Associates, USA)\nCalibration, Sensitivity Analysis and Uncertainty of Groundwater Models"
+        },
+        {
+            "slide_number": 2,
+            "text": "These slides were developed for classes coordinated by Mary Hill or Claire Tiedeman since 1992. The slides are freely available from the web site for the text book by Hill and Tiedeman (2007, Wiley) at http://water.usgs.gov/lookup/get?research/hill_tiedeman_book. \nContributors to the slides include \nMary C. Hill             Claire R. Tiedeman                                           U.S. \nRichard L. Cooley (retired)                                                      Geological\nEdward Banta                                                                                 Survey\nMarshall Gannett      D. Matthew Ely\nArlen Harbaugh        Howard Reeves\nSteffen Mehl (now at California State Univ, Chico)\nEvan Anderman, formerly Calibra Consultants, McDonald Morrissey\nMatt Tonkin, SS Papadopulos and Associates \nGilbert Barth, SS Papadopulos and Associates \nHeidi Christensen Barlebo, GEUS\nFrank Smits,  Dutch hydrologist\nWillem Jan Zaadnoordijk, Royal Haskoning, the Netherlands"
+        },
+        {
+            "slide_number": 3,
+            "text": "Instructors\nMary Hill – US Geological Survey, Boulder, CO, USA. \nFocus: Improve how we simulate ground-water systems and evaluate model uncertainty. Wrote MODFLOWP, PCG2 solver, co-author of, for example, MODFLOW-2000, HUF, UCODE_2005, MMA, OPR-PPR.\nBA, Geology and Business Administration, Hope College, Holland, MI.\nPhD, Water Resources, Civil Engineering, Princeton University\n\nMatt Tonkin – Hydrogeologist, SS Papadopulos & Assoc, Inc.\n\t\t          \t  PhD student, U. of Queensland, Australia\n\t  Focus: Computationally efficient predictive analysis through regularized inversion\n\t\t    Co-author – MOD-PREDICT, OPR-PPR\n\t\t    Host – PEST technical support forum\t\n\t  BA, Applied and Environmental Geology, Birmingham University, UK\n\t  MS, Hydrogeology, Birmingham University, UK"
+        },
+        {
+            "slide_number": 4,
+            "text": "You!\nStudent introductions\nName\nYour country and, briefly, major national ground-water problems\nEmployer/school\nExperience in ground-water modeling\n\t\t\tinverse methods\n\t\t\tstatistics\nGraphical interface experience/preference\n\nWhat do you want to obtain from this course?\nTo what modeling project(s) do you plan to apply the methods?"
+        },
+        {
+            "slide_number": 5,
+            "text": "Primary Documents Used in the Course\nEffective Groundwater Model Calibration, with Analysis of Data, Sensitivity, Predictions, and Uncertainty \n(Hill and Tiedeman, 2007, Wiley). \n\nProgram Documentation for MODFLOW-2005, MODPATH, UCODE_2005, OPR-PPR, MMA, PEST\nFor all programs, documentation PDF files are provided and also can be downloaded from the internet.\nAdditional MODFLOW documentation can be found on: http://water.usgs.gov/nrp/gwsoftware/modflow2005/modflow2005.html"
+        },
+        {
+            "slide_number": 6,
+            "text": "Computer Software\nParameter-estimation with UCODE_2005\nClass provides much of the background needed to use MODFLOW-2000, UCODE_2005, PEST, OSTRICH or any other inverse modeling code\n MODFLOW2005    \n-   USGS three-dimensional, transient, ground-water flow computer program. \nUCODE-2005: \n-    USGS Universal inverse modeling CODE \n-    Constructed using the JUPITER API\n-    Use with any model. \n-    If used with perturbation sensitivities, consequences investigated by Hill and Østerby, 2003; Mehl and Hill, 2002\n-    Parameter-estimation method expanded from that in MODFLOW-2000. \nPEST – Parameter ESTimation software\n-    Model independent like UCODE_2005\n-    Includes additional very useful parameterization and regularization capabilities."
+        },
+        {
+            "slide_number": 7,
+            "text": "Perspective\nThe methods and guidelines are broadly applicable, but taught using ground-water modeling examples.\nThere are about as many opinions about how to construct and use models as there are people working with models. There are a number of ongoing methods to standardize ground-water model construction and use. For example, HarmoniQua (€5 million over 5 years), Germany, Australia, New Zeeland, USEPA, USGS, ASTM, …See review by Hill et al. (2004, conf. proceedings, FEM-MODFLOW)\nNo set of methods and ideas is best in all circumstances, but we are hoping that by learning one set of methods and ideas, you will improve how you develop models, and be in a position to improvise using new ideas as you come across new, useful ideas."
+        },
+        {
+            "slide_number": 8,
+            "text": "Methods for sensitivity analysis, data assessment, model calibration, and evaluation of model uncertainty. These methods take advantage of the quantitative connections provided models between:\n          observations – parameters - predictions\nGuidelines that describe how to use the methods presented, with emphasis on applications to ground-water models.\nPurpose of Course"
+        },
+        {
+            "slide_number": 9,
+            "text": "Major steps of ground-water modeling\nHydrologic and hydrogeologic data\nRelate to model inputs\nDependent variable observations\nRelate to model outputs -- calibration\nGround-Water Model -- parameters\nPredictions\nPrediction uncertainty\nSocietal decisions"
+        },
+        {
+            "slide_number": 10,
+            "text": "Major steps of ground-water modeling\nHydrologic and hydrogeologic data\nRelate to model inputs\nDependent variable observations\nRelate to model outputs -- calibration\nGround-Water Model -- parameters\nPredictions\nPrediction uncertainty\nSocietal decisions"
+        },
+        {
+            "slide_number": 11,
+            "text": "We consider calibration with analysis of data, sensitivities, predictions, and uncertainty\nobservations – parameters - predictions\nEstimate parameters with observations using a gradient-based method (versus global optimization). Gradient methods are much faster but can get stuck in local minima.\nUse sensitivity analysis to investigate relations between observations, parameters, and predictions."
+        },
+        {
+            "slide_number": 12,
+            "text": "Sensitivity analysis measures taught\nObservations – Parameters - Predictions\ndss                                  pss\ncss                                  ppr\npcc\nleverage\nParameter cv\nAIC\nBIC\nDFBETAS \nCook’s D\n\nopr\nObservations ---------------- Predictions"
+        },
+        {
+            "slide_number": 13,
+            "text": "Field and synthetic examples\nField examples are used to demonstrate how the methods and guidelines are used in practice. \nWe begin the class with a study of the Death Valley regional ground-water system in California and Nevada, USA.\nA synthetic example is used to investigate the methods and guidelines in a situation for which the truth is known.\nA synthetic test case with a model development phase followed by a predictions phase is developed over the length of the course."
+        },
+        {
+            "slide_number": 14,
+            "text": "Common questions that can be addressed by the methods taught here\nHow much and what model complexity can the observations support?\nAre any of the estimated parameter values dominated by a single observation? \nWhat model parameters are important to the things I need to predict?\nWhat data should be collected to improve the predictions? \nWhich conceptual model of the system is likely to produce better predictions?\nHow certain are the predictions?"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "filename": "3EJF7F35J377CRUC6A2ZFPX3YTJJ6GC6.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "<number>\nSPoRT ADAS:  A Meso-Surface Analysis\n           \n\n                                      \nScience Sharing Session for NWS                                                 May 2008"
+        },
+        {
+            "slide_number": 2,
+            "text": "<number>\nOverview\nWhat is the SPoRT ADAS*?\nWhat are its uses?\nAccessing product in AWIPS\nComparison with existing analysis\nMissing product expectations and actions\n*Advanced Regional Prediction System (ARPS) Data Analysis System (CAPS/OU)"
+        },
+        {
+            "slide_number": 3,
+            "text": "<number>\nWhat is the SPoRT ADAS?\nBlends surface data into a coherent analysis using ADAS:\nStrength in analyzing asynoptic data sets\n13-km, 2-h RUC forecast as first-guess\nMETAR, buoy, Mesonet, SAO\nAn observation is rejected if it is:\nsignificantly different than neighbors\ngreatly different than first-guess\nblacklisted (user-defined)\n2-km resolution captures mesoscale features\nAssimilates observations from ±15 minutes from the top of every hour\nAvailable in AWIPS at 40-45 minutes past every hour"
+        },
+        {
+            "slide_number": 4,
+            "text": "<number>\nSPoRT ADAS Uses\nProvides an additional high-resolution surface analysis for:\nreal-time meso-analysis\ninitializing grids within gridded forecasts\nverification of gridded forecasts\nSimilar to:\nLAPS*:  quality control issues at times\nMSAS†:  smooth appearance\nRTMA‡:  quality control issues and smooth appearance\nSPoRT ADAS has been most useful in forecasting nighttime temperatures in the elevated regions of NE AL\n*Local Analysis and Prediction System (NOAA/GSD)\n†Mesoscale Analysis and Prediction System (MAPS) Surface Assimilation System (NOAA/ESRL)\n‡Real-Time Mesoscale Analysis (NCEP)"
+        },
+        {
+            "slide_number": 5,
+            "text": "<number>\nAccessing the SPoRT ADAS in AWIPS\nLocated under the “Volume” tab on the menu\nClick on “Browser”\nProduct appears as “ADAS”\nVariables available:\n2-m temperature\n2-m relative humidity\n10-m winds\nother variables derived from T and RH"
+        },
+        {
+            "slide_number": 6,
+            "text": "<number>\nSurface Temperature Comparison\nMay 9, 2008  1700 UTC\nNeither analysis shows obvious bulls eyes due to quality control issues\nOne case—may have been no questionable observations\nBetter resolution of SPoRT ADAS allows it to pick up sharper gradients\nEspecially evident in the higher terrain of eastern Alabama and western Georgia\nLAPS\nSPoRT ADAS"
+        },
+        {
+            "slide_number": 7,
+            "text": "<number>\nSurface Temperature in High Terrain\nSPoRT ADAS depicts tight gradients associated with terrain features much better than LAPS"
+        },
+        {
+            "slide_number": 8,
+            "text": "<number>\nIf the file has not arrived by 50 past the hour, there has either been an error in the analysis process or in the transfer of the data from NASA to NWS\nAnalyses may occasionally be missing due to unavailable RUC files, missing observation files, or corrupted observation files\nOutages due to errors in the analysis process may last for several consecutive hours\nContact SPoRT Liaisons Geoffrey Stano and/or Kevin Fuell if a data outage occurs for more than a half day\nErrors and Error Reporting"
+        },
+        {
+            "slide_number": 9,
+            "text": "<number>\nSummary\nSPoRT ADAS uses good quality control and 2-km resolution to pick up fine-scale features not seen in other surface analyses available in AWIPS\nSPoRT ADAS has proven most useful for nighttime temperature over elevated terrain in eastern edge of HUN forecast region\nLet’s work together to analyze this product:  feedback on where/when SPoRT ADAS provides better analysis than other available analyses\n\n\nScience Point of Contact:  Brad Zavodsky (Brad.Zavodsky@nasa.gov), 961-7914"
+        },
+        {
+            "slide_number": 10,
+            "text": "<number>\nFor more information on the ARPS Data Analysis System (ADAS)\nFor more information on the MAPS Surface Assimilation System (MSAS)\nFor more information on the Real-Time Mesoscale Analysis (RTMA)"
+        }
+    ]
+}

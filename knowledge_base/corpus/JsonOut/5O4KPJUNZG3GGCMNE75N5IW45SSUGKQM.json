@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "filename": "5O4KPJUNZG3GGCMNE75N5IW45SSUGKQM.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Ana Lupe Cristán\u000bPolicy and Standards Division\nLibrary of Congress\n\nMarch 2012\nRDA Special Topics: Relationship Designators in\u000bRDA Name Authority Records (NARs)\n1"
+        },
+        {
+            "slide_number": 2,
+            "text": "RDA – Appendix K \u000bChapter 29 Guidelines on recording relationships …\u000bRelated persons – Chapter 30\u000bRelated families – Chapter 31\u000bRelated corporate bodies – Chapter 32\u000bRDA- Appendix J\u000bChapter 25 – Related works\u000b Chapter 26 – Related expressions\nRelationship Designators\u000b – MARC 21\n2"
+        },
+        {
+            "slide_number": 3,
+            "text": "Relationship Designators – Overview\nAppendix I \nRelates Persons, Families, and Corporate bodies to Works, Expressions, and Manifestations\nUsed in only bibliographic records\nAppendix J\nRelates Works, Expressions, and Manifestations to Works, Expressions, and Manifestations\nUsed in both bibliographic and authority records\u000b\t(formerly known as “see-alsos”)\nAppendix K \nRelates Persons, Families, and Corporate bodies to Persons, Families, and Corporate bodies\nUsed only in authority records (formerly known as “see-alsos”)\n3"
+        },
+        {
+            "slide_number": 4,
+            "text": "Appendix I – Reminder:  Relationship Designators for Bibliographic Records – Quiz\nRDA Bibliographic Record:\n100 1# $a Mishima, Yukio, $d 1925-1970, $e author.\n240 10  $a Shiosai. $l English\n245 14 $a The Sound of waves / $c Yukio Mishima; translated by Meredith Weatherby.\n700 1# $a Weatherby, Meredith, $e translator.\n\nAuthority Records:\n___ __ $a Mishima, Yukio, $_ 1925-1970. $_ Shiosai. $_ English\n___ __ $a Weatherby, Meredith\n100 1#\n100 1#\nt\nd\nl\n4"
+        },
+        {
+            "slide_number": 5,
+            "text": "Relationship designators (29.5) - Appendix K\nK.2.1 Persons to other persons\nAlternate identity\nReal identity\nK.2.2 Persons to families\nFamily member\nProgenitor\nK.2.3 Persons to corporate bodies\nEmployee\nFounder\nGroup member\nIncumbent\nSponsor\nK.3.1 Families to Persons\nDescendants\nK.3.2 Families to Families\nDescendant family\nK.3.3 Families to corporate bodies\nFounding family\nSponsoring family\nK.4.1 Corporate bodies to persons\nEmployer\nK.4.2 Corporate bodies to family\nFounded organization\nSponsored organization\nK.4.3 Corporate bodies to corporate bodies\nHierarchical subordinate\nHierarchical superior\nMergee\nPredecessor\nProduct of a merger\nProduct of split \nSuccessor\n5"
+        },
+        {
+            "slide_number": 6,
+            "text": "MARC 21 Format for Authority Data\n6"
+        },
+        {
+            "slide_number": 7,
+            "text": "MARC 21 Format for Authority Data\n7"
+        },
+        {
+            "slide_number": 8,
+            "text": "LC Policy: code “r” and subfield $i\nUse of subfield $w/0 “r” and subfield $i is optional \n\nSubfield $w/0 coded “r” must be used in conjunction with subfield $i  (code “r” announces the presence of $i)\n\nWhen using subfield $i capitalize the first letter of the term and add a colon before subfield $a\n\nDo not use $w/0 “r” and subfield $i in 4XXs\n\nUse $w/0 “r” and subfield $i only in 5XXs\n8"
+        },
+        {
+            "slide_number": 9,
+            "text": "LC Policy: code “r” and subfield $i –Family names\nFamily names\nUse code “r” in subfield $w/0 and add subfield $i with the appropriate term from Appendix K  to show family relationships\n\nRDA NAR Example:\n100 3# $a Weir (Family : $g Weir, Robert Walter, 1803-1889)\n500 1# $w r $i Progenitor: ‡a Weir, Robert Walter, $d 1803-1889\n9"
+        },
+        {
+            "slide_number": 10,
+            "text": "Subfield $w/0 coded “r” and subfield $i were not intended for use with AACR2 NARs but in order to code a reciprocal NAR they had to be allowed.\nAACR2 NAR:\n100 1# $a Weir, Robert Walter, $d 1803-1889\n\n\nRDA NAR :\n100 3# $a Weir (Family : $g Weir, Robert Walter, 1803-1889)\n500 1# $w r $i Progenitor: ‡a Weir, Robert Walter, ‡d 1803-1889\n\nReciprocity is not required - but if you want to add this reciprocal information OK – and to an AACR2 NAR!\nFor family names remember that you must use the authorized form of name of the progenitor\nExample  -  code “r” and subfield $i –Family names\n500 3# $w r $i Descendents: ‡a Weir (Family : $g Weir, Robert Walter, 1803-1889)\n10"
+        },
+        {
+            "slide_number": 11,
+            "text": "Personal names – pseudonyms \nDo not use $w/0  “r” and subfield $i for multiple pseudonyms. \nUse $w nnnc in combination with a 663 note (see FAQ at: http://www.loc.gov/catdir/cpso/pseud.pdf)\nLC Policy for use of code “r” and subfield $i\n92\nExample: n 79060552\n11"
+        },
+        {
+            "slide_number": 12,
+            "text": "Optionally, for a single pseudonym $w/0  “r” and subfield $i may be used. \nExample:\n100 1 $a King, Stephen\n500 1 $w r $i Alternate identity: $a Bachman, Richard\n100 1 $a Bachman, Richard\n500 1 $w r $i Real identity: $a King, Stephen\n Or, continue to use the simple 500 without subfield $w\n For pseudonyms reciprocity is required\nboth for only one pseudonym and for multiple pseudonyms\nthis means each name must have its own NAR\nLC Policy: code “r” and subfield $i- Pseudonyms\n12"
+        },
+        {
+            "slide_number": 13,
+            "text": "LC Policy code “r” and subfield $i – Corporate bodies\nCorporate bodies (per LCPS 32.1.1.3)\nDo not use code “r” and subfield $i in RDA NARs for earlier/later relationships\n– Continue to use subfield $w/0 coded “a” (earlier) and/or code “b” (later) in 5XXs to relate corporate bodies\nIn this case a reciprocal NAR is required for each NAR \nNote that PCC libraries are not bound by the LC policy to use earlier/later and starting with the US RDA Test have been creating NARs with relationship designators using Appendix K terms when relating corporate bodies\n13"
+        },
+        {
+            "slide_number": 14,
+            "text": "Subfield $w – Earlier/Later – Corporate bodies\nNAR 1\n1XX _# $a Body A\n5XX _# $w b $a Body B\nNAR 2\n1XX _# $a Body B\n5XX _#  $w a $a Body A\nNAR 3\n1XX _# $a Body C\n5XX _#  $w a $a Body B\n5XX _#  $w b $a Body C\n14"
+        },
+        {
+            "slide_number": 15,
+            "text": "LC Policy code “r” and subfield $i –Corporate bodies\nBut, what happens if a later form of a corporate name is needed and the earlier form is in a PCC created RDA NAR with subfield $i and the relationship designators from Appendix K?\n\tUse cataloger judgment \ncreate a new RDA NAR for the latest form of name with subfield $w/0 coded “r” and add subfield $i \nor you could go ahead and add the $w/0  a (earlier) and b (later)\nHybrid NARs are OK in this case – this means a mix of MARC content designations is OK not that the headings are hybrid\n15"
+        },
+        {
+            "slide_number": 16,
+            "text": "LC policy subfield $w r and $i – Relationship designator – Corporate body\nRDA NAR 1 created by PCC cataloger\n1XX _# $a Body A\n5XX _# $w r $i Successor: $a Body B\nRDA NAR 2 created by PCC cataloger\n1XX _# $a Body B\n5XX _# $w r $i Predecessor: $a Body A\nNAR 3 created by LC cataloger\n1XX _# $a Body C\n5XX _# $w r $i Predecessor: $a Body B\n5XX _# $w r $i Successor: $a Body C\n5XX _# $w b $a Body C\n5XX _# $w a $a Body B\n16"
+        },
+        {
+            "slide_number": 17,
+            "text": "LC Policy code “r” and subfield $i – Corporate bodies\nCorporate bodies\nOptionally, code “r and subfield $i may be used to relate persons to corporate bodies \nReciprocity is not required \nAll names used in 5XXs must be established \nNOTE:  The requirement for the name of the person to be in the name of the group is not in RDA – there is no LCPS\nExample of current person to corporate body relationship\n110 2# Art Tatum Trio\n500 1# Tatum, Art, $d 1909-1956\n100 1# Tatum, Art, $d 1909-1956\n510 2# Art Tatum Trio\n17"
+        },
+        {
+            "slide_number": 18,
+            "text": "LC Policy: code “r” and subfield $i\nExample:\n110 2# $a R.E.M (Musical group)\n500 1# $w r $i Group member: $a Stipe, Michael, $d 1960-\n500 1# $w r $i Group member: $a Buck, Peter, $d 1956-\n500 1# $w r $i Group member: $a Mills, Mike, $d 1958 \tDecember 17-\n500 1# $w r $i Group member: $a Berry, Bill, $d 1958-\n670 ## $a Rock on, c1985: ‡b v. 3 (R.E.M. formed 1980; \tMichael Stipe, vocals; Pete Buck, guitar; Mike Mills, \tbass, vocals; Bill Berry, drums, vocals; hometown, \tAthens, Ga.)\n18"
+        },
+        {
+            "slide_number": 19,
+            "text": "LC Policy: code “r” and subfield $i – Relationship designators missing from Appendix K\nSome relationship designators are one-way – some terms not yet defined in Appendix K\nIn example below there is no appropriate reciprocal term for group member\n100 1# $a Stipe, Michael, $d 1960-\n510 2# $a R.E.M. (Musical group)\n100 1# $a Buck, Peter, $d 1956-\n510 2# $a R.E.M. (Musical group)\n19"
+        },
+        {
+            "slide_number": 20,
+            "text": "LC Policy: code “r” and subfield $i\nUse relationship designators for persons to corporate bodies with caution\nUse relationship designators to relate the corporate body to the person but be wary of the reciprocal relationship. \n In the case of a NAR for LC or Disney, etc. it would be thousands of names if you added the relationship designator “Employee” for each person that works there.\nExample:\n100 1# $a Billington, James H.\n510 2# $w r $i Employer: $a Library of Congress\n20"
+        },
+        {
+            "slide_number": 21,
+            "text": "LC Policy for use of code “r” and subfield $i\nBest practice: prefer to use the MARC field 373 to show those affiliated group relationships instead\nExample: 100 1# $a Guiles, Kay D.\n\t    373 ## $a Library of Congress $s 1958\nAll names used in  5XXs should be established\n5XXs used on one NAR do not need to be reciprocal 5XXs on the related NAR\n110 2# $a Library of Congress\n500 1# $w r $i Employee: $a Guiles, Kay D.\n500 1# $w r $i Employee: $a Reser, David\n500 1# $w r $i Employee: $a Phong, Tran\n500 1# $w r $i Employee: $a Sinclair, Linda\u000b + a zillion others\n21"
+        },
+        {
+            "slide_number": 22,
+            "text": "M\nM\nEXAMPLE\n22"
+        },
+        {
+            "slide_number": 23,
+            "text": "Appendix J:  Relationship designators in NARs\nExample: \n046 ## $k 1933 \n130 ## $a Devil’s brother (Motion picture)\n380 ## $a Motion picture\n500 1# $w r $i Motion picture adaptation of (work): ‡a \tAuber, D. F. E. $q (Daniel François Esprit), $d \t1782-1871. $t Fra Diavolo\n670 ## $a The devil's brother, 1933.\n670 ## $a  IMDB.com, Dec. 27, 2010 ‡b (Devil's brother; motion picture adaptation of Auber's Fra Diavolo produced by Metro-Goldwyn-Mayer and released in 1933)\n23"
+        },
+        {
+            "slide_number": 24,
+            "text": "Appendix J: Relationship designators in NARs\nExample: \n046 ## $k 1830 \n100 1# $a Auber, D. F. E. $q (Daniel François Esprit), $d \t1782-1871. $t Fra Diavolo\n380 ## $a Opera\n530 ## $w r $i Adapted as a motion picture (work): ‡a \tDevil's \tbrother (Motion picture)\n670 ## $a  Wikipedia, Dec. 27, 2010 ‡b (Fra Diavolo; \tL'hôtellerie de Terracine; Inn of Terracina; opéra \tcomique by Daniel Auber; based loosely on the life of \tMichele Pezza; first performed on Jan. 28, 1830 in \tParis)\n24"
+        },
+        {
+            "slide_number": 25,
+            "text": "100 1# $a Mishima, Yukio, $d 1925-1970. $t Shiosai. $l English\n\n\n400 1# $a Mishima, Yukio, $d 1925-1970. $t Sound of waves\n\n\n\n670 ## $a Sound of waves, 1994.\nAppendix J: Relationship designators in NARs\u000bBonus quiz:\n336 ## $a text $2 rdacontent\n500 1# $w r $i Translation of: $a Mishima, Yukio, $d 1925-1970. \t$t Shiosai\n100 1# $a Mishima, Yukio, $d 1925-1970. $t Shiosai \n500 1# $w r $i Translated as: $a Mishima, Yukio, $d 1925-1970. $t Shiosai. $l English\nReciprocal NAR not very helpful:\n25"
+        },
+        {
+            "slide_number": 26,
+            "text": "QUESTIONS?  LChelpforRDA@loc.gov\n26"
+        }
+    ]
+}

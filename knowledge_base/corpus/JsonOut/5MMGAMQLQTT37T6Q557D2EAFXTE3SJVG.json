@@ -1,0 +1,137 @@
+{
+    "metadata": {
+        "filename": "5MMGAMQLQTT37T6Q557D2EAFXTE3SJVG.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Muon Collider 2011, Telluride, June 30, 2011\nAcceleration Schemes for MC\nAlex Bogacz\nin collaboration with\nKevin Beard, Vasiliy Morozov\nand\nYves Roblin\n<number>"
+        },
+        {
+            "slide_number": 2,
+            "text": "Muon Collider 2011, Telluride, June 30, 2011\n<number>\nHigh/Medium/Low  Emittance MC Schemes (1.5 TeV)\nComponents, Layout, Transmission Efficiencies\nCooling Performance ⇨ Accelerator acceptance\nAcceleration Schemes (appropriate in various energy ranges) \nLinac and RLA\nFFAG Ring\nFast Ramping Synchrotrons\nHigh Transmission Acceleration scheme – initial beam dynamic choices\nLinac (0.4 – 1.5 GeV)\nRLAs (1.5 – 12.5 GeV) and (12.5 – 100 GeV)\nRCS Rings\nEmerging Acceleration Scheme…\nOverview"
+        },
+        {
+            "slide_number": 3,
+            "text": "Parameters of various MC options\n6/30/08\nNuFact08, Valencia\nBob Palmer circa 2009\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 4,
+            "text": "Muon Collider 2011, Telluride, June 30, 2011\n<number>\nHEMC – Phase space after cooling\nBob Palmer"
+        },
+        {
+            "slide_number": 5,
+            "text": "HEMC Scenario I (NF centric)\nBerg/Palmer\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 6,
+            "text": "HEMC Scenario II (Low Decay)\nBerg/Palmer\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 7,
+            "text": "Low Emittance MC Scenario\nRol Johnson\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 8,
+            "text": "Linac + RLA\nModerate re-use of  the linac (a few passes)\nSwitchyard (single bend, horizontal)\nIndividual energy return Arcs for recirculation \nIncreasing number of passes:\nRamped linac quads\nReducing number of return Arcs:\nUse multi-pass(2) arcs based on combined function magnets\nArcs now have larger aperture\nSimplifying switchyard\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 9,
+            "text": "FFAG Rings\nMore passes through RF cavities (10+) – higher efficiency\nNo switchyard (RLA)  single arc with large energy acceptance\nLinear magnets to get large energy acceptance\nLinear non-scaling FFAG\nChallenges\nInjection and extraction difficult (kickers: 15 cm radius, 0.1 T field)\nNo synchrotron oscillations\nAmplitude dependent time of flight\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 10,
+            "text": "Fast Ramping Synchrotron\nAllows arbitrary number of passes (high efficiency)\nMaintain beam synchronization  with RF\nMagnets ramped extremely fast\nExpensive power supplies (Eddy currents)\nSmall apertures help to keep power down\nBeam not centered in magnets\nHigh average bend field\nRamping magnets have low field limit\nHybrid lattice/magnets ⇨ SC magnets fixed field + warm magnets ramped\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 11,
+            "text": "Acceleration with Improved Transmission\nMuon Collider 2011, Telluride, June 30, 2011\n<number>\nBerg/Palmer\nMC\nNF"
+        },
+        {
+            "slide_number": 12,
+            "text": "Muon Collider 2011, Telluride, June 30, 2011\nLinac Cryo-module\nLinac cell (solenoid + 28 2-cell cavities), length: 22.75 meter\n<number>\n 2\n0.9-2.5 Tesla solenoid\n17 MV/m 201 MHz SRF"
+        },
+        {
+            "slide_number": 13,
+            "text": "Muon Collider 2011, Telluride, June 30, 2011\nTransit time effect – G4BL\n<number>\nKevin Beard\nE = 400 MeV\n = 3.7858"
+        },
+        {
+            "slide_number": 14,
+            "text": "Muon Collider 2011, Telluride, June 30, 2011\n<number>\n= 25 mm mrad\n2.5   beam envelope\n10  cells\n0.4-1.5 GeV Linac – Transverse Dynamics\nTransmission: 0.986"
+        },
+        {
+            "slide_number": 15,
+            "text": "Muon Collider 2011, Telluride, June 30, 2011\n<number>\nSolenoid  vs Quad focusing"
+        },
+        {
+            "slide_number": 16,
+            "text": "Muon Collider 2011, Telluride, June 30, 2011\nLongitudinal Matching\n70 deg. off-crest\n<number>\nE = 400 MeV\n = 3.7858\n90 deg. off-crest\n201 MHz, 17 MeV/m"
+        },
+        {
+            "slide_number": 17,
+            "text": "Energy [GeV]\nMuon Collider 2011, Telluride, June 30, 2011\nLongitudinal Dynamics\n<number>\nbucket area\ninitial stationary bucket gradually brought to 25 deg. off-crest\nSynchrotron phase\n0 = 3.79\n = 14.29\n/0 = 3.7"
+        },
+        {
+            "slide_number": 18,
+            "text": "Muon Collider 2011, Telluride, June 30, 2011\n<number>\n0.4-1.5 GeV Linac – Transmission\nTotal loss: 6.4%\nMuon decay: 5% loss\nTransmission: 1.4% loss\nMODELING A 0.4-1.5 GeV MUON LINAC, Beard at al"
+        },
+        {
+            "slide_number": 19,
+            "text": "‘Dogbone’  RLA\nallows both charges to traverse the Linac in the same direction (more uniform focusing profile)\nbetter orbit separation at linac’s end ~ energy difference between consecutive passes (2E)\nthe droplets can be reduced in size according to the required energy\nboth charge signs can be made to follow a Figure-8 path (suppression of depolarization effects)\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 20,
+            "text": "4-pass, 17-21 GeV\nquad gradient\nMuon Collider 2011, Telluride, June 30, 2011\n<number>\nMulti-pass ‘bisected’ linac Optics"
+        },
+        {
+            "slide_number": 21,
+            "text": "‘Fixed’ vs ‘Pulsed’ linac Optics (8-pass)\nPulsed\nFixed\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 22,
+            "text": "Mirror-symmetric ‘Droplet’ Arc  –  Optics\n10 cells in\n2 cells out\n2 cells out\n(out = in and out = -in , matched to the linacs)\ntransition\ntransition\nE =5 GeV\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 23,
+            "text": "‘Dogbone’  RLA with 2-pass Arcs\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 24,
+            "text": "Two-pass Arc Layout\nSimple closing of arc geometry when using similar super cells\n1.2 / 2.4 GeV/c arc design used as an illustration can be scaled/optimized for higher energies preserving the factor of 2 momentum ratio of the two passes\nVasiliy Morozov\nDroplet arc:\n60 outward bend\n300 inward bend\n60 outward bend\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 25,
+            "text": "Super-Cell Optics for P2/P1 = 2\nP\n2xP\nVasiliy Morozov\nEach arc is composed of symmetric super cells consisting of linear combined-function magnets (each bend: 2.50)\n= 600\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 26,
+            "text": "‘Droplet’ Arc  Spreader/Recombiner\nFirst few magnets of the super cell have dipole field component only, serving as Spreader/Recombiner\n* Trajectories are shown to scale\nVasiliy Morozov\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 27,
+            "text": "A pair of 2-pass Arcs  Switchyard\nLower momentum arc is the most challenging because of the highest momentum ratio; have a solution but still plenty of room for optimization\n* Trajectories are shown to scale\nVasiliy Morozov\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 28,
+            "text": "Vertical Bypass Concept\n3xP\n4xP\nVasiliy Morozov\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 29,
+            "text": "Advantages of New Arc Design\nNo need for a dedicated switchyard with spreader/recombiner incorporated into the arc design\nOptimization of magnet bending angles in addition to quadrupole components allows for greater compactness and minimal orbit excursion (equal same-direction bends used as initial condition in the optimization)\nGreater dynamic aperture and momentum acceptance expected with linear-field lattice\nSimpler linear combined-function magnet design\nFully scalable Optics\nMULTIPASS MUON RLA RETURN ARCS BASED ON LINEAR COMBINED-FUNCTION MAGNETS, Morozov et al\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        },
+        {
+            "slide_number": 30,
+            "text": "RLA s with multi-pass Arcs\nMuon Collider 2011, Telluride, June 30, 2011\n2.44 GeV/pass\n1.5 GeV\n10.3 GeV/pass\n12.5 GeV\n1.5-12.5 GeV RLA  (4.5-pass)\n12.5-100 GeV RLA  (8.5-pass)\n310 m linac (201 MHz)\n960 m linac  (402 MHz)\n<number>"
+        },
+        {
+            "slide_number": 31,
+            "text": "Summary\nMuon Collider 2011, Telluride, June 30, 2011\n<number>\nMC Acceleration Schemes (1.5 TeV)\nHigh//Low  Emittance\nCooling Performance ⇨ Accelerator acceptance\nTransmission Efficiencies\nLongitudinal matching into a single pass Linac\n‘High Transmission’ Acceleration scheme – initial beam dynamic choices\nLinac (0.4 – 1.5 GeV)\nRLAs (1.5 – 12.5 GeV) and (12.5 – 100 GeV)\nRCS Rings\nEmerging Acceleration Scheme…"
+        },
+        {
+            "slide_number": 32,
+            "text": "Injection/Extraction Chicane\n$Lc = 60 cm\n$angH = 9 deg.\n$BH = 10.2 kGauss\n$Lc = 60 cm\n$angV = 5 deg.\n$BV =  4.7 kGauss\nMuon Collider 2011, Telluride, June 30, 2011\n<number>"
+        }
+    ]
+}

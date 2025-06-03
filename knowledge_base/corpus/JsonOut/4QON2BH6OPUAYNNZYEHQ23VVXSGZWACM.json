@@ -1,0 +1,73 @@
+{
+    "metadata": {
+        "filename": "4QON2BH6OPUAYNNZYEHQ23VVXSGZWACM.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Requirements Gathering, Validation, and Concept Studies\nGOES Users’ Conference\nBoulder, CO\nOctober 1-3, 2002\n1"
+        },
+        {
+            "slide_number": 2,
+            "text": "Other Data\nIntegrated Approach to Observations\nPolar\n\nPOES\n(Today)\n\nw/METOP\n(2005)\n\nNPOESS\n(2009)\nGeostationary\n\nGOES I-Series\n(Today)\n\nGOES N-Series\n(2004)\n\nGOES R-Series\n(2012)\nOther Satellites\n\nNASA\n\nDoD\n\nInternational\n\nCommercial\nUser Needs\n2"
+        },
+        {
+            "slide_number": 3,
+            "text": "Baseline GOES-R Architecture\nWest\nEast\n3"
+        },
+        {
+            "slide_number": 4,
+            "text": "Opportunities & Challenges for GOES-R\n4"
+        },
+        {
+            "slide_number": 5,
+            "text": "Opportunities & Challenges for GOES-R\n5"
+        },
+        {
+            "slide_number": 6,
+            "text": "Opportunities & Challenges for GOES-R\n6"
+        },
+        {
+            "slide_number": 7,
+            "text": "Opportunities & Challenges for GOES-R\n7"
+        },
+        {
+            "slide_number": 8,
+            "text": "Multi-Satellite GOES-R Architecture\nWest\nEast\nAdditional Instruments could be flown on existing satellites or as free-flyers \nMicrowave Sounder\t-\tCoronagraph\n8"
+        },
+        {
+            "slide_number": 9,
+            "text": "Requirements Flow to GOES-R Architecture Development\nUser Needs\nArchitecture I\n 2 GEO Satellite Constellation\nArchitecture II\nMulti-Satellite Constellation\nArchitecture III\nMed Earth Orbit Constellation\nRecommend Alternative(s)\nPotential solutions to fulfill mission needs\nComprehensive assessment with Cost Benefit Analysis as cornerstone\nEnd-to-End Systems\nSpace & Launch\nCommand & Control \nProduct Generation & Distribution\nArchive & Access \nUser Interface & Assimilation\n9"
+        },
+        {
+            "slide_number": 10,
+            "text": "Cost and Benefit Analysis Strategy/Methodology\nFocus analysis on determining\nLinkages from improved GOES-R sensors to economic benefits\nAvoidable economic losses due to improved advanced warnings of events and improved forecast accuracy\n\nCharacterize information flow from sensors to \"end-users”\n\nDetermine impacts of the instrument improvements on our products - current emphasis on ABI/HES\n\nIdentify key benefit domains\n\nHold user forums to elicit insight into improved product benefits\n10"
+        },
+        {
+            "slide_number": 11,
+            "text": "Benefit Areas Investigated\nAgriculture\nReduction of temperature error\nReduce unnecessary and expensive frost/freeze mitigation activities\nImproved soil moisture measurement accuracy\nReduce over-irrigation\n\nAviation\nImprove convective weather forecasts\nImprove route planning \nReduce delays/deviations/cancellations; reduce fuel consumption\nVolcanic Ash Avoidance\nReduce $M in damage and potential loss of lives\n11"
+        },
+        {
+            "slide_number": 12,
+            "text": "Benefit Areas Investigated\nRecreational Boating\nImprove hurricane lead time: Reduce boat loss and damage\n\nTrucking\nImprove severe weather lead time / location: Reduce # of accidents/deaths\n\nUtilities (Electric, Natural Gas) \nImprove temperature accuracy: Improve load forecasting and reduce expensive spot purchases\n12"
+        },
+        {
+            "slide_number": 13,
+            "text": "Ongoing Benefit Areas Analysis\u000b- Not Yet Included in Report\nCommercial Shipping\nImprove tropical cyclone track and intensity forecasts; Improve ship routing\n\nEmergency Management\nIncrease lead time on severe weather forecasts and hazardous environmental matter; Improve planning and deployment *\n13"
+        },
+        {
+            "slide_number": 14,
+            "text": "Economic Benefits* Summary \u000bfor GOES-R Series (2013-2027)\n*These benefits are over and above those achieved by the current GOES baseline\n14"
+        },
+        {
+            "slide_number": 15,
+            "text": "GOES-R System Selection Timeline\nCost & Performance Spectrum\nVariety of Instrument Combinations\n3 Basic Space Architectures\nVariety of Ground Architectures\nApr 03\nArchitecture A 2 GEOs\nArchitecture C MEOs\nArchitecture B Multi-Satellites\nSep 04\nDec 05\n15"
+        },
+        {
+            "slide_number": 16,
+            "text": "Goal - Transition from Individual Systems to “System of Systems” Architecture\nIntegrated System\nPrograms formulated independent of one another\nPrograms formulated as one integrated system\n16"
+        }
+    ]
+}

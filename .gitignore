@@ -1,2 +1,10 @@
+# Ignore Milvus and MinIO volumes
+knowledge_base/milvus_vector_store/volumes/
+
+
+
+# Ignore .DS_Store or Thumbs.db etc.
+*.DS_Store
+*.log
 myenv
 __pycache__

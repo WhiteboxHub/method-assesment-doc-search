@@ -1,0 +1,61 @@
+{
+    "metadata": {
+        "filename": "2WQIM42NL52W7P6HYUBFYZZRUM7V6RAL.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "DOI Climate Change Response\nData and information sharing and integration are the key to collaboration among DOI bureaus and their many partners in addressing the significant climate change challenges.\nWe need a significant DOI response to develop effective and efficient means of finding, retrieving, using, and sharing the best available data and information. This will require both a top-down and bottom-up approach to addressing Department-wide data management issues.\nThe key to data sharing and integration is modernization of data systems using reusable and sharable building blocks (“web services”) based on DOI and industry standards to allow data exchange across multiple data systems.\nKey Points from DOI Data Management/Integration Subcommittee:\n“Addressing climate change impacts will require a monumental effort by DOI”\n“The data piece is probably the most important component of all of this”\n\t\t\t\tDavid Hayes, Deputy Secretary of the Interior"
+        },
+        {
+            "slide_number": 2,
+            "text": "Challenges for Data Sharing, Integration, Dissemination to Address Climate Change\nMajor Challenge #1:\nNeed to discover, share, have access to large holdings  of data and information to address rapid climate change\ne. g., geospatial data, imagery, water quantity & quality, soils, vegetation, invasive species, land cover and use, status and trends of plant and animal populations, to name a few\nMultiple scientific and resource management disciplines\nMultiple scales, multiple agencies\n\nData are stored at thousands of locations in a variety of formats; many methods needed to access them"
+        },
+        {
+            "slide_number": 3,
+            "text": ""
+        },
+        {
+            "slide_number": 4,
+            "text": "Challenges for Data Sharing, Integration, Dissemination\nMajor Challenge #2:\nMost of the data and information we need exists or will exist in databases and sources outside of the DOI.\ne.g., NOAA, NASA, EPA, Forest Service, universities, NEON, State agencies, NatureServe, NGOs, Data.gov"
+        },
+        {
+            "slide_number": 5,
+            "text": "Key User Communities have different needs\nLand managers\nPlanners\nResource professionals “ologists”\nLCC scientists, data managers\nResearchers from CESUs, USGS, academia, NOAA, NEON, USDA\nEducators (interpreters, teachers)\nPartner/constituency groups staff\nGeneral public\nData.gov\nStakeholder"
+        },
+        {
+            "slide_number": 6,
+            "text": "Examples of Data and Information Products that Need to be Shared\nBriefing statements for busy managers and the technologically disinclined\nMetadata catalog to allow discovery and access to DOI data sets\nData sets - tables, spreadsheets, relational databases in various formats\nGIS products (maps, vector and raster data)\nAerial Photography and Satellite Imagery \nTechnical reports (e.g., “gray literature”)\nJournal publications that can be shared without violating copyright restrictions\nData synthesis reports - statistical and geospatial analyses\nResource Assessments (involve simplification and translation of complex data)\nEnvironmental Assessments (EA) and Environmental Impact Assessments (EIAs)\nManagement plans\nTrend reports\nStandards – standard operating procedures, protocols, and content standards\nTools – models, scripts and templates\nDownscaled (fine-scaled) climate models\nEnvironmental models (e.g., hydrologic models, ecosystem models)\nTraining materials\nGraphics – suitable for inclusion in presentations or reports\nMultimedia\nData.gov"
+        },
+        {
+            "slide_number": 7,
+            "text": "But there is hope . . .\nTechnology and standards are available that make it possible to integrate and share data amongst legacy data systems and new systems yet to be built through a loosely-coupled, distributed system based on web services and segment architecture.\nThe approach is flexible and modular and is phased in over time. We don’t have to figure it all out in advance, or get all of the funding and people in place in advance.\nThe approach is based on industry standards.  Microsoft, Oracle, Java, Google, IBM, etc. do the heavy lifting. Approach is widely used in the online travel, shopping, banking industries.\nThe approach is also OMB and DOI’s standard. This is what they’re promoting for all federal agencies; re-usable, sharable components. http://www.fsam.gov"
+        },
+        {
+            "slide_number": 8,
+            "text": "NPS\nFWS\nUSGS\nNASA\nNOAA\nStates, Tribes\nBureau “Ologists”\nLand Managers & Planners\nResearchers\nNOAA\nGeneral Public\nData.gov\nConceptual approach showing a few agencies: Each agency maintains their data systems, yet make portions of their data available for sharing by using a common set of standards and processes.\nLCC or other Portals\nNPS\nFWS\nUSGS\nNASA\nNOAA\nShared Data\nInternal Data\nUser Communities"
+        },
+        {
+            "slide_number": 9,
+            "text": ""
+        },
+        {
+            "slide_number": 10,
+            "text": "Integration of Resource Management Applications\nService-oriented Architecture (SOA): build once, use many times services that can be re-used by many applications\nUsing DOI and industry standards to allow data exchange and integration among data systems\nDOI award for “Best Agency SOA Application”\nIRMA\nThe NPS is Doing its Part:"
+        },
+        {
+            "slide_number": 11,
+            "text": "DOI Climate Change Response\n“The Department of Interior has committed to a unified monitoring and data management effort that will promote state of the art data integration procedures to facilitate data sharing.”\n\n- Interior’s Plan for a Coordinated, Science-based Response to Climate Change Impacts on our Land, Water, and Wildlife Resources\nThe technology exists\nWe know how to do this – several DOI efforts already underway\nLots of other agencies, universities, NGOs, industry contributing\nCongress and OMB want to eliminate redundancy and see true interagency collaboration … the DOI could be a national leader if we got our data integration act together"
+        },
+        {
+            "slide_number": 12,
+            "text": "What it will take to make this happen\nEstablish roles, policies, and accountabilities (i.e., governance)\nPromote interagency coordination and provide leadership, incentives, and funding for segment architecture modernization by each bureau.\nProvide strong leadership and incentives to accelerate agreement on metadata and data exchange standards.\nSupport funding initiatives to implement DOI data integration efforts\nTop-down Responsibilities of DOI:\nBottom-up Responsibilities of each Bureau and Partner:\nDefine bureau business and user requirements.\nDevelop and modernize data systems using federal segment architecture.\nImplement recommended metadata, data exchange, and taxonomic standards that come out of the Framework and Blueprint activities.\nProvide training and enforce use of data and metadata standards.\nDevelop budget initiatives to implement the above."
+        },
+        {
+            "slide_number": 13,
+            "text": "What the NPS and others are doing now\nIRMA system has already integrated 6 separate applications; eventually will integrate 19 applications; serious about data integr.\nNatural Resource Database Template\nConsistent core data structure in MS Access\nHundreds of successful NRDT databases nationwide \nLong-term datasets will be available through IRMA or  data.gov – can be discovered and accessed by others\nFWS I&M Program co-locating with us in Fort Collins\nWe have offered to share same contractor company and give them our modules and code if they want to “join at the hip”\nUSGS – talking about 7-10 regional data centers where researchers would submit their data; working on web services and metadata and data structure standards.\nStates – Western Governor’s Assn. 17 states serious about this"
+        }
+    ]
+}
