@@ -1,0 +1,41 @@
+{
+    "metadata": {
+        "filename": "5MI2VCFNIJNI26UUYMDLWTQC7LXZDG2B.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Director’s Preliminary Cost and Schedule Review of Project X: Introduction and Overview\nSteve Holmes\nProject X Director’s Review\nMarch 16, 2009\n\n\nhttp://www.fnal.gov/directorate/OPMO/Projects/PX/DirRev/2009/03_16/review.htm"
+        },
+        {
+            "slide_number": 2,
+            "text": "Role in Fermilab’s Future\u000bFermilab Long Range Plan\nFermilab is the sole remaining U.S. laboratory providing facilities in support of accelerator-based Elementary Particle Physics.\nThe Fermilab long-term\n\tstrategy is fully aligned\n\twith the HEPAP/P5 plan:\nEnergy and intensity frontiers\n\tshare strong reliance on\n\taccelerators\n\n\n\n\t“The panel recommends an R&D program in the immediate future to design a multi-megawatt proton source at Fermilab and a neutrino beamline to DUSEL… “\n(www.science.doe.gov/hep/files/pdfs/P5_Report%2006022008.pdf)"
+        },
+        {
+            "slide_number": 3,
+            "text": "Role in Fermilab’s Future\u000bEvolution of the Accelerator Complex\nA multi-MW Proton Source (aka Project X) is the lynchpin of Fermilab’s strategy for future development of the accelerator complex:\nEnergy Frontier:\n\tTevatron  ILC or Muon Collider as options for the Fermilab site\nAligned with ILC technology development;\nPreserves Fermilab as potential site for ILC or a Muon Collider\nIntensity Frontier:\n\tNuMI NOA LB/2e multi-MW Proton Source  NuFact\nSteady increase in power and baseline length up to 2 MW @ 1300 km;\nSeveral x 100 kW to rare processes experiments;\nPreserves Fermilab as potential site for a Neutrino Factory"
+        },
+        {
+            "slide_number": 4,
+            "text": "Guidelines for Reviewers\nThis is not a technical review.\nThe technical design was looked at by the Accelerator Advisory Committee in February\n(AAC were told “this is not a cost review”)\nTo first order you should accept that the configuration described will meet the technical goals.\nTo second order we expect to utilize your technical expertise to identify areas of particular risk, either technical or cost, and/or opportunities for reductions. \nThis is not a baseline estimate\nBaseline configuration is not established\nLevel of detail in the basis of estimates is not at baseline level\nThe DOE Order asks for a cost estimate range  This is a single point in time snapshot, developed very early in the process."
+        },
+        {
+            "slide_number": 5,
+            "text": "Guidelines for Reviewers\nReview of the schedule is secondary to the cost estimate\nEstimates are tied to a resource loaded, “technically limited”, schedule\nCD-0\tJuly 2009\nCD-1\tDecember 2010\nCD-2\tJuly 2012\nCD-3\tAugust 2013\nCD-4\tMarch 2018\nThere has been no effort to either optimize or load level the schedule\nScope of the estimate\nHydrogen bottle through extraction kickers (MI and Recycler)\nCD-0 to CD-4\n CD-4 = complete hardware checkout\nRD&D\nPED"
+        },
+        {
+            "slide_number": 6,
+            "text": "Guidelines for Reviewers\nDiscussion of the PED profile should be confined to the Project Management breakout\nAll other breakout sessions should address the adequacy of the RD&D plan as supporting the needs of the construction project\nBreakout sessions speakers will be presenting estimates in FY2009 dollars (M&S) and person-years, with no overheads and no contingency\nOverheads, escalation, and contingency are applied at the highest level and will be discussed in the Project Management breakout\nThe specific role of collaborators is not integrated into the estimate\nLabor is estimated as if provided by Fermilab staff\nFermilab labor rates are used\n(With a few exceptions within the RD&D estimate)"
+        },
+        {
+            "slide_number": 7,
+            "text": "Review Structure\nThree plenary talks:\nDescription of the initial configuration – Paul D.\nHigh level description of systems and interfaces – Sergei N.\nDescription of cost estimating methodology and high level estimate summary – Jim K.\nSeven breakout sessions\nProject Management/Cost/Schedule\tBlack Hole (WH2NW)\nCavities & Cryomodules\t1 North (WH1NW)\nRF\tTheory Conf Rm (WH3NE)\nMain Injector/Recycler/Beam Transfers\tHornets Nest (WH8N)\nInstrumentation and Controls\tReq Room (WH4NW)\nCryogenics\tSnake Pit (WH2NE)\nConventional Facilities\tConfessional (WH5NE)"
+        },
+        {
+            "slide_number": 8,
+            "text": "Summary\nThe preliminary TPC estimate is $1.49B\nWe hope the committee will concur in our view that:\nThe ICD represents a complete, well defined, scope\nThe preliminary estimate is a complete representation of the ICD\nThe methodologies used and the estimated costs are reasonable for this stage of the project \nThe preliminary estimate is sufficiently detailed and based on conservative assumptions\nOpportunities for reduction of the estimate, while preserving the core mission needs, exist\nThe preliminary estimate is likely to represent the upper range of  a subsequent baseline cost"
+        }
+    ]
+}

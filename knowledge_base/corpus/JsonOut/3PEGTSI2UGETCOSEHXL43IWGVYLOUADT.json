@@ -1,0 +1,69 @@
+{
+    "metadata": {
+        "filename": "3PEGTSI2UGETCOSEHXL43IWGVYLOUADT.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Lars Peter Riishojgaard\n\tWIGOS Project Manager, WMO\n\tChair, OPAG-IOS\n\tWMO Commission for Basic Systems\n10th Symposium on Environmental Satellites\n<number>"
+        },
+        {
+            "slide_number": 2,
+            "text": "A quick look at money and weather forecasting\nAnecdotally: A tale of two hurricanes\nMacroscopically: weather, weather forecasting and the US economy\nEnabling capabilities for weather prediction\nRole of NWP and NWP diagnostics\nImpact of satellite data\nA dollar value on observations?\n10th Symposium on Environmental Satellites\n<number>"
+        },
+        {
+            "slide_number": 3,
+            "text": "Galveston Hurricane\nLandfall in Texas at 5 PM 09/08/1900\n> $500M (2008 dollars) in property damage\n~10,000 fatalities (out of a population of ~40,000)\nNo satellite data, no upper air network, no NWP\nEstimated Category 4 at landfall\nKatrina\nLandfall (2nd) in Louisiana at 6 AM 08/29 2005\n> $90B in property damage (2008 dollars)\n> 1800 fatalities (out of a population of  ~1.5M)\nExtensive satellite and conventional observations, good forecast\nCategory 3 at Landfall\n10th Symposium on Environmental Satellites\n<number>"
+        },
+        {
+            "slide_number": 4,
+            "text": "10th Symposium on Environmental Satellites\n<number>"
+        },
+        {
+            "slide_number": 5,
+            "text": "Department of Commerce: “20% of overall US economy is weather sensitive”: ~$3 trillion/year\nImpact to air and surface transportation, agriculture, construction, energy production and distribution, etc.\nAssume that half of this is “forecast sensitive”: $1.5 trillion/year\nAssume that the potential savings due to weather forecasting amount to 5% of the “forecast sensitive total”: ~$75B/year\n10th Symposium on Environmental Satellites\n<number>"
+        },
+        {
+            "slide_number": 6,
+            "text": "Assume that the savings are distributed linearly over the achieved forecast range for the global NWP system:\n0 h useful forecast range => $0 in savings\n336 h useful forecast (two weeks maximum predictability) range => $75B in savings\n\nThis implies that the value to the United States economy of weather observations, dissemination, forecast products and services is >200M per hour of forecast range per year !\n10th Symposium on Environmental Satellites\n<number>"
+        },
+        {
+            "slide_number": 7,
+            "text": "The amount of $75B/year is one estimate of the magnitude of the total potential socioeconomic benefit of weather prediction activities to the US economy\nScaling exercise, using World Bank (2011) numbers: \nAnnual GDP of United States: ~$15T\nAnnual GDP of all nations combined: ~$70T\nAssuming on average (i) equal sensitivity to weather, and (ii) equal potential benefits from ability to predict across all nations, we get an estimated \n\t$75B *($15T/$70T) = $350B as the total global potential benefit of weather prediction activities (indicating a likely range of $100B to $1T\n10th Symposium on Environmental Satellites\n<number>"
+        },
+        {
+            "slide_number": 8,
+            "text": "1, 2 and 3 are of a foundational nature, with 1 representing the single largest expenditure, and 3  providing a powerful diagnostics capability\n10th Symposium on Environmental Satellites\n<number>"
+        },
+        {
+            "slide_number": 9,
+            "text": "NWP requirements for upper-air data coverage\nHence the need for a global observing system, irrespective of target location of forecast!\n10th Symposium on Environmental Satellites\n<number>"
+        },
+        {
+            "slide_number": 10,
+            "text": "10th Symposium on Environmental Satellites\n<number>"
+        },
+        {
+            "slide_number": 11,
+            "text": "ATOVS\n2002\n2004\n2006\n2007\n2008\n2010\nSSMI\nMonthly Mean of No. Of Observations Daily in Global Model\nSSMI/S\n2011\n<number>"
+        },
+        {
+            "slide_number": 12,
+            "text": "AMSU-A\nGNSS-RO\nIASI\nAIRS\nFrom Healy et al. Sedona 2012"
+        },
+        {
+            "slide_number": 13,
+            "text": "FNMOC and GMAO Observation Impact Monitoring\nCurrent Operations\nhttp://gmao.gsfc.nasa.gov/products/forecasts/systems/fp/obs_impact/\nhttp://www.nrlmry.navy.mil/obsens/fnmoc/obsens_main_od.html\nGelaro et al. , Sedona May 2012"
+        },
+        {
+            "slide_number": 14,
+            "text": "14\nJung, 5th WMO Impact Workshop, Sedona 2012)\nNo SAT: > 24 h loss  of skill\nNo SAT: >60 h loss  of skill\n10th Symposium on Environmental Satellites"
+        },
+        {
+            "slide_number": 15,
+            "text": "The economic impact of weather is at least somewhat recognized and understood\nIn contrast, the economic impact of weather prediction is generally not well studied and documented\nThe cost of obtaining meteorological observations is generally understood only at the national level; no reliable cost estimates available at the global level\nAssessment of the monetary value of meteorological observations is even less developed\nBy a rough estimate, the value to US economy likely in the range of $5B/year or more for NWP alone; this does not measure the value of direct forecast applications, of climate, ocean, land surface, atmospheric composition measurements, or of improved scientific understanding\n10th Symposium on Environmental Satellites\n<number>"
+        }
+    ]
+}

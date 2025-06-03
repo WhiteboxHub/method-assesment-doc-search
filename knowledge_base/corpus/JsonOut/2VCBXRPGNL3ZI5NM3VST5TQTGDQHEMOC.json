@@ -1,0 +1,57 @@
+{
+    "metadata": {
+        "filename": "2VCBXRPGNL3ZI5NM3VST5TQTGDQHEMOC.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "NGATS Weather \u000bConcept of Operations\nJPDO Weather IPT\n1"
+        },
+        {
+            "slide_number": 2,
+            "text": "JPDO Recent Publications\nConcept of Operations for \n   the Next Generation Air Transportation System\nDraft Version 0.2; July 24, 2006\n    \nNext Generation Air Transportation System Weather Concept of Operations\nVersion 1.0; May 13, 2006\n\nBoth documents available for download and comment:\n         [http://techhangar.jpdo.aero/]\n2"
+        },
+        {
+            "slide_number": 3,
+            "text": "2025 NGATS Concept\nNet-Enabled Information Access\n  Performance-Based Ops & Services\n  Weather-Assimilated Decision Making\n  Layered, Adaptive Security \n  Broad-Area Precision Navigation \n  Trajectory-Based Aircraft Operations\n  “Equivalent Visual” Operations\n  “Super Density” Operations\nKey Capabilities\nOperating Principles\n“It’s about the users…”\n  System-wide transformation \n  Prognostic approach to safety\n      assessment \n  Globally harmonized\n  Environmentally compatible to\n      enable continued growth\n3"
+        },
+        {
+            "slide_number": 4,
+            "text": "Weather Concept Philosophy\nOur charge is NOT about the weather …\n\t\tRather, it is about the\nIdentification and effective use\nof weather information\n(and supporting capabilities)\nto mitigate weather impacts\t   on NGATS operations\n4"
+        },
+        {
+            "slide_number": 5,
+            "text": "Weather Concept Scope/Approach\nScope\n2025 concepts for Weather Support (future vision)\nStarting point for inter-IPT discussions\nFirst step in NGATS weather functional analysis\nApproach\nAnalyzed NGATS 2025 Operating Principles and Key Capabilities\nIdentified Weather Implications/Impacts\nEstablished resulting Operating Principles for NGATS Weather Support Concepts\nDeveloped Weather Concept Details\nTo Follow…\nTransition “Road Map”\nTransition plan for Weather Support - current NAS to 2025 Concept\nComplementary products:\nWeather System Requirements\nSupporting R&D Requirements\n5"
+        },
+        {
+            "slide_number": 6,
+            "text": "Weather Implications/Impacts AMDAR Data Access\nSection 2.3 (Performance-Based Services)\n“… enables a definition of service tiers and allows the government to move from equipment-based regulations to performance-based regulations.”\n2.3.1:  Aircraft are capable of receiving and transmitting weather information\n2.3.2:  Weather sensors included in Performance-Based Services\n“… At a minimum, in addition to accurately providing its 4-D geospatial position, aircraft provide in situ winds, temperature, relative humidity, turbulence and icing information.  Aircraft may also measure non-weather phenomena (e.g., volcanic ash), utilize forward or down looking remote weather sensors, and carry dosimeters to measure the radiation environment which is affected by space weather activity.”\n6"
+        },
+        {
+            "slide_number": 7,
+            "text": "Weather Concept Operating Principles AMDAR Data Access\nOperating principles\nDerived from the analysis of the implications/impacts of weather from the NGATS 2025 Concept\nGrouped into five (5) categories:\n\nPolicy and Organization\nData Collection and Access\nProducts and Decision Oriented Tools\nIntegration and Procedures\nEnhanced Aircraft Capabilities\n7"
+        },
+        {
+            "slide_number": 8,
+            "text": "Data Collection and Access \u000bAMDAR Data Access\nSection 3.2.d:  Aircraft “Performance-Based Service” includes data link capability for:\nAccessing and processing in-flight updates to NGATS weather products\nTransmitting and receiving aircraft weather data generated through on-board automation such as the Meteorological Data collection and Reporting System (MDCRS) or Tropospheric Airborne Meteorological Data Reporting (TAMDAR) type systems.\n\nNote:  UAS platforms are used to gather such in-flight data.\n8"
+        },
+        {
+            "slide_number": 9,
+            "text": "Summary\nUnder NGATS (Section 2.3.2):\n\n   “Fully capable aircraft have a standardized set of weather sensors/algorithms to provide weather data to other users directly and via the [NGATS] 4-D Weather.  Weather data from aircraft are valuable inputs to the [NGATS] 4-D Weather for providing advice and warning to nearby aircraft, and for providing input and verification for weather forecast products. …”\n9"
+        },
+        {
+            "slide_number": 10,
+            "text": "BACK-Up Slides\n10"
+        },
+        {
+            "slide_number": 11,
+            "text": "Weather CONOPS:  \u000bAviation Weather Information Access\nConstantly Updated\n  Includes Probability\n   Forecasts\n11"
+        },
+        {
+            "slide_number": 12,
+            "text": "Weather CONOPS:  Air Traffic Support\n12"
+        }
+    ]
+}

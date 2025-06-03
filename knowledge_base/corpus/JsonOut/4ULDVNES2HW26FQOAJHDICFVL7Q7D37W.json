@@ -1,0 +1,273 @@
+{
+    "metadata": {
+        "filename": "4ULDVNES2HW26FQOAJHDICFVL7Q7D37W.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Release 3 User Interface Presentation, including Reports Functionality: \u000bBroker and Vendor Session\nPresenters:\nDale Wilson, CBP\nRay Portu, eCP\nPaul Nugent, eCP\nKevin Smith, eCP\nJanuary 28, 2004\n1"
+        },
+        {
+            "slide_number": 2,
+            "text": "Agenda\nIntroduction – Ray Portu\nAccount Management – Ray Portu\nAccount Revenue – Paul Nugent\nReports – Kevin Smith\n2"
+        },
+        {
+            "slide_number": 3,
+            "text": "INTRODUCTION\u000bRay Portu, eCP\nRelease 3 User Interface Presentation, including Reports Functionality:  Broker and Vendor Session\n3"
+        },
+        {
+            "slide_number": 4,
+            "text": "Introduction\n“Release 3 User Interface Presentation Sector Breakout Sessions” \nDemonstrates ACE Release 3 account management, account revenue, and reporting graphical user interface views \nDescribes a transition for functionality established in ACE Release 2 and functionality added in ACE Release 3.  \nPresented in three sessions: \nACE Portal Importer (exporter and surety)\nACE Portal Broker (vendor)\nACE Portal Carrier\n4"
+        },
+        {
+            "slide_number": 5,
+            "text": "Introduction (continued)\nAll screens shown in this session are\n“For Conceptual Purposes Only” \nMorris Brokerage Account Scenario\n Secure Data Portal Importer View of the following tabs:\nHome \nAccounts \nReports \nSAL (Significant Activity Log)\nAction Plan \nStatements\nSample Preliminary Periodic Monthly\n5"
+        },
+        {
+            "slide_number": 6,
+            "text": "6"
+        },
+        {
+            "slide_number": 7,
+            "text": "7"
+        },
+        {
+            "slide_number": 8,
+            "text": "8"
+        },
+        {
+            "slide_number": 9,
+            "text": "9"
+        },
+        {
+            "slide_number": 10,
+            "text": "10"
+        },
+        {
+            "slide_number": 11,
+            "text": "11"
+        },
+        {
+            "slide_number": 12,
+            "text": "12"
+        },
+        {
+            "slide_number": 13,
+            "text": "13"
+        },
+        {
+            "slide_number": 14,
+            "text": "14"
+        },
+        {
+            "slide_number": 15,
+            "text": "15"
+        },
+        {
+            "slide_number": 16,
+            "text": "16"
+        },
+        {
+            "slide_number": 17,
+            "text": "17"
+        },
+        {
+            "slide_number": 18,
+            "text": "18"
+        },
+        {
+            "slide_number": 19,
+            "text": "19"
+        },
+        {
+            "slide_number": 20,
+            "text": "Release 2 - Reports\n\t\n\tMore than 40 reports regarding:\nEntry Summary Line Items\nCargo Exam Discrepancy Details Report\nEntry Summary Discrepancy Details Report\nAggregate Importer Reports\nAggregate Cargo Exam Compliance Reports\nAggregate Entry Summary Compliance Reports\nImporter Quick Views\nPortal interface to select report and enter queries\n20"
+        },
+        {
+            "slide_number": 21,
+            "text": "Release 2 – Reporting Interface\n21"
+        },
+        {
+            "slide_number": 22,
+            "text": "Release 3 – AM Reports\n\t\nAccount Mgmt – 67 reports\nNew User Interface \nUpdated Release 2 reports\nNew Data Type (Cargo Entry) \nNew Reports \nAdvanced queries (Entry Summary, Cargo Entry, Cargo Exams and Team Reviews)\nFiler by Port\nNew Compliance Quick View and Reports\nBroker/Filer Quick Views\nNew Functionality\n22"
+        },
+        {
+            "slide_number": 23,
+            "text": "Select the “Launch Reports” button to open the reporting tool\n23"
+        },
+        {
+            "slide_number": 24,
+            "text": "The “Dashboard” is the default tab when opening the reporting application\n24"
+        },
+        {
+            "slide_number": 25,
+            "text": "To locate an existing report, choose the “Find” tab\n1\n2\n3\n4\n25"
+        },
+        {
+            "slide_number": 26,
+            "text": "Select the container in your dashboard where you want to store the canned report\n26"
+        },
+        {
+            "slide_number": 27,
+            "text": "Note the “Filer Summary Report” has been added to the “Reports” container\n27"
+        },
+        {
+            "slide_number": 28,
+            "text": "Fill in the filter criteria and select “Display Report” to view the results\n28"
+        },
+        {
+            "slide_number": 29,
+            "text": "The query results are now displayed\n29"
+        },
+        {
+            "slide_number": 30,
+            "text": "Selecting ? will display a description of the data fields\n30"
+        },
+        {
+            "slide_number": 31,
+            "text": "Select the “Print” function to obtain a hard copy of the report\n31"
+        },
+        {
+            "slide_number": 32,
+            "text": "The report is formatted in PDF and can be printed on a local printer\n32"
+        },
+        {
+            "slide_number": 33,
+            "text": "Select the “Export” function to obtain an electronic copy of the report\n33"
+        },
+        {
+            "slide_number": 34,
+            "text": "Example of “Exported” Excel version of report\nExample of “Exported” PDF version of report\n34"
+        },
+        {
+            "slide_number": 35,
+            "text": "35"
+        },
+        {
+            "slide_number": 36,
+            "text": "36"
+        },
+        {
+            "slide_number": 37,
+            "text": "37"
+        },
+        {
+            "slide_number": 38,
+            "text": "38"
+        },
+        {
+            "slide_number": 39,
+            "text": "39"
+        },
+        {
+            "slide_number": 40,
+            "text": "40"
+        },
+        {
+            "slide_number": 41,
+            "text": "41"
+        },
+        {
+            "slide_number": 42,
+            "text": "42"
+        },
+        {
+            "slide_number": 43,
+            "text": "43"
+        },
+        {
+            "slide_number": 44,
+            "text": "44"
+        },
+        {
+            "slide_number": 45,
+            "text": "45"
+        },
+        {
+            "slide_number": 46,
+            "text": "46"
+        },
+        {
+            "slide_number": 47,
+            "text": "47"
+        },
+        {
+            "slide_number": 48,
+            "text": "48"
+        },
+        {
+            "slide_number": 49,
+            "text": "49"
+        },
+        {
+            "slide_number": 50,
+            "text": "50"
+        },
+        {
+            "slide_number": 51,
+            "text": "51"
+        },
+        {
+            "slide_number": 52,
+            "text": "52"
+        },
+        {
+            "slide_number": 53,
+            "text": "53"
+        },
+        {
+            "slide_number": 54,
+            "text": "54"
+        },
+        {
+            "slide_number": 55,
+            "text": "55"
+        },
+        {
+            "slide_number": 56,
+            "text": "56"
+        },
+        {
+            "slide_number": 57,
+            "text": "57"
+        },
+        {
+            "slide_number": 58,
+            "text": "58"
+        },
+        {
+            "slide_number": 59,
+            "text": "59"
+        },
+        {
+            "slide_number": 60,
+            "text": "60"
+        },
+        {
+            "slide_number": 61,
+            "text": "61"
+        },
+        {
+            "slide_number": 62,
+            "text": "62"
+        },
+        {
+            "slide_number": 63,
+            "text": "STATEMENT NUMBER:  0103P12001                BUREAU OF CUSTOMS AND BORDER PROTECTION                                PAGE:        1\n                                                 AUTOMATED COMMERCIAL ENVIRONMENT                   STATEMENT PRINT DATE: MM/DD/YY\n                                         PERIODIC MONTHLY STATEMENT REPORT (PRELIMINARY)       CLIENT BRANCH DESIGNATION:\n                                                                                                            PROCESS DATE: MM/DD/YY\nSTATEMENT FOR:  TEST BROKER   \nIMPRT OF REC#:\nBROKER/FILER#:     XXX\nPROCESS DIST/PORT: DDPP\nPERIODIC DAILY  STATEMENT   PRES                                                                               \nSTATEMENT       DATE        DATE     ESTIMATED DUTY   ESTIMATED TAX   ESTIMATED CVD   ESTIMATED ADD   USER FEES   TOTAL AMOUNT       \n0103307001      11/03/03    11/04/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103308001      11/04/03    11/05/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103309001      11/05/03    11/06/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103310001      11/06/03    11/07/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103311001      11/07/03    11/08/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103314001      11/10/03    11/11/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103316001      11/12/03    11/13/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103317001      11/13/03    11/14/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103318001      11/14/03    11/15/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103321001      11/17/03    11/18/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103322001      11/18/03    11/19/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103323001      11/19/03    11/20/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103324001      11/20/03    11/21/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103325001      11/21/03    11/22/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103328001      11/24/03    11/25/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103329001      11/25/03    11/26/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103330001      11/26/03    11/27/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103332001      11/28/03    11/29/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103335001      12/01/03    12/04/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103336001      12/02/03    12/03/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103337001      12/03/03    12/04/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00\n0103338001      12/04/03    12/05/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103339001      12/05/03    12/06/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103342001      12/08/03    12/09/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00  \n0103343001      12/09/03    12/10/03       1,000.00            0.00          100.00          100.00      100.00       1,300.00\nSample Periodic Monthly Statement (Preliminary)\n63"
+        },
+        {
+            "slide_number": 64,
+            "text": "STATEMENT NUM:  0103P12001                   BUREAU OF CUSTOMS AND BORDER PROTECTION                                PAGE:        2\n                                                 AUTOMATED COMMERCIAL ENVIRONMENT                   STATEMENT PRINT DATE: MM/DD/YY\n                                          PERIODIC MONTHLY STATEMENT REPORT (PRELIMINARY)      CLIENT BRANCH DESIGNATION:\n                                                                                                            PROCESS DATE: MM/DD/YY\nSTATEMENT FOR:  TEST BROKER   \nIMPRT OF REC#:\nBROKER/FILER#:     XXX\nPROCESS DIST/PORT: DDPP\n                                                          STATEMENT TOTALS\n                                              PRELIMINARY TOTALS\n         ESTIMATED DUTY                                25,000.00\n         ESTIMATED TAXES                                    0.00\n         ESTIMATED ADD                                  2,500.00\n         ESTIMATED CVD                                  2,500.00\n         COTTON FEE                                       100.00\n         SUGAR FEE                                        100.00\n         MAIL FEE                                         100.00\n         PORK FEE                                         100.00\n         BEEF FEE                                         100.00\n         MERCHANDISE FEE                                  900.00\n         MERC INFORMAL FEE                                100.00\n         MERC SURCHARGE FEE                               100.00\n         HONEY FEE                                        100.00\n         WATERWAYS FEE                                    100.00\n         PECAN FEE                                        100.00\n         POTATO FEE                                       100.00\n         LIME FEE                                         100.00\n         MUSHROOM FEE                                     100.00\n         WATERMELON FEE                                   100.00\n         SHEEP FEE                                        100.00\n         BLUEBERRY FEE                                    100.00\n         TOTAL AMOUNT-DUE                              32,500.00\nSample Periodic Monthly Statement (Preliminary)\n64"
+        },
+        {
+            "slide_number": 65,
+            "text": "STATEMENT NUMBER:  0103P12001                BUREAU OF CUSTOMS AND BORDER PROTECTION                                PAGE:        3\n                                                 AUTOMATED COMMERCIAL ENVIRONMENT                   STATEMENT PRINT DATE: MM/DD/YY\n                                          PERIODIC MONTHLY STATEMENT REPORT (PRELIMINARY)      CLIENT BRANCH DESIGNATION:\n                                                                                                            PROCESS DATE: MM/DD/YY\nSTATEMENT FOR:  TEST BROKER\nIMPRT OF REC#:\nBROKER/FILER#:     XXX\nPROCESS DIST/PORT: DDPP\n                               ENTRY SUMMARIES DELETED AFTER PERIODIC DAILY STATEMENTS ACCEPTANCE\n                                       PERIODIC DAILY\n                                       STATEMENT        ENTRIES DELETED  DELETE SOURCE\n                                       0103312001       XXX-1000001-1         ABI\nSample Periodic Monthly Statement (Preliminary)\n65"
+        },
+        {
+            "slide_number": 66,
+            "text": "66"
+        }
+    ]
+}

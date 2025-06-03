@@ -1,0 +1,17 @@
+{
+    "metadata": {
+        "filename": "5BRAFVBC6LFNTAHAODBD73LKGJFWSQKC.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "SGM\nEO1\u000bOps\nCenter\nEOS DAAC /\nRapidFire \nSystem\nTerra\nAqua\nMODIS data\nEO1\nRapidFire\u000bdata\nlat/lon\nnext flyover\nimage request\nrequest ack\nsched time\nimage taken\nimage url\nimage\u000brequest\nimage\u000bdata\nSGM Web Monitor\nScientists\ngoal\u000binput\ngoals\nstatus and\u000bupdates\nsubset of status messages, via by email\nweb service\nEmail alerts to\u000binterest parties"
+        },
+        {
+            "slide_number": 2,
+            "text": "Area of Interest:   Lat/Lon  _______    Radius _____    Density _____\nLast MODIS image:\nMODIS Thumb nail\n(click for details\nCurrent SGM\u000bDensity ____\nGoal Status:\n  xx:xx Goal triggered at ___ by density of ___\n  xx:xx Next flyover _____\n  xx:xx Image requested\n  xx:xx Image scheduled for _______\n  xx:xx Image taken\n  xx:xx Data available at http://url\nEO1 thumbnail (click for details\nSAMPLE!!! Mock up of web-based SGM monitor/detail status page\nOther thumbnails: \npossibly weather forecast, cloud cover, etc"
+        }
+    ]
+}

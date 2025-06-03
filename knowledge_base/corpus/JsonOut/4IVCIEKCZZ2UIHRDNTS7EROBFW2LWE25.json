@@ -1,0 +1,177 @@
+{
+    "metadata": {
+        "filename": "4IVCIEKCZZ2UIHRDNTS7EROBFW2LWE25.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nHoldings Session 6 --\u000bSpecial Problems\nHow do we deal with…\ncaptions not ending in a period?\nsupplements and indexes?\nordinal numbers?\nnumbers without captions?\ndates with internal numbering?\nsymbols, hyphens, coding challenges?\n“new series” designations?\nalphabetic enumeration?\nalternative enumeration and chronology?\nwhat’s your worst nightmare?\n1"
+        },
+        {
+            "slide_number": 2,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nCaptions not ending in a period\nPreliminary note!  \n\t\t Año 1  looks a lot better than Año1 ! \nThis is a small problem that simply needs to be provided for in a system that uses NISO-style display. \nProgrammers must tell the system to add a space at the end of any caption that lacks a final period.  See Z39.71-1999, Section 5.5.4.2., caption examples.  Having this programmed in will save lots of work!\n2"
+        },
+        {
+            "slide_number": 3,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nGENEALOGY BULLETIN\nVolume  2, no. 1\nJan./Mar. 1986\nGENEALOGY BULLETIN\nResearch Notes Volume 2        1986 \nSupplement 1\nGenealogy Bulletin\nIndex\nVolumes 1 to 10\n1985-1994\nBase Volume, Supplement, Index\nBulletin-- quarterly\nSupplement-- semiannual\n(arriving June and December)\nIndex:  every ten years\n3"
+        },
+        {
+            "slide_number": 4,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nSupplement Holding\n854 20   $8 1  $a  v. $b suppl. $o Research Notes $u 2 $v r $i (year) $j (month) $w f $x 06\n864 41   $8 1.1  $a 2 $b 1  $i 1986 $j 06\nMay display as:\nv.2:suppl.1(1986:June)\n “Research Notes”\nDesignation: v.:suppl.(year:month)\nGENEALOGY BULLETIN\nVolume 2        1986\nSupplement 1 \nResearch Notes -- June\nEntering the holding for a single supplement:\nSemiannual\n4"
+        },
+        {
+            "slide_number": 5,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nSupplement Summary\n854 20   $8 1  $a  v. $b suppl. $o Research Notes $u 2   $v r   $i (year) $j (month)  $w  f  $x 06\n864 40   $8 1.1  $a 1-5  $b1-1 $i 1985-1988 $j06-06\nGENEALOGY BULLETIN\nVolume 2        1986 \nSupplement 1\n Research Notes--June\nIf we have holdings from v.1, supplement 1, 1985 to v.5, supplement 1,  1989...\nSemiannual\nMay display as:\nSUPPLEMENTS:   v.1:no.1(1985:June)-5:1(1989:June) “Research \t\t      Notes”\n5"
+        },
+        {
+            "slide_number": 6,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\n855       $8 1  $a  v.  $i (year)\n865 41  $8 1.1  $a 1/10  $i  1985/1994\nGenealogy Bulletin\nIndex\nVolumes 1 to 10\n1985-1994\nTen-year index\nDesignation requires slash rather than hyphen between units/dates covered\nCumulative Index Holding\nMay display as: \n INDEXES: v.1/10(1985/1994)\n6"
+        },
+        {
+            "slide_number": 7,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nCaptions for supplements & indexes\nNote:  It is allowable to use\nSuppl. to v.         and\nIndex to v.          as captions for clarity.\n\nHowever, it is preferable that the system clearly show that the holdings are for indexes or supplements through interpretation of the coding.\n7"
+        },
+        {
+            "slide_number": 8,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nCombined holdings...\n853 20  $8 1 $a v. $b no. $u 4 $v r $i (year) $j (month) $w q $x 01\n   863 40 $8 1.1 $a 2- $i 1986-\n855     $8 1 $a v. $i (year) \n865 41  $8 1.1 $a 1/10 $i 1985/1994\n854 20  $8 1 $a v. $b suppl. $o Research Notes $u 2 $v r $i (year) $j  (month) $w f $x 06                                                                                           864 40  $8 1.1 $a 1-5 $b 1-1 $i 1985-1988 $ 06-06\n8"
+        },
+        {
+            "slide_number": 9,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nCombined OPAC display\u000b(if cataloged together)\nAgain—just one possibility for display:\nHOLDINGS:    v.2(1986)-\nSUPPLS: \t\t“Research Notes” \n\t\t\tv.1:suppl.1(1985:June)-\t\t\t\t\tv.5:suppl.1(1989:June)\nINDEXES:\t\tv.1/10(1985/1994)\n9"
+        },
+        {
+            "slide_number": 10,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\n1996\nAnnual \u000bReport\nHoldings with Dates\n1998\nAnnual \u000bReport\n853 20   $8 1  $a (year)\n863 41   $8 1.1 $a 1996 \n863 41   $8 1.2 $a 1998\n863 41   $8 1.3 $a 2000\n2000\nAnnual Report\n$w a $w g\n$w n\nMay display as:\n1996,1998;2000\n10"
+        },
+        {
+            "slide_number": 11,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nDates with divisions: Non-chronological\n853 20  $8 1 $a (year) $b disc $u 2 $v r $w f\n863 41  $8 1.1 $a 1998 $b 1\n863 41  $8 1.2 $a 1998 $b 2\n863 41  $8 1.3 $a 1999 $b 1\n863 41  $8 1.4 $a 1999 $b 2\nEVENING STAR\nMarketShare\nDatabase\n on \nCD-ROM\n\n1998\n           disc 1\nmay display as…          \n   1998:disc 1\n   1998:disc 2\n   1999:disc 1\n   1999:disc 2\n11"
+        },
+        {
+            "slide_number": 12,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nDates with both kinds of division\nglobal\nevents\nspring 1999\nnumber 1\n853 20   $8 1 $a (year) $b no. $u 4 $v r $i (year) $j (season) $w q $x 21\n863 41  $8 1.1 $a 1999 $b 1 $i 1999 $j 21\nmay display as:\n1999:no. 1(1999:spring)\n(The year is repeated.  When the statement is compressed, the chronology is dropped.)\n12"
+        },
+        {
+            "slide_number": 13,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nHoldings with successive series numbering\nSome serials, especially scholarly and society publications, come out in several successive series (new ser., ser.3, ser.4…)\nCombine the series designation with the next hierarchical unit designation in a single subfield.  A colon (:) joins the two designations:\nVERHANDLUNGEN\nDER \nAKADEMIE\nVON WISSENSCHAFTEN\nNeue Folge IV.Bd\n1882\n853 00  $8 1 $a n.F.:Bd. $i (year) \n\t\t$w a\n863 41  $8 1.1 $a 4 $i 1882\n\t\nMay display as:\n n.F.:Bd.4(1882)\n13"
+        },
+        {
+            "slide_number": 14,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nOrdinal numbers\nOften, we transcribe “4. Band” and “1. año” as a volume + cardinal number, rather than as an ordinal number + volume:\nBd. 4\nAño 1.\nWe can do this because this other syntax is also acceptable in the languages involved.  We have no choice when we combine designations like n.F.:Bd.\nHowever, there is a special provision that can be used in most cases where a caption follows an ordinal  number:\n14"
+        },
+        {
+            "slide_number": 15,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nHoldings with ordinals\n853 10 $8 1 $a +ed. $i (year) $w x\n  863 41 $8 1.1 $a 12 $i 1990 $w g\n  863 41 $8 1.2 $a 14 $i 1997 \u000b\n may display (by means of Language code) as...\u000b   12th ed.(1990),\u000b   14th ed.(1997)\n14th Edition 1997  \n   P. Sarmiento's\n   Guide to\n    Colonial Mexico\n12th Edition 1990  \n   P. Sarmiento's\n   Guide to\n    Colonial Mexico\n15"
+        },
+        {
+            "slide_number": 16,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nHoldings with Roman numerals\nNew holding at time of check-in (Italian title)\u000b\u000b853 20 $8 1 $a t. $b n. $u 24 $v r $i (year) $j (month) $k (day) $w s $x 0101 $ypd01,15\u000b\u000b863 41  $8 1.1 $a 4 $b 1 $i 1997 $j 01 \u000b$k 1\nMay display in online system as...\n\t\tt.4:n.1(1997:genn.1)\nLa Cultura\nRomana\nTomo IV\nNumero 1\n1 gennaio\n 1997\n(semimonthly)\n16"
+        },
+        {
+            "slide_number": 17,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nCaptionless enumeration\nMany serials have enumeration alone, with no caption.\nThe symbol for this is\u000b\t\t\t\t(*) -- non-displaying caption.\n1976\nUnearthly Visions  1\ncenter for art and imagination\n\ncrossroads publications\npetaluma ca\n853 00  $8 1 $a (*) $i (year)\n863 41   $8 1.1 $a 1 $i 1976\nmay display as: 1 (1976)\n17"
+        },
+        {
+            "slide_number": 18,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nSymbols, hyphens, coding challenges\nNISO standards prescribe hyphens as connectors within holdings statements.  \nSome serials have symbols as captions, internal hyphens, and other coding challenges. Unofficially, the    Publication Patterns Initiative \n   substitutes a period for the\n   hyphen so as to distinguish\n   them from ranges.\nA\nWeekly Intelligence Notes #24-00\u000bJune 17, 2000\n853 20 $8 1 $a #  $i (year) $j (month) $k (day) $w w $x 0107\n863 41  $8 1.1 $a 24.00 $i 2000 $j 06 $k 17\nMay display as:    #24.00(2000:June 17)\n18"
+        },
+        {
+            "slide_number": 19,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nAlphabetic enumeration\nAnother problematic situation in some systems!\nAlpha enumeration should be input as given.\nYour system should be able to handle it; if it can’t, you need to insist that it get up to speed.\nOCEANOGRAPHIC\nRESEARCH MONTHLY\nVolume A1, Number 1\n Oct. 1982\nMarine Biology\nOCEANOGRAPHIC\nRESEARCH MONTHLY\nVolume B1, Number 1\n Oct. 1982\nMarine Geology and Physiography\n19"
+        },
+        {
+            "slide_number": 20,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nAlternative enumeration\nSome kinds of publications have two numeric systems.\nIt is not always necessary to record both.  If both systems are important, use the prescribed alternative enumeration subfields, $g-h, and (if necessary) chronology subfield, $m.  \nTypical case: Old series continues numbering, but contains new series.\nMay display as: \nnew ser.33=old ser.:v.149\n853 00  $8 1 $a new ser. $g old ser.:v. $w a\n863 41  $8 1.1 $a 33 $g 149\nANNALS OF \nRELIGIOUS\nHISTORY\nNEW SERIES 33\n\n  OLD SERIES vol. 149\n20"
+        },
+        {
+            "slide_number": 21,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nSummary\nThere are provisions for less common situations in the MARC Format for Holdings Data.\nSome coding situations need clarification in MFHD, and many others need better implementations in our systems.\nThis is an area where librarians, vendor representatives, standards experts, and system designers must open discussion with each other.\n21"
+        },
+        {
+            "slide_number": 22,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercises\n22"
+        },
+        {
+            "slide_number": 23,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise Instructions\nComplete 86x fields to record holdings for each example. Use your Handbook and other resources provided to you.\nThe Publication pattern is provided for you.\nCode the indicators for 86X as directed. \nUse all necessary subfield codes.\nRemember to code $8.\nWhere directed, write how the holding will display.  Use NISO conventions (you will find examples on the slides).\n23"
+        },
+        {
+            "slide_number": 24,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 1\nSpanned chronology:  When the chronology includes more than one year or more than one month or one day, some systems may have trouble predicting correctly.  In some instances, the system supports spanned months only in certain increments, e.g., Jan.-Mar, Apr.-June, July-Sept., Oct.-Dec.  For a periodical with one of its issues bridging two years, you may be able to predict for the first year, but after the \"bridge\" issue arrives, you will need to alter the holdings manually by typing in the last year, e.g., 2000/2001.\n24"
+        },
+        {
+            "slide_number": 25,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 1 cont.\nScenario: You are recording holdings for a quarterly serial that uses the following spans:\nVol. 4, no. 1 (Feb./Apr. 2001)\nVol. 4, no. 2 (May/July 2001)\nVol. 4, no. 3 (Aug./Oct. 2001)\nVol. 4, no. 4 (Nov. 2001/Jan. 2002)\n\nPublication pattern:\n853 20 $8 1  $a v. $b no. $u 4 $v r $i (year) \u000b$j (month) $w q $x 02 $ypm02/04,05/07,08/10,11/01\n25"
+        },
+        {
+            "slide_number": 26,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 1 cont.\nCode the issues (as they would be generated by the system); code the second indicator of the 86x for uncompressed (itemized holdings).  What could you do to make the last issue display correctly?\n\t86_ 4_ $8\t\n\t86_ 4_ $8\t\n\t86_ 4_ $8\n\t86_ 4_ $8\n26"
+        },
+        {
+            "slide_number": 27,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 2\nThree times a year with seasons:  Record holdings fields for these basic issues of a  serial that publishes three times a year in Autumn, Winter, Spring.  There is no Summer issue. \nVol. 1, issue 1 (Autumn 2002)\nVol. 1, issue 2 (Winter 2002)\nVol. 1, issue 3 (Spring 2003)\n\nAlso record a holding for the index designated:  2002/2003.\n\nFor both the serial issues and the index, code the second indicator of the 86x for uncompressed (itemized holdings), set to display.\n\nPublication pattern, Serial:\n853 20 $8 1\t$a v. $b issue $u 3 $v r $i (year) $j (season)   $w t $x 23 $y os22\n27"
+        },
+        {
+            "slide_number": 28,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 2 cont.\nPublication pattern, Index:\n855 $8 1\t$a (year) $w a\n\t\n\t86_ 4_ $8\t\n\t86_ 4_ $8\t\n\t86_ 4_ $8\n\t86_ 4_ $8\n28"
+        },
+        {
+            "slide_number": 29,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 3\nStatic series designation:  Record a holdings field for these basic issues of a  serial that publishes monthly and uses the static series designation of Series 3. \nSer. 3 vol. 4, release 1 (January 2002)\nSer. 3 vol. 4, release 2 (February 2002)\nSer. 3 vol. 4, release 3 (March 2002)\n\nCode the second indicator of the 86x for compressed holdings, set to display.\n\nWrite how this compressed holding would display to the public.\n29"
+        },
+        {
+            "slide_number": 30,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 3 cont.\nPublication pattern:\n853 20 $8 1\t$a ser. 3:v. $b release $u 12 $v r $i (year) $j (month) $w m $x 01\n[Note: “Series 3” is incorporated as part of the first level of enumeration in $a of the 853 publication pattern field.]\n\t\n86_ 4_ $8\nDisplay:\n30"
+        },
+        {
+            "slide_number": 31,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 4\nSerials with ordinal enumeration:  Record holdings fields for this English-language academic serial that comes out in annual volumes with an issue each semester.\n Vol. 10, 1st semester      September 2000\t\n Vol. 10, 2nd semester     January 2001\n Vol. 11, 1st semester      September 2001\n\nCompress volume 10.  Itemize the first semester of volume 11.  Write how this should display to the public.\n31"
+        },
+        {
+            "slide_number": 32,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 4 cont.\nPublication pattern:\n853 20 $8 1  $a v. $b +semester $u 2 $v r $i (year) $j (month) $w 2 $x 09 $y pm09,01 \n[Note:  This is not strictly semiannual.]\n   86_ 4_ $8\n   86_ 4_ $8\n\t\n    Display:\n32"
+        },
+        {
+            "slide_number": 33,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 5\nPublications lacking captions:  Some enumerations are not preceded by a caption.  We use the convention of (*) to indicate that no caption is present for this part of the enumeration.  The example used for this exercise is an annual with number and year.\n20 // 2000\n21 // 2001\n22 // 2002\n\t\t\t\t\t\nCode the second indicator of the three 86x for uncompressed, use textual display.  Give a textual holding that would correspond to this range.  \u000b(Be sure to check the Handbook for the meaning of the indicators in the textual field.)\n33"
+        },
+        {
+            "slide_number": 34,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 5 cont.\nPublication pattern:\n853 20 $8 1  $a (*) $i (year) $w a\n\n   86_ 4_ $8\n   86_ 4_ $8\n   86_ 4_ $8\t\n   86_  __ $8\n34"
+        },
+        {
+            "slide_number": 35,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 6\nPublications with alternative numbering.  Code the holdings for a title that has both a new series designation and a whole series designation.   This series is now complete.  Since it was all received years ago, no publication pattern was entered.\n853 00  $8 1  $a  new ser.:no.  $g no. $i (year)\n\t\nThe volumes have two numbering systems:  no. 1 1884 (no. 142 of entire series) to no. 80 1957 (no. 222 of entire series).  Code this numbering in compressed format.  Write how it should display to the public.\n35"
+        },
+        {
+            "slide_number": 36,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nExercise 6 cont.\n[Note:  This can be coded as textual or coded holdings. We use a coded holding here.]\n\t\t\n   86_ 4_ $8\n\t\t\n\tDisplay:\n36"
+        },
+        {
+            "slide_number": 37,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nAnswers—Exercise 1\n863 41\t$8 1.1 $a 4 $b 1 $i 2001 $j 02/04\n863 41\t$8 1.2 $a 4 $b 2 $i 2001 $j 05/07\n863 41 $8 1.3 $a 4 $b 3 $i 2001 $j 08/10\n863 41 $8 1.4 $a 4 $b 4 $i 2001 $j 11/01\n\nTo alter 4th statement: \n\ta. Change $i 2001 to $i 2001/2002 [will not look perfect!]\n\tb. Include entire chronology in subfield $i and\n\t    use natural language chronology:\n\t\t$i 2001:Nov./2002:Jan.\n37"
+        },
+        {
+            "slide_number": 38,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nAnswers—Exercise 2\n863 41\t$8 1.1 $a 1 $b 1 $i 2002 $j 23\n863 41\t$8 1.2 $a 1 $b 2 $i 2002 $j 24\n863 41 \t$8 1.3 $a 1 $b 3 $i 2003 $j 21\n865 41\t$8 1.1 $a 2002/2003\n[Note that the link and even sequence number can be reused for base volumes, supplements, and indexes.]\n38"
+        },
+        {
+            "slide_number": 39,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nAnswers—Exercise 3\n863 40 $8 1.1 $a 4 $b 1-3 $i 2002 $j 01-03\nDisplay:  ser.3:v.4:release 1(2002:Jan.)-4:3(2002:Mar.)\n39"
+        },
+        {
+            "slide_number": 40,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nAnswers—Exercise 4\n863 40\t$8 1.1 $a 10 $i 2000/2001\n863 41\t$8 1.2 $a 11 $b 1 $i 2001 $j 09\n\nDisplay:  v. 10(2000/2001)\n\t     v. 11:1st semester(2001:Sept.)\n40"
+        },
+        {
+            "slide_number": 41,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nAnswers—Exercise 5\n863 43\t$8 1.1 $a 20 $i 2000\n863 43\t$8 1.2 $a 21 $i 2001\n863 43  \t$8 1.3 $a 22 $i 2002\n866 41\t$8 1 $a 20-22(2000-2002)\n\nDisplay:  20-22(2000-2002)\n(could also be keyed in adjacent format)\n41"
+        },
+        {
+            "slide_number": 42,
+            "text": "SCCTP Serial Holdings Workshop\n<number>\nAnswers—Exercise 6\n863 40\t$8 1.1 $a 1-80 $g 142-222 $i 1884-1957\nDisplay: \nnew ser.:no.1(1884)-80 (1957) =no.142-222\n42"
+        }
+    ]
+}

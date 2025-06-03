@@ -1,0 +1,53 @@
+{
+    "metadata": {
+        "filename": "4TJXMSPXZDI5DFHBBJPNDNNZXHO67AN3.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Engineering for Data \u000bProtection and Accountability\nMichelle Finneran Dennedy\nSun Microsystems, Inc.\nmichelle.dennedy@sun.com\nwww.sun.com"
+        },
+        {
+            "slide_number": 2,
+            "text": "Agenda\nBasic Considerations- Where should technology fit?\nThe Dynamic Data Environment    \nBusiness/ Organization Goals for Data Protection\nEngineering Goals for Data Protection\nTools and Techniques for Data Governance and Accountability\nFinal Comments\n2"
+        },
+        {
+            "slide_number": 3,
+            "text": "Basic Considerations-  Where should technology fit?\nWhat information does a company need to protect?\nWhat do I need my systems to do for my organization? \nHow is the information being used? \nWho will the users be?\nWhat happens to information after it is no longer necessary for a business purpose?\n\n   \n      Organizations tasked with data protection must have the tools they need to fulfil privacy promises\n3"
+        },
+        {
+            "slide_number": 4,
+            "text": "The Dynamic Data Environment\nData and applications are built to invite two way participation by users and systems owners\nIncreased data creation and movement create both risk and opportunity\nProtection of data becomes the foundation of control\nA foundation of control creates the possibility for governance\nGood governance creates a culture of accountability\n4"
+        },
+        {
+            "slide_number": 5,
+            "text": "Participation on the Network Drives Governance and Accountability Challenges\n5"
+        },
+        {
+            "slide_number": 6,
+            "text": "Business Goals for Data Protection\nWhat information does a company need to protect?\nWhat do I need my systems to do for my organization? \nHow is the information being used? \nWho will the users be?\nWhat happens to information after it is no longer necessary for a business purpose?\nHow much will this cost?\n6"
+        },
+        {
+            "slide_number": 7,
+            "text": "Engineering Goals for Data Protection\nHow will the company plan to protect information?\nHow will systems adapt to changing business requirements? \nHow is the information being used? \nWho will the users be?\nHow will the business begin to shape this system?\nHow much do I have to spend?\n7"
+        },
+        {
+            "slide_number": 8,
+            "text": "Governance Requires a Systemic View\n8"
+        },
+        {
+            "slide_number": 9,
+            "text": "Confidentiality/ Classification of data \nSystemic Security – A layered approach\nInformation Lifecycle Management \nData Stewardship \nStandards\nIdentity Management \nData Minimization\nSecure Storage and Encryption\nTools & Techniques for Data Governance and Accountability\n9"
+        },
+        {
+            "slide_number": 10,
+            "text": "Final Comments\nIncreased data flows accompany economic growth\nData flows will continue to expand and become more complex\nTools and techniques exist to manage data flows\nA systemic approach that considers the entire life cycle of data can help create governance and accountability\nThat one begins the process to build governance systems and culture is more important than where one begins.\n10"
+        },
+        {
+            "slide_number": 11,
+            "text": "Michelle Dennedy\nmichelle.dennedy@sun.com\nThank You\n11"
+        }
+    ]
+}
