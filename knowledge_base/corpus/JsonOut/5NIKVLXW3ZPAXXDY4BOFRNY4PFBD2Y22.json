@@ -1,0 +1,65 @@
+{
+    "metadata": {
+        "filename": "5NIKVLXW3ZPAXXDY4BOFRNY4PFBD2Y22.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "The Data Reference Model and Intellectual Property\u000b2 November 2006\nFederal Data Architecture Subcommittee Co-chairs:\nBryan Aucoin\t\tSuzanne Acar\nDNI CIO Chief Architect\t\tDepartment of the Interior\n703.874.8501\t\tSenior Information Arhictect\nbryanja@dni.gov\t\tsuzanne_acar@ios.doi.gov"
+        },
+        {
+            "slide_number": 2,
+            "text": "Agenda\nBasic Data Sharing Concepts\nWhat’s a Document according to the FEA   DRM?\nFEA DRM Guidance on Privacy and Security\nThe Way Ahead"
+        },
+        {
+            "slide_number": 3,
+            "text": "FEA DRM Concept\nBased on FEA DRM Version 2.0"
+        },
+        {
+            "slide_number": 4,
+            "text": "The DRM Data Strategy Framework\nGoals drive; governance controls; structure defines; and services enable data strategy.\nSpecial thanks to Laila Moretto and Forrest Snyder, MITRE Corp."
+        },
+        {
+            "slide_number": 5,
+            "text": "COI and LOB Implementation\nEach COI or LOB will implement the \nthree pillar framework strategy and will\nfocus on business requirements."
+        },
+        {
+            "slide_number": 6,
+            "text": "Basic Data Sharing Concepts\u000bin the FEA DRM:\nServices provisioned depends on the type of data being exchanged.\nData Sharing Services Types:\nData Exchange\nData Access"
+        },
+        {
+            "slide_number": 7,
+            "text": "Basic Data Sharing Concepts:\u000bProvision Services for Data\nTypes of Data Exchange Services:\nExtract/Transform/Load (ETL)\nPublication\nEntity/Relationship Extraction \nDocument Translation\n\nTypes of Data Access Services\nContext Awareness\nStructural Awareness\nTransactional Services\nData Query\nContent Search and Discovery\nRetrieval, Subscription and Notification"
+        },
+        {
+            "slide_number": 8,
+            "text": "The DRM Definition of a Document\nA file containing Unstructured and/or Semi-Structured Data    Resources. A discrete and unique electronic aggregation of data produced with the intent of conveying information.\n\nAll data within a document may be in the same format (e.g., text), or a document may be a composite that consists of sets of data in a variety of formats (e.g., MS Word files containing embedded graphics). \n\nThe term “discrete” implies that a document requires no linkage to other data to convey its meaning. \n\nThe term “unique” implies that each instance or version of a document can be distinguished from all others (i.e., it can be assigned a unique identifying number)."
+        },
+        {
+            "slide_number": 9,
+            "text": "The DRM Definition of a Document\nDocuments may be unstructured\nThe document follows no rigid, machine interpretable structural convention or it may contain self describing metadata that is machine interpretable. \nFor example: An ASCII text document\n\nDocuments may be semi-structured\nThe documents conforms to a machine interpretable structural convention or contains embedded self-describing metadata that is machine interpretable. \nA Microsoft Word document with headings and sub-headings is considered semi-structured, as is a XHTML document."
+        },
+        {
+            "slide_number": 10,
+            "text": "Relevant DRM\u000bDocument Related Data Services\nPublication \n(Structured data or documents to aggregate documents): Publication is the process of assembling a document from its component pieces, putting into a desired format and disseminating it to target databases. The payload of this type of service is a document. \n\nDocument Translation (Document to document)\n Document translation is the process of transforming a document from its original format to a format required to support a target application. The transformations may be structural (e.g., transforming MS Word to PDF format), language-oriented (e.g., changing English to French), or special purpose (e.g., the development of abstracts from longer documents.) The payload of this type of service is a document."
+        },
+        {
+            "slide_number": 11,
+            "text": "DRM Guidance on Quality, Security, Privacy, \u000band Confidentiality\nWithin A Community of Interest (COI):\u000b\nEstablish Data Stewardship\n\nDefine the Policies.  Use the following “policy buckets”:\n\nData is available for open, unrestricted access \nData is accessible only to a group \nData access is a function of the person (his or her identity), data about that person (e.g., current position), and data about the environment (e.g., physical location) \nData is self protecting through digital rights management or similar technologies \u000b \nImplement the policies within the Data Sharing Services"
+        },
+        {
+            "slide_number": 12,
+            "text": "So…What’s the Way Ahead for Copyrighting and Marking US Government Works?\nA FEA Profile that builds on the DRM Constructs:\nNotional Components:\nStewards in a COI identify material that needs copyright protection.\nFocus on Publication and Translation Services\nTag the documents at publication (e.g. source referencing)\nIf non-repudiation is needed, sign the documents\n(Also what to think about records and records management here.)\nIf the documents are very sensitive, wrap them in a Digital Rights Management capable package.\n\nNeed to agree on voluntary consensus standards for document tagging for copyright.\nThe Data Architecture Subcommittee can help."
+        },
+        {
+            "slide_number": 13,
+            "text": "Summary\nFEA DRM provides an overarching construct.\nWhile copyright and intellectual property is not specifically addressed, the model can be extended.\nFederal level guidance could be addressed in a profile.\nThe Federal Data Architecture Subcommittee (DAS) is ready to help."
+        },
+        {
+            "slide_number": 14,
+            "text": "Questions"
+        }
+    ]
+}

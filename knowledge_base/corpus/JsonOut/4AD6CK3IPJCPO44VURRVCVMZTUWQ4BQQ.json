@@ -1,0 +1,133 @@
+{
+    "metadata": {
+        "filename": "4AD6CK3IPJCPO44VURRVCVMZTUWQ4BQQ.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Fluorescence Measurements at ANL       and the Auger Experiment\nMotivation for Fluorescence Calibrations\n\nAIRFLY Fluorescence Experiment at ANL\n\nAuger Experiment Update"
+        },
+        {
+            "slide_number": 2,
+            "text": "N2 Molecule Vibrational Energy Levels\n337nm transition"
+        },
+        {
+            "slide_number": 3,
+            "text": "Main transitions are fast, nanoseconds"
+        },
+        {
+            "slide_number": 4,
+            "text": "Many experiments use or will use Nitrogen Fluorescence\nOWL and EUSO space- based experiments\nAuger"
+        },
+        {
+            "slide_number": 5,
+            "text": "Scintillator\nFluorescence"
+        },
+        {
+            "slide_number": 6,
+            "text": "Due to smaller model dependence,  Auger normalizes to its fluorescence detectors.   Looks like HiRes.  Only a 1σ discrepancy (25% in energy scale).   Need to reduce σ…\n0.22 Auger- years of data"
+        },
+        {
+            "slide_number": 7,
+            "text": "45% of Fluorescence Due to Electrons and Positrons < 10 MeV in 1019 eV Shower\nNot an absolute measurement\nAgrees with curve?\nOne example measurement of electron-induced fluorescence"
+        },
+        {
+            "slide_number": 8,
+            "text": "Much more information needed…\n\nPressure, Temperature, Humidity dependence\n\nOxygen quenching\n\nMore complete energy scan\n\nAbsolute measurement to 5%"
+        },
+        {
+            "slide_number": 9,
+            "text": "Much more information needed…\n\nComplete Spectrum from 300-400 nm  (Rayleigh scattering 1/Λ4)\n\nSpectrum has been measured before but only piece-by-piece with 14 filters,  each with different inefficiencies and acceptance from wrong wavelengths"
+        },
+        {
+            "slide_number": 10,
+            "text": "Fluorescence Calibration at Argonne\nChemistry Division Van de Graaff\nAdvanced Photon Source\nHEP Division Advanced Wakefield Accelerator\nComplementary machines:  AWA only accelerator with enough energy to do absolute calibration with Cerenkov gas.   Van de Graaff only machine with enough charge to measure spectrum."
+        },
+        {
+            "slide_number": 11,
+            "text": "Heroes…\n\nAWA group notably                                    Manoel Conde, Felipe Franchini, Zikri Yusof \n\nChemistry staff notably                                 Sergey Chemerisov and Bob Lowers"
+        },
+        {
+            "slide_number": 12,
+            "text": "45% of Fluorescence Due to Electrons and Positrons < 10 MeV in 1019 eV Shower\nAPS\nChemistry\nAWA"
+        },
+        {
+            "slide_number": 13,
+            "text": "Van de Graaff with cover removed\nCharged to 3 million volts\nResistor plates step V down to zero\nBeam"
+        },
+        {
+            "slide_number": 14,
+            "text": "AIRFLY Experiment, led by Paolo Privitera from INFN"
+        },
+        {
+            "slide_number": 15,
+            "text": "AIRFLY Experiment, led by Paolo Privitera from INFN"
+        },
+        {
+            "slide_number": 16,
+            "text": "Beam Pickup, used for all the PMT measurements\nFaraday Cup, mainly used to check Pickup\nWill fit slopes from PMT vs Pickup,  an experiment with 2 electronics channels!"
+        },
+        {
+            "slide_number": 17,
+            "text": "AWA PMT Fluorescence Data, 14 MeV electrons"
+        },
+        {
+            "slide_number": 18,
+            "text": "AWA PMT Fluorescence Data, 14 MeV electrons"
+        },
+        {
+            "slide_number": 19,
+            "text": "AWA PMT Fluorescence Data, 14 MeV electrons\nOxygen quenching due to molecule collisions with N2*"
+        },
+        {
+            "slide_number": 20,
+            "text": "0.5 MeV Run at Van de Graaff with beam halo"
+        },
+        {
+            "slide_number": 21,
+            "text": "5 minutes later, beam halo is gone\nCut ±2 sigma around main beam pickup peak for both AWA and Van de Graaff"
+        },
+        {
+            "slide_number": 22,
+            "text": ""
+        },
+        {
+            "slide_number": 23,
+            "text": "Don’t take too seriously yet,  different low energy input gives different curves."
+        },
+        {
+            "slide_number": 24,
+            "text": ""
+        },
+        {
+            "slide_number": 25,
+            "text": "5 minutes of raw data!"
+        },
+        {
+            "slide_number": 26,
+            "text": "Model normalized at 337nm"
+        },
+        {
+            "slide_number": 27,
+            "text": "Model normalized at 337nm"
+        },
+        {
+            "slide_number": 28,
+            "text": "Model normalized at 337nm"
+        },
+        {
+            "slide_number": 29,
+            "text": "Model normalized at 337nm"
+        },
+        {
+            "slide_number": 30,
+            "text": "Main goal for December running at AWA"
+        },
+        {
+            "slide_number": 31,
+            "text": "The End"
+        }
+    ]
+}

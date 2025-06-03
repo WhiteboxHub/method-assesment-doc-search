@@ -1,0 +1,53 @@
+{
+    "metadata": {
+        "filename": "4RPMNGVQLYY46VJE4FFC3FEXHI3SZVFK.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "The Software Revolution\u000b\u000b\u000b\u000b\u000b\u000bFOURTH WORKSHOP ON DISTRIBUTED SUPERCOMPUTERS\u000b\u000bMarch 9-10, 2000\u000bParc St. Charles Hotel\u000bNew Orleans, LA, USA\u000b\u000bJohn Reynders\u000bAdvanced Computing Laboratory\u000bLos Alamos"
+        },
+        {
+            "slide_number": 2,
+            "text": "The Innovator’s Dilemma\u000b\t\t\t-Christensen\nSustaining Change\nsustain the current rate of technology growth\nDisruptive Change\nredefine performance trajectories\n1974\n1990\n1\n10\n100\n1000\n14”\n8”\n5-1/4”\nmainframe\nMini-computer\nPC\nCapacity\nYear\nHardrives:"
+        },
+        {
+            "slide_number": 3,
+            "text": "MPP/Vectors vs. Clustered SMPs vs. Linux Clusters\nSustaining Change\nsustain the current rate of technology growth\nDisruptive Change\nredefine performance trajectories\n1985\nnow\nVectors\nMPPs\nClustered SMPs\nSupercomputers\nRegional systems\nDepartment systems\nPerformance\nLinux clusters?"
+        },
+        {
+            "slide_number": 4,
+            "text": "Thesis:\nOne of the principal challenges facing the future of HPC software development is the encapsulation of architectural complexity"
+        },
+        {
+            "slide_number": 5,
+            "text": "Sustaining software encapsulation \u000bchallenges of the future\nSoftware to punch through the Memory wall\nUntil processing starts to move out into the memory, the memory wall is only getting worse\nMust program for deep memory hierarchies\ncache-based threading, nano-tasking, blocking, memory affinity, \nEncapsulate System Factorization\nSeparate “curves” for nodes, interconnect, and I/O follow best-of breed trajectories and are integrated \nHeterogeneous computing\nLinux nodes age like fruit flies\nsoftware must manage differing CPU speeds, memory sizes, interconnect latency/b-w, and memory\nFault tolerant software systems\ninterconnect, nodes, I/O\nLike Blue Gene - must have self-correction to scale"
+        },
+        {
+            "slide_number": 6,
+            "text": "MPP/Vectors vs. Clustered SMPs vs. Linux Clusters\nSustaining Change\nsustain the current rate of technology growth\nDisruptive Change\nredefine performance trajectories\n1985\nnow\nVectors\nMPPs\nClustered SMPs\nSupercomputers\nRegional system\nDepartment system\nPerformance\nLinux clusters?\nOther?"
+        },
+        {
+            "slide_number": 7,
+            "text": "Disruptive software encapsulation challenges of the future\u000b( other market drivers besides clustering )\nData-centric computing ( OLTP, Warehouses )\nGetting too expensive to save, move, visualize data\nBringing services too the data\ne.g. viz engines, direct attached storage devices\nSoftware must become more data-aware\nhigher-level schema for data partitioning, movement, and affinity\nReconfigurable computing ( signal processing, cryptoanalysis )\nXilinx and Altera have multi-million transistor FPGAs which fit into Linux clusters\ncan burn in multiple FP ALUs"
+        },
+        {
+            "slide_number": 8,
+            "text": "Disruptive software encapsulation challenges of the future\u000b ( other market drivers besides clustering )\nSoftware integration of smarter components ( general trend of making each component in a system more capable )\nhow many computing devices are in your car?\nSoon: Smart NICS, Smart switches, Smart disks\nmessage processing on the NIC\nnetwork-aware gather/scatter\ndisk-based stride/sub-block processing\nLater: Smart memory\nbalance of CPU and memory across architecture\nbreaking memory-access/FPU components of algorithms up into different instruction streams."
+        },
+        {
+            "slide_number": 9,
+            "text": "Software Futures\nCompiler design/Run-time design\nComputing across heterogeneous resources\ndisks, NICS,CPU, memory\nDeeper and deeper memory hierarchy\nHigh-level language to FPGA/VHDL\nExplicit Data management ( remember NEWS and HPF:::Layout )\nthreading everywhere - even in the CPU level\nenable gray area between compile and run times\ne.g., run-time compilation, telescoping compilers ( Kennedy )\nLanguage trends\nFortran into C++ - happening now\nC++  into Java- happening soon ( attacking from the bottom )\nJava into ??? ( more explicit language based concurrency? ) \nFinal thought:"
+        },
+        {
+            "slide_number": 10,
+            "text": "Software Futures\nCompiler design/Run-time design\nComputing across heterogeneous resources\ndisks, NICS,CPU, memory\nDeeper and deeper memory hierarchy\nHigh-level language to FPGA/VHDL\nExplicit data management ( remember NEWS and HPF::Layout )\nthreading everywhere - even in the CPU\nenable gray area between compile and run times\ne.g., run-time compilation, telescoping compilers ( Kennedy )\nLanguage trends\nFortran into C++ - happening now\nC++  into Java- happening soon ( attacking from the bottom )\nJava into ??? ( commodity directions? explicit language concurrency? )\nFinal thought:\nReynders 3 years from now: a C++ dinosaur… ;)"
+        },
+        {
+            "slide_number": 11,
+            "text": "Vision Summary:\nThe Software Revolution must move the complexity of the evolving cluster architecture into compilers, run-time systems, encapsulating components, and perhaps languages to manage the revolution of architectural complexity that is coming down the road."
+        }
+    ]
+}

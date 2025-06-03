@@ -1,0 +1,233 @@
+{
+    "metadata": {
+        "filename": "5M64YE6TMJKGT7PXYSE4E7CBW5KY4NPF.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Intermediate Asset Management Training\nState of Indiana\nInstructor:  Bob Hegyi"
+        },
+        {
+            "slide_number": 2,
+            "text": "<number>\nAgenda\nWelcome\nExpectations:\nManual Additions\nAdjustments / Transfers\nRetirement / Reinstatement\nIntegration Process\nConsolidation / Unitization\nParent-Child Assets\nCorrecting ChartField Errors"
+        },
+        {
+            "slide_number": 3,
+            "text": "<number>\nExpectations\nRefresher course:\nAM presentation and process demonstrations\nPM open lab to complete exercises (optional)\nUsing the system:\nPrimary focus will be on the ENCOMPASS system and changes\nTraining database used for demos / exercises"
+        },
+        {
+            "slide_number": 4,
+            "text": "<number>\nTraining Materials\nPresentation\nExercises\nParticipant Data sheet\nTraining Manual \n\nMaterials available on ENCOMPASS website:\nENCOMPASS Documents > Training > Asset Management Class"
+        },
+        {
+            "slide_number": 5,
+            "text": "<number>\nGround Rules for Training\nPlease be on time.\nPut cell phones on vibrate.\nForget about the “office.”\nStay focused on “Learning the System.”\nNo reading of emails.\nAsk questions.\nLimit sidebar conversations. \nRespect others."
+        },
+        {
+            "slide_number": 6,
+            "text": "Chapter  1\u000bAsset Management Overview"
+        },
+        {
+            "slide_number": 7,
+            "text": "<number>\nAM Business Processes"
+        },
+        {
+            "slide_number": 8,
+            "text": "<number>\nAM Process Flow"
+        },
+        {
+            "slide_number": 9,
+            "text": "<number>\nData Tables"
+        },
+        {
+            "slide_number": 10,
+            "text": "<number>\nIntegration Points\neProcurment (Requisitions / Purchase Orders) \nSends key information:  Category Code, Profile ID\nPO Receipts\nSends non-financial information:  Tag Number, Location, Custodian, Serial Number, Manufacturer ID, Model Number\nAccounts Payable\nSends financial information:  Acquisition Date, Cost, Chartfield Values\nProjects\nSends Asset Transactions for Capital Projects\nGeneral Ledger \nReceives input from AM to create Journal Entries for: Additions, Adjustments, Retirements, Depreciation"
+        },
+        {
+            "slide_number": 11,
+            "text": "Chapter  3\u000bManually Adding Assets"
+        },
+        {
+            "slide_number": 12,
+            "text": "<number>\nAll Assets\nAssets must be entered into ENCOMPASS\nValued at $500 or Greater\nAgencies can (optional) enter assets valued at less than $500\nAssets must include the following information:\nTag Number\nLocation\nCustodian (active employee listed in HR)\nChartfields (Fund, Department, Program, Bud Ref.)\nAgencies may require additional fields: Project, Product, Locality"
+        },
+        {
+            "slide_number": 13,
+            "text": "<number>\nAll Assets\nThe State requires all Assets be acquired via Procurement Applications \nAssets will be added via the Integration Process: Purchasing, Receiving, Accounts Payable\nBasic Add \nUsed in limited situations\nExpress Add\nNo longer used"
+        },
+        {
+            "slide_number": 14,
+            "text": "<number>\nWorkflow\nAll Financial Transactions require Financial Asset Manager (FAM) approval:\nBasic Adds\nAdjustments/Transfers\nRetirements/Reinstatements\nAssets valued at $20,000 and greater will require Auditor of State approval:\nException:  Retirements\n\n\tNote - if a transaction is denied, the AM Entry User receives an email with the FAM’s denial comments."
+        },
+        {
+            "slide_number": 15,
+            "text": "<number>\nBasic Add\nOnly to be used in specific circumstances:\nDonated Assets\nSurplus acquired Assets\nAssets discovered during inventory\nTransaction Date = In Service Date\nAssets are sent to the AM Approver by clicking the “Submit Workflow” button\nAssets are capitalized automatically by the final approval\n\n\tNote - Asset Status can be reviewed by using the Review Approvals page."
+        },
+        {
+            "slide_number": 16,
+            "text": "<number>\nBasic Add – Required Info.\nProfile ID \nDefaults in:  Asset Class, Book, Category, Depreciation\nAcquisition, Placement, and In Service dates\nPurchased Amount\nTag number *\nLast 3 digits of Agency’s BU and affixed Bar Code \nLocation *\nA 7 digit alpha‑numeric field defined by the Agency\nCustodian *\nThe person responsible for (or primary user) of the asset\n\n\t*  Required for all Assets valued at $500 or greater"
+        },
+        {
+            "slide_number": 17,
+            "text": "<number>\nUpdate: Physical Attributes\nPhysical Attributes are changed via Basic Add\n \nChanges to Location and Custodian\nInsert new Effective Dated Row to update, and maintain history.\nIf Effective Sequence field has a value of 1 or higher, click on the Include History button to view Effective Dated Rows.\nChanges to Tag Number and Description\nReplace current value with new value."
+        },
+        {
+            "slide_number": 18,
+            "text": "<number>\nCopy an Asset\nCopy an Asset can be used when:\nThere are multiple number of Assets to be added.\nThe asset shares similar Physical and Financial information to the original Asset.\nCopy an Asset Options:\nSelect the information to be copied.\nChange the Physical and Financial information as needed.\nNew Asset IDs are automatically assigned\nOther adjustments can be made via Basic Add or Adjustment pages"
+        },
+        {
+            "slide_number": 19,
+            "text": "<number>\nAsset Search Utility\nAssets entered in the system can be located using the Search Utility\nCriteria that can be used to locate assets include:\n\n\n\n\n\n\t\tNavigation:   Asset Management > Search for an Asset"
+        },
+        {
+            "slide_number": 20,
+            "text": "<number>\nDemo and Exercises\nAre there any questions?\n\nDemonstration\n\nExercises\nExercise 1 – Add an Asset\nExercise 2 – Change Custodian\nExercise 3 – Change Location\nExercise 4 – Change the Description"
+        },
+        {
+            "slide_number": 21,
+            "text": "Chapter  4\u000bAdjusting, Recategorizing and Transferring Assets"
+        },
+        {
+            "slide_number": 22,
+            "text": "<number>\nAdjust Assets\nAdjustments are necessary to:\nUpdate Asset Records\nCorrect Errors \nAdd newly received information\nCommon types of adjustments include:\nAdd a new cost row\nAdjust the total cost\nRecategorize an asset\nTransfer an asset to another Department, Business Unit, etc.\n\n\nNote – Financial changes cannot be made via Basic Add pages once the asset has been capitalized."
+        },
+        {
+            "slide_number": 23,
+            "text": "<number>\nTransfer/Adjustment Steps\nThe State of Indiana uses a three-step process to transfer/adjust assets:\n\nStep 1:  Enter the Asset Transfer/Adjustment\nStep 2:  Approval by Financial Asset Manager\n AOS, for assets valued at $20,000 or greater\nStep 3:  Run the Finalization"
+        },
+        {
+            "slide_number": 24,
+            "text": "<number>\nTransfers/Adjustments\nAsset are not updated until:\nAll necessary approvals have been received\nFinalization has been processed\nAdditional changes can not be made until the previous changes have been approved, denied or finalized.\nChanges are updated on the Cost History pages\nNot via Basic Add pages\nAsset Changes must be sent to the AM Approver \nClick on the “Submit Workflow” button\n\n\tNote - Asset Status can be reviewed by using the Review Approvals page."
+        },
+        {
+            "slide_number": 25,
+            "text": "<number>\nTransfer Policy\nState of Indiana Transfer Policy:\nAll transfers, sales, retirements and other disposals of capital assets must be processed and approved by the State Surplus Property division of IDOA by submitting Form 13812, Notification of Surplus State-Owned Property."
+        },
+        {
+            "slide_number": 26,
+            "text": "<number>\nTransfers\nIntraUnit Transfer\nTransfer an Asset within a Business Unit, typically used to update Chartfield values. \nFund, Department, Program,  Project, etc.\nInterUnit Transfer\nTransfer an Asset to another Business Unit.\nThe chartfield values of receiving Business Unit are required to enter transaction."
+        },
+        {
+            "slide_number": 27,
+            "text": "<number>\nViewing Cost History\nCost History displays information for capitalized and non-capitalized assets\nList pages:  shows history of asset’s transactions\nDetail pages:  shows detailed information regarding financial transactions\nCost History displays all financial transactions that occurred to after the asset was capitalized  \n\nNote - Basic Add only shows cost information from the time the asset was capitalized."
+        },
+        {
+            "slide_number": 28,
+            "text": "<number>\nDemo and Exercises\nAre there any questions?\n\nDemonstration\n\nExercises\nExercise 5 – Cost Adjustment\nExercise 6 – Recategorize\nExercise 7 – IntraUnit Transfer \nExercise 8 – InterUnit Transfer"
+        },
+        {
+            "slide_number": 29,
+            "text": "Chapter  5\u000bRetiring and Reinstating Assets"
+        },
+        {
+            "slide_number": 30,
+            "text": "<number>\nRetirement Policy\nAssets are considered retired if disposed of in any of the following ways:\nSent to State Surplus (property division)\nTraded In \nScrapped\nSold at Public Auction\nSold to Local Unit of Government \nStolen (reported to Capital Police prior to processing)"
+        },
+        {
+            "slide_number": 31,
+            "text": "<number>\nTypes of Retirement\nThree 3 basic types of retirements:\nFull, when all quantities & costs of an asset are retired\nPartial, when only a portion of the quantities & costs of an asset are retired.  (NOT used by SOI)\nPrior Period, when an asset is retired in a prior accounting period but not recorded until next period\nReinstatements can occur at any time, and are used: \nTo correct errors\nTo place an asset back into service"
+        },
+        {
+            "slide_number": 32,
+            "text": "<number>\nRetirement Options\nThe State of Indiana uses the following retirement options:\nCasualty Loss\nDisposal Due to Theft - (police report filed)\nDuplicate Asset \nMissing Asset\nRetirement by Sale\nScrapped Asset  - (no value to surplus)\nState Surplus \nTraded In for Another Asset\nAccounting entries are automatically generated based on the retirement option selected"
+        },
+        {
+            "slide_number": 33,
+            "text": "<number>\nRetirement Warning\nRetirements – cautionary notes:\nAssets can be retired, even if unprocessed Financial Transactions exist \nOnce retired, Financial Transactions can not be Finalized\n\nVerify all Financial Transactions have a status of “Completed” prior to retiring any asset\n\nNavigation:  Asset Management > Asset Transactions > Financial Transactions > Review Transfer/Adj. Approvals"
+        },
+        {
+            "slide_number": 34,
+            "text": "<number>\nReinstating Assets\nReinstatement can be used on retired Assets:\nTo correct errors\nTo place an asset back in service\nWhen reinstatement occurs: \nAll journal entries created for retired asset are reversed\nIf depreciation has not processed for the retired asset, reinstatement will remove the RET transaction from the  Cost table"
+        },
+        {
+            "slide_number": 35,
+            "text": "<number>\nRetirements/Reinstatements\nWhen the Retirement/Reinstatement is saved:\nAsset status is immediately changed\nRetirement – status changes to “Disposed”\nReinstatement – status changes to “In Service”\nAsset is automatically placed into workflow \nIf the retirement/reinstatement is denied:\nAsset status does not automatically return to previous status\nAM Entry must take necessary action to change the status\nDenied Retirement = Reinstate the asset\nDenied Reinstatement = Retire the asset"
+        },
+        {
+            "slide_number": 36,
+            "text": "<number>\nDisposal Worksheet\nDisposal Worksheet is used to:\nDispose of several assets at one time\nDispose of assets that have common data, such as: Profile ID, Category, Department, etc.\nThree step process:\nSelect Assets for Disposal\nApprove Disposal Worksheet\nProcess the Transaction Loader\nLocate the Interface ID\nProcess the Transaction Loader"
+        },
+        {
+            "slide_number": 37,
+            "text": "<number>\nDemo and Exercises\nAre there any questions?\n\nDemonstration\n\nExercises\nExercise 9 – Retire an Asset\nExercise 10 – Reinstate an Asset"
+        },
+        {
+            "slide_number": 38,
+            "text": "Chapter  2\u000bIntegrating with PeopleSoft Procurement"
+        },
+        {
+            "slide_number": 39,
+            "text": "<number>\nAsset Details\nAsset Information Tab can be found on:\nRequisition, Purchasing, Receiving and Accounts Payable pages\nAsset Information Tab contains:\nBusiness Unit, Asset ID and Profile ID\nPO Receipt pages contains:\nTag Number, Location and Custodian\n\n\tNote – Asset Information will default in from the interfacing modules.  However, interfaced data can be overwritten."
+        },
+        {
+            "slide_number": 40,
+            "text": "<number>\nAppendix\nAsset manual contains an appendix detailing where Asset Information is located for:\nRequisition\nPurchase Order\nReceipt\nVoucher\nAsset manual is located on the ENCOMPASS Website, along with the other training materials:\nhttps://myshare.in.gov/sba/encompass/default.aspx\nAP Training documents: ENCOMPASS > ENCOMPASS Documents > Training > Asset Management Class > AM Course Manuals"
+        },
+        {
+            "slide_number": 41,
+            "text": "<number>\nInterfaces\nAsset Status created by the Interface:\nPO Receipt adds the Asset Status of “Received (Not in Service)”\nAP Voucher automatically capitalizes the asset for the voucher amount and changes the Asset Status to “In Service”\nInterfaces process automatically\nAM Entry Users can process the interfaces manually\n\nFour steps to interface Receipts/Vouchers into Asset Management:\nPre-Interface tables, Interface Loader, Consolidate /  Unitize, and Transaction Loader"
+        },
+        {
+            "slide_number": 42,
+            "text": "<number>\nIntegration Process Flow"
+        },
+        {
+            "slide_number": 43,
+            "text": "<number>\nIntegration\nFour integration steps involved:\nStep 1 involves pushing the Receipt or Voucher information from Procurement into AM.  It will process automatically.\nStep 2 is the Interface Loader.  It pulls information from the Pre-Interface table and populates the Physical and Financial tables.  It will process automatically.\nStep 3 is Consolidation/Unitization.  This is manually controlled and must be processed prior to Step 4.\nStep 4 is the Transaction Loader.  It creates the asset.  It will process automatically."
+        },
+        {
+            "slide_number": 44,
+            "text": "<number>\nConsolidate / Unitize\nConsolidation is used to combine several components into a single asset. \nUnitization is used to convert asset lines from PO Receipts or Vouchers with multiple asset quantities into separate assets having a quantity of one.\nConsolidation / Unitization must be completed prior to processing the Transaction Loader."
+        },
+        {
+            "slide_number": 45,
+            "text": "<number>\nDemo and Exercises\nAre there any questions?\n\nDemonstration\n\nExercises\nExercise 11 – Unitization of Assets\nExercise 12 – Consolidation of Assts"
+        },
+        {
+            "slide_number": 46,
+            "text": "Chapter  6\u000bMaintaining Parent-Child Assets"
+        },
+        {
+            "slide_number": 47,
+            "text": "<number>\nParent-Child Asset \u000bRelationships\nParent-Child Assets:\nGrouped together for processing and reporting\nThree methods of grouping assets:\nSingle asset with multiple acquisition detail lines for each component\nOne component designated as the parent with the remaining components as child assets\nParent only asset with each component as a child asset \n\nEach component can have its own cost, depreciation, and physical information\n \n\nNavigation:  Asset Management > Asset Transactions > Parent-Child \t     Relationship > Review Parent - Child"
+        },
+        {
+            "slide_number": 48,
+            "text": "<number>\nAdding Parent-Child Assets\nParent-Child Assets are added via Basic Add\nParent Asset must be established prior to assigning any Child Assets \nChild Assets can have a cost and depreciation independent of the Parent\nOnce established, special security is required to change a Parent-Child designation"
+        },
+        {
+            "slide_number": 49,
+            "text": "<number>\nRetiring Parent-Child Assets\nParent-Child Assets can be retired by:\nRetiring the parent and all child assets\nRetiring the parent and some child assets\nRetiring just the child assets\nRetiring just some of the child assets"
+        },
+        {
+            "slide_number": 50,
+            "text": "<number>\nDemonstration\nAre there any questions?\n\nDemonstration\n<number>"
+        },
+        {
+            "slide_number": 51,
+            "text": "Chapter  7\u000bCorrecting ChartField Errors"
+        },
+        {
+            "slide_number": 52,
+            "text": "<number>\nChartField Edit\nA custom Chartfield Edit process was created to run after Accounting Entries are created to:\nValidate ChartField values\nValidate Chartfield combinations\nFlag any Chartfield errors\n\nLine errors must be correct in order to post accounting information to General Ledger\n\n\tNote – Agencies are responsibility for reviewing and correcting any identified ChartField errors at the end of each month."
+        },
+        {
+            "slide_number": 53,
+            "text": "<number>\nDemonstration\nAre there any questions?\n\nDemonstration"
+        },
+        {
+            "slide_number": 54,
+            "text": "<number>\nPost Go Live Support\nPost Go Live Support\n“Report an Issue” link on the Sign In page \n“Report an Issue” link under the ENCOMPASS menu \nCall 317-234-HELP to create a helpdesk ticket\n\nEncompass Website\nhttps://myshare.in.gov/sba/encompass/default.aspx\nAP Training documents: ENCOMPASS > ENCOMPASS Documents > Training > Asset Management Class"
+        },
+        {
+            "slide_number": 55,
+            "text": "<number>\nEvaluations\nCourse evaluation\nPlease be honest\nProvide suggestions for improvements \nEvaluations are used to adjust the class"
+        },
+        {
+            "slide_number": 56,
+            "text": "<number>"
+        }
+    ]
+}

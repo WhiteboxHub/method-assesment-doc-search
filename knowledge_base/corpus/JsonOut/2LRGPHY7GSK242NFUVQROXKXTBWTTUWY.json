@@ -1,0 +1,53 @@
+{
+    "metadata": {
+        "filename": "2LRGPHY7GSK242NFUVQROXKXTBWTTUWY.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Is anomalous vertical motion in WAIS Ice Streams tied to subglacial water transport?\u000b\u000b\u000b\u000bLaurence Gray, Ian Joughin, Slawek Tulaczyk, \u000bVandy Blue Spikes, Bob Bindschadler and Ken Jezek.\nAcknowledgements;\nCSA/NASA for the AMM RADARSAT data.\nSOAR, U Texas, & NSF for bed and surface height data from CASERTZ"
+        },
+        {
+            "slide_number": 2,
+            "text": "Ice motion from RADARSAT\nIce motion in the WAIS has been measured using range and azimuth shifts from passes separated by 24 days. The surface parallel flow assumption was used.\n\nIn a few areas there are overlapping ascending and descending passes which allow estimation of all 3 components of ice displacement in the 24 day repeat period.\n\nJoughin, I. L. Gray R. Bindschadler, S. Price, D. Morse, C. Hulbe, K. Mattar, and C. Werner, Tributaries of West Antarctic Ice Streams revealed by RADARSAT interferometry, Science, 286, (5438), 283-286, 1999."
+        },
+        {
+            "slide_number": 3,
+            "text": "Examples of vertical surface displacement\nArea A1 includes an area of the Kamb Ice Stream (“C”).\nArea A2 includes a tributary of the Bindschadler Ice Stream (“D”).\nL1 and L2 are lidar flight lines flown by SOAR in 1998 and 2000."
+        },
+        {
+            "slide_number": 4,
+            "text": "A: Ice speed displayed as a color overlay for the overlap area.\n\nB:  Solution for 24-day vertical displacement. Note the blue area with significant surface deflation, up to ~ 50 cm.\nA\nB"
+        },
+        {
+            "slide_number": 5,
+            "text": "Phase images from both ascending and descending SRI pairs. Note that the patterns, which reflect ‘line-of-sight displacement’, are different in the 2 geometries except for the concentric rings over the position of the surface deflation."
+        },
+        {
+            "slide_number": 6,
+            "text": "A: Horizontal velocity field interpolated from repeated GPS measurements*.\n\nB: This was used to estimate the 24-day horizontal displacements which was then combined with the radar line-of-sight displacement from an interferometric pair (from Sept. 26 and Oct. 20, 1997) to derive the local vertical displacement. The red and blue areas represent uplift and subsidence, respectively. \n\n*  Chen, X., Bindschadler, R. A. & Vornberger, P. L. Determination of velocity field and strain-rate field in West Antarctica using high precision GPS measurements. Surveying and Land Information Systems. 58, 247-255 (1998).\nA\nB"
+        },
+        {
+            "slide_number": 7,
+            "text": "Airborne laser altimetry also shows surface uplifts and depressions. While the height changes (~4 m vs. 0.5 m) and time span (2 years vs. 24 days) are larger, the differences are similar in shape to those  based on interferometry.\nLidar data courtesy of the SOAR facility, U Texas, and NSF.\nData from Spikes et al. Thickness changes on Whillans Ice Stream and Ice Stream C, West Antarctica, derived from laser altimeter measurements. J. Glaciol. 49, 165, 2003."
+        },
+        {
+            "slide_number": 8,
+            "text": "The colored dots are surface and bed elevations from the CASERTZ program. There appears to be a dip in both the surface and bed elevations at the site of the surface deflation.\nSurface and bed elevations (m)"
+        },
+        {
+            "slide_number": 9,
+            "text": "1.   Ice motion (non-equilibrium)… then continuity should apply. The 24 day ice volume flux through G1 is ~ (18.1±2).106  m3, G2 is ~ (18.5±2).106  m3, but the surface subsidence is equivalent to a volume of ~ (6.7±1). 106  m3.  So if the subsurface ice motion mirrors the surface motion then there is not enough ice going out through G2. As we don’t have precise ice thickness estimates for G1 and G2 the error margins are just estimates.\n\nMaybe the missing volume is not ice but water, so that we are observing…\n2.   Movement of ‘pockets’ of subglacial water. Also, all the ‘features’ appear to be at hydropotential wells so water can certainly collect there.\nPossible explanations for the anomalous vertical motion ?\n30\n40\nG1\nG2\n24 day vertical displacement profiles\nIce speed profiles (m/a)\nKm.\n50\n0\n-20 cm\n-40 cm\n-60"
+        },
+        {
+            "slide_number": 10,
+            "text": "Time varying basal conditions?\u000b \u000bThe upper image is the vertical displacement data with a black line indicating the position of BAS near-surface RES data illustrated in the lower image. This is data courtesy of Ed King, BAS, and was presented at the IGS, Chamonix meeting. \u000b\u000bNote the folds in the layering and the changes over time in the way in which the peaks and troughs are positioned in the along-flow direction. While there are undoubtedly changes in accumulation in this area, is the complexity of the layer folding evidence for changing basal conditions ?\nLower image from Radar profiles from the onset region of Ice Stream D1, Siple Coast, West Antarctic, by E.C. King, D.L. Morse, R.B. Alley, S. Anandakrishnan, D.D. Blankenship, A.M. Smith, poster presented at the IGS Symposium, Chamonix, 2002"
+        },
+        {
+            "slide_number": 11,
+            "text": "Summary\nWe have shown vertical displacement of surface ice in tributary flow in West Antarctica. The vertical movement is up to ~ 2 cm day, and could not be maintained on the long term.\nIce volume continuity, the shape of the features, and the position of the areas over hydropotential wells suggest that the relatively rapid height change could be due to movement of pockets of subglacial water.\nThe results may help explain the recent borehole observations of near bottom debris layers, and a 1.5m layer of subglacial water.\nFinally, we seem to have a tenuous (?) handle on subglacial water movement. … further systematic work is required."
+        }
+    ]
+}

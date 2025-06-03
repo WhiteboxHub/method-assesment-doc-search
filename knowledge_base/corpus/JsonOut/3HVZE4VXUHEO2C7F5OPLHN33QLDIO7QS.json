@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "filename": "3HVZE4VXUHEO2C7F5OPLHN33QLDIO7QS.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Joshua Haravay, VITA Disaster Recovery Specialist\u000bMichael Elkins, NG Director – Data Center Transformation\u000bAugust 26, 2008\nDisaster Recovery Services\nExpanded Services"
+        },
+        {
+            "slide_number": 2,
+            "text": "Agenda\nObjective and Goals\nDR Service Catalog\nArchitecture and Proposed Tier Architecture\nAgency Requirements Gathering and DR Tier Mapping\nOther Services\nQuestions\n2"
+        },
+        {
+            "slide_number": 3,
+            "text": "Objective and Goals\nProvide an overview of the Services that will be offered under the DR Services Catalog.\nProvide an overview of the solution that falls under a tier level of DR service\nProvide an understanding of the criteria used to help map an agency to a DR Service Tier\nProvide an overview of other available DR Services\n3"
+        },
+        {
+            "slide_number": 4,
+            "text": "Advantages of DR Services Catalog\nProvides more granularity on costs of services for the Agencies\nAgencies can choose between a larger range of services and choose the most applicable for their case\nAgencies can select lower DR levels with lower costs\nAgencies can match the solution to their RTO/RPO requirements\nOffers support for immediate needs of the Agencies\nAgencies desire DR support for their local IT\nSome Agency ITs cannot have SAN infrastructure\nProvides a logical migration path for the Agencies\n4"
+        },
+        {
+            "slide_number": 5,
+            "text": "Disaster Recovery Service Measures\n5"
+        },
+        {
+            "slide_number": 6,
+            "text": "Cost of Solution\nTime to Application Availability\nMinutes\n5 Days\n24 Hours\n4 Hours\n12 Hours\n72 Hours\nCold-Site\nWarm-Site\nHot-Site\nAcquisition\nShared Pre-Staged\nInfrastructure\nPermitting System &\nApplication Rebuild\nInternal\nManual\nFail-Over\nInternal\nAutomatic \nFail-Over\nDedicated Infrastructure Permitting Automated Application Fail-Over\nFacilities: $\nNetwork: $$ Facilities: $$\nStorage: $$$ Hosts: $$   Network: $$ Facilities: $$$\nStorage: $$$ Hosts: $$   Network: $$$\nFacilities: $$$\nStorage: $$$ Hosts: $$$   Network: $$$ Facilities: $$$\n8 Hours\n36 Hours\n7 Days\n10 Days\nUp to\n30 Days\nDedicated Infrastructure Permitting Manual Intervention Fail-Over\nFacility, Utility, Environmental, \nand Network Infrastructure \nAwaiting Equipment Delivery\nFacility, Utility, &\nEnvironmental\nBest Effort at\nTime of Disaster\nGAr\nDelivering Degrees of RTO\n6"
+        },
+        {
+            "slide_number": 7,
+            "text": "Remote Data Mirroring\nWith No Data Loss\nCost of Solution\nChronological Data Recovery Point in Time\nMinutes\n12 Hours\n48 Hours\n24 Hours\n2 Hours\nElectronic Vaulting\nElectronic Journaling\nStand-By\nDatabase\nChevy Truck\nBackup\nMirroring\nVolume, File\nSystem and/or\nDatabase Backup\nRemote\nTransaction\nReplication\nDatabase, Volume, or \nBlock Level Replication \nwith Varying Degrees \nOf Data Loss\nAsynch Mirroring\nSynchronous Mirroring\nTape: $ Network: $\nTape: $ Hosts: $   Network: $$\nStorage: $$ Hosts: $$  Network: $$\nStorage: $$$ Hosts: $$   Network: $$\nStorage: $$$ Hosts: $$   Network: $$$\nStorage: $$$ Hosts: $$$   Network: $$$\nBulk Data\nBased on Time\nor Event\n8 Hours\n4 Hours\nZero Loss\nSeconds\nGartner\nDelivering Degrees of RPO\n7"
+        },
+        {
+            "slide_number": 8,
+            "text": "8"
+        },
+        {
+            "slide_number": 9,
+            "text": "RTO - < 4 hrs (Tier 1) and 5 – 24 hrs (Tier 2)\nRPO – the length of time between the last data update and the disaster declaration is from several minutes to 4 Hours for SAN attached storage and 24 hours for direct attached.\nNetwork Recovery:  All required network interfaces meeting defined capacity are in place in each data center for site failover\nInfrastructure Recovery:  All preventative controls (power, cooling and space requirements) are managed and provided with the service.\nStorage Recovery: SAN The storage array will be replicated to the DR site using an array based asynchronous replication.  For Tier 2 depending on the application structure, it will be required that data is recovered using a mixed recovery solution.\nServer configuration: Allocated Servers Physical / Virtual will already be racked and installed with the respective operating system and application, ready to initialize when the data Logical Unit is connected. Active/Active – Active/Passive Clustering / SAN storage\nDatabase Recovery:  Database servers will be recovered to physical or virtual server in the failover site; servers may be on a high availability cluster configuration if required\nFailover: Complete failover from the production site to the DR site\nData Protection: Application data available at the Production SAN storage will be replicated to the DR SAN storage using asynchronous remote replication capabilities (Raid 10 / Parity Raid)\nTier 1 and 2\nDR Site Architecture: The DR Site infrastructure will have available the servers, in either physical or virtual configuration, defined to support agency operations.\nData Replication <=4hrs\nServer Operational Recovery: High-Availability / Rebuild\n9"
+        },
+        {
+            "slide_number": 10,
+            "text": "CESC\nApplication\nServer\nSWESC\nStorage\nSRDF/A\nMainframe\nApplication\nServer\nWindows\nApplication\nServer\nUnix\nApplication\nServer\nStorage\nMainframe\nApplication\nServer\nWindows\nApplication\nServer\nUnix\nApplication\nServer\nProduction\nDisaster\nRecovery\nProposed RTO of < 4hrs (Tier 1) / 5-24 hrs (Tier 2)\nAllocated Servers – loaded configuration, operating system and application\nwaiting for LUN assignment and network redirect\n10"
+        },
+        {
+            "slide_number": 11,
+            "text": "RTO – 25 – 48 hrs \nRPO – the length of time between the last data update and the disaster declaration is from <=24 hrs.\nNetwork Recovery:  All required network interfaces meeting defined capacity are in place in each data center for site failover\nInfrastructure Recovery:  All preventative controls (power, cooling and space requirements) are managed and provided with the service.\nStorage Recovery: SAN The storage array will be restored at the DR site using a backup restoration from Virtual Tape Library (VTL). Backup files will be sent from the Production site to the DR site daily through the network, providing an RPO of 24 hours\nServer configuration: Physical / Virtual will already be racked and connected to the DR SAN storage\nActive/Active – Active/Passive Clustering\nDatabase Recovery:  Database servers will be recovered to physical or virtual server in the failover site\nFailover: When the operating system and application environments are available and operational and the logical unit with the data is linked to the server a network reconfiguration will enable the complete failover from the production site to the DR site\nData Protection: (Raid 10 ) / Backup is disk based. The backup to VTL process will need to be done at a synchronized time to avoid data corruption and all files will be backed up including database, journaled transactions and log files.\nTier 3\nDR Site Architecture: Repurposed / Allocated Servers – connected to SAN Storage.\nServer Operational Recovery:  Rebuild The   environment is comprised of physical and virtual servers and connected to the DR SAN\n11"
+        },
+        {
+            "slide_number": 12,
+            "text": "CESC\nApplication\nServer\nSWESC\nStorage\nMainframe\nApplication\nServer\nWindows\nApplication\nServer\nUnix\nApplication\nServer\nStorage\nMainframe\nApplication\nServer\nWindows\nApplication\nServer\nUnix\nApplication\nServer\nProduction\nDisaster\nRecovery\nProposed Tier 3\nVTL\nVTL\nBackup\nCopy\nRepurposed Servers – bare metal restore, LUN assignment and network redirect\nor Allocated Servers if required by the Agencies\n12"
+        },
+        {
+            "slide_number": 13,
+            "text": "RTO – 49-72 hrs (Tier 4) /  > 73 hrs (Tier 5) /  with 168 hrs (Tier 6)\nRPO – length of time between the last data update and the disaster declaration is <=24 Hours.\nNetwork Recovery:  All required network interfaces meeting defined capacity are in place in each data center for site failover\nInfrastructure Recovery:  All preventative controls (power, cooling and space requirements) are managed and provided with the service.\nStorage Recovery: SAN / DAS / LOCAL The storage array will be restored at the DR site using a backup restoration from magnetic tape.\nServer configuration: Physical/Virtual servers and connected to the DR SAN or through direct attached storage.\nDatabase Recovery: Database servers will be recovered to physical or virtual server in the failover site.\nFailover: When the operating system and application environments are available and operational and the logical unit with the data is linked to the server a network reconfiguration will enable the complete failover from the production site to the DR site\nData Protection:  Synchronized-timed backup with restore from Tape. Weekly full copies, daily incremental. Backup is tape-based / optional RAID 10.\nTier 4, 5, 6\nDR Site Architecture: Drop Ship / Repurposed / Allocated connected to SAN / DAS / LOCAL Storage.\nServer Operational Recovery: Rebuild Servers are racked and ready for booting or repurposed or in drop-ship model.  Operating system boot images and applications are pre-loaded or readily available or it uses resources like bare metal restore.\n13"
+        },
+        {
+            "slide_number": 14,
+            "text": "CESC\nMainframe\nApplication\nServer\nSWESC\nStorage\nBackup to Tape\nMigrating to VTL\nWindows\nApplication\nServer\nUnix\nApplication\nServer\nMainframe\nApplication\nServer\nStorage\nWindows\nApplication\nServer\nUnix\nApplication\nServer\nProduction\nDisaster\nRecovery\nProposed Tier 4, 5, 6\nDrop-ship Servers – full restore, LUN assignment and network redirect\nor Allocated or Repurposed Servers if required by the Agencies\n14"
+        },
+        {
+            "slide_number": 15,
+            "text": "Agency Requirement Gathering\nDisaster Recovery Requirement Questionnaire\nRecovery Time Objective / Recovery Point Objective\nApplication(s)\nNetwork\nInfrastructure Components\nBackup \nData Storage\nSecurity\nUser Testing\nInter-Dependencies to/with other agencies\n15"
+        },
+        {
+            "slide_number": 16,
+            "text": "Checklist of Results\n16"
+        },
+        {
+            "slide_number": 17,
+            "text": "Determine Final Recommendations\n17"
+        },
+        {
+            "slide_number": 18,
+            "text": "Identify Tier-Level Solution\n18"
+        },
+        {
+            "slide_number": 19,
+            "text": "Value Added Services\nDR Services\nAssist agencies with IT DR Plan updates or creation\nAssist agencies with identifying business requirements for DR testing\nAssist agencies with identifying business requirements for a DR solution\n\nTesting Services\nAnnual test for each agency\nInternal tests performed\nwill uncover and reduce errors\nspeed up recovery process by 'practicing'\n\nDedicated Services\nEnsure data availability and integrity\n24/7 availability monitoring \nReal-time performance reporting\nProvides complete activation of processes and procedures at the time of a declared event\nProvides constant monitoring and management of the replication environment\nEnd-user recovery assistance\nDedicated team of technical engineers\n19"
+        },
+        {
+            "slide_number": 20,
+            "text": "20"
+        }
+    ]
+}

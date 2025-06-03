@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "filename": "3PLFFF4TEUIZK4JDFO5LLLJPNG2U2BXV.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Satellite Products Inter-Comparison Using the NOAA Products Validation System (NPROVS) and Plans for NPP Cal/Val\nTony Reale\nNOAA \nCenter for Satellite Applications and Research (STAR)\n\nBomin Sun, Michael Pettey, Frank Tilley, and Charles Brown\n(IM Systems Group)\n18th Conference on Satellite Meteorology\nOceanography and Climate\nNew Orleans, January 22-26, 2012\nAcknowledgements …. Murty Divikarla (IMSG), Nick Nalli (IMSG), Chris Barnet (STAR) …\n(funding under JPSS/NPP cal/val program)"
+        },
+        {
+            "slide_number": 2,
+            "text": "Outline\nWhat is NPROVS\nWhat’s new\n\nIASI vs ATOVS vs GFS vs Sonde Profiles\nQC\nTerrain\nCloud\n \nBringing in NPP\nIDPS (NGAS), NUCAPS (NOAA), MiRS\nRevised guidelines for validation\nMeeting spec\n\nGCOS Reference Upper Air Network (GRUAN)\nSite Atmospheric State Best Estimate (SASBE)\nat NPP overpass ?"
+        },
+        {
+            "slide_number": 3,
+            "text": "RADIOSONDE\nDROPSONDE\nNWP\nNASA-EOS-Aqua\nAIRS\nFORMOSAT-3,4 \nCOSMIC (UCAR)\nDMSP F-16,17,18\nMIRS\nNOAA-18\nATOVS, MIRS\nNOAA-19\nATOVS, MIRS\nMetOp-A\nATOVS, MIRS,\nIASI, IASI (EU)\nGRAS\nGOES-11,13,12\nIR Soundings\nJPSS-NPP\nCrIMSS (2)\nMIRS\nMetOp-B\nATOVS, MIRS, \nIASI, IASI (EU)\nGRAS\nYes\nPlan\nNo\nNOAA Products Validation System (NPROVS)  Schematic"
+        },
+        {
+            "slide_number": 4,
+            "text": "PDISP\nODS\nNPROVS- Environmental Data Graphical Evaluation\n (EDGE) Analytical Interface\nNARCS"
+        },
+        {
+            "slide_number": 5,
+            "text": "NPROVS Web Site\nPre-computed monthly performance statistics for selected product combinations\n\nPre-computed performance trends since April 2008\n\nDownload PDISP and NARCS graphical display applets and datasets\nhttp://www.star.nesdis.noaa.gov/smcd/opdb/poes/NPROVS.php"
+        },
+        {
+            "slide_number": 6,
+            "text": "GFS and CFSR Analysis and Background interpolated to sonde\nWhat’s New !\n… vertical profiles of Mean, St. Dev from Sonde and  “R2”\n(courtesy Bradley Ballish, NWS)\n(courtesy jack Wollen, NWS)"
+        },
+        {
+            "slide_number": 7,
+            "text": "Weighting the moisture % differences…\n100 levels vs 1km layer averaging\n… vertical profiles of differences from Sonde\nWhat’s New !"
+        },
+        {
+            "slide_number": 8,
+            "text": "Radiosonde Profile Characterizations\nMoisture Structure\nTemperature Inversions\nWhat’s New !"
+        },
+        {
+            "slide_number": 9,
+            "text": "Radiosonde Profile Characterization\u000bParameters\nTerrain (land, coast, ship, island)\nCloud \nDay/nite \nSuperadiabatic\nMoisture profile shape\nTPW Increment\nUT / LS … suspicious moisture\nT inversions (surface, aloft)\nRad Correction (site, NCEP)\nInstrument type"
+        },
+        {
+            "slide_number": 10,
+            "text": "Raob\nSAT\nSpace\nTime\nSite id\nInst\nNOAA Products Validation System (NPROVS)\nPDISP user interface for display and analysis of collocated data\n… 7500 radiosondes over 7 days"
+        },
+        {
+            "slide_number": 11,
+            "text": "IASI vs ATOVS vs GFS vs Sonde\u000b\u000bQC, Terrain, Cloud\u000b\u000b\u000bYield !"
+        },
+        {
+            "slide_number": 12,
+            "text": "Common  Sample"
+        },
+        {
+            "slide_number": 13,
+            "text": "Common Sample Yield Analysis\n(10)\n(51)\n(66)"
+        },
+        {
+            "slide_number": 14,
+            "text": "Common  Sampling"
+        },
+        {
+            "slide_number": 15,
+            "text": "+/- 3hr\n50km\nqc’d\nCloudy\nmaritime\n+/- 3hr\n50km\nqc’d\nCloudy\nNon-maritime\nCommon  Sampling"
+        },
+        {
+            "slide_number": 16,
+            "text": "Independent  Samples"
+        },
+        {
+            "slide_number": 17,
+            "text": "Bringing in NPP"
+        },
+        {
+            "slide_number": 18,
+            "text": ""
+        },
+        {
+            "slide_number": 19,
+            "text": "CriMSS  Performance Specification\nNalli, Barnet, et al. - AMS Jan-12\n<number>\n(courtesy Nick Nalli)"
+        },
+        {
+            "slide_number": 20,
+            "text": "CrIMSS Validation Issues\nLevels: “42 (T), 22(MR)”  vs 100 (T) 30 (MR)\nIDPS vs NUCAPS  \n\nLayers for validation (1km)\nT vs (MR vs PW …)\n\nAveraging of layers for meeting spec\nT, MR (clear vs cloudy), (altitude)\nWeighting (MR)\n\nQuality Flag … \nCan only reject precipitating scenes in IDPS"
+        },
+        {
+            "slide_number": 21,
+            "text": ""
+        },
+        {
+            "slide_number": 22,
+            "text": "IASI\n\nCrIMSS\n\nRaob\nP72 Proxy CrIMSS moved to 12/03/11"
+        },
+        {
+            "slide_number": 23,
+            "text": "Fully characterize the site atmospheric column (sonde + ancillary) \nat NPP overpass\nARM site atmospheric state best estimate (SASBE) for AIRS temperature and water vapor retrieval validation …Tobin et al., 2006, J. Geophys. Res., 111, D09S14 …\nUncertainty analysis for estimating atmospheric temperature for remote sensing applications … Dykema et al., International Temperature Symposium, March 2012, Los Angeles, Ca. \nICM-4 in Japan, March 2012\nNPROVS Facilitates NPP Validation within \nGCOS Reference Upper Air Network (GRUAN)"
+        },
+        {
+            "slide_number": 24,
+            "text": "(courtesy Dian Seidel, NOAA Air Resources Lab)\ndry bias\nReference for Moisture"
+        },
+        {
+            "slide_number": 25,
+            "text": "Courtesy Thierry LeBlanc  (NASA)"
+        },
+        {
+            "slide_number": 26,
+            "text": "SUMMARY\nNPROVS will provide routine and specialized CrIMMS sounding product validation versus legacy satellite product systems and forecasts\n\n    Terrain and Clouds have >1.0 increased RMS impact on perceived impacts using “qc’d” legacy IASI\n\n\n    Provide a gateway to routine validation at emerging GCOS Reference Upper Air Network Sites"
+        }
+    ]
+}

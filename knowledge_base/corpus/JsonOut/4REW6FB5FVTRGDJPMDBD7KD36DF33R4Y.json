@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "filename": "4REW6FB5FVTRGDJPMDBD7KD36DF33R4Y.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Hands on Using the OSG client\u000b\u000b\u000bAbhishek Singh Rana \u000band \u000bDavid Meyers\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 2,
+            "text": "OSG 0.6.0 Infrastructure\nVORS – Virtual Organization Resource Selector \nMonALISA – MONitoring Agents using a Large Integrated Service Architecture\nGratia – Grid accounting facility\nVirtual Organization (VO) issues\nGOC – Grid Operations Center\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 3,
+            "text": "Virtual Organization Resource Selector - VORS\nCustom web interface to a grid scanner that checks services and resources on:\nEach Compute Element \nEach Storage Element\nVery handy for checking:\nPaths of installed tools on Worker Nodes.\nLocation & amount of disk space for planning a workflow.\nTroubleshooting when an error occurs.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 4,
+            "text": "VORS entry for OSG_LIGO_PSU\nGatekeeper: grid3.aset.psu.edu\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 5,
+            "text": "Testing for SE SRM control protocol : YES control type = srm_v1 end point = srm://fndca1.fnal.gov:8443/ full path = /pnfs/fnal.gov/usr/fermigrid/volatile/mis executing srmls -retry_num=0 srm://fndca1.fnal.gov:8443//pnfs/fnal.gov/usr/fermigrid/volatile/mis 2>&1           ….\nTesting srmls : PASS - read 12 lines 512 srm://fndca1.fnal.gov:8443//pnfs/fnal.gov/usr/fermigrid/volatile/mis 1715 srm://fndca1.fnal.gov:8443//pnfs/fnal.gov/usr/fermigrid/volatile/mis/file1 1715 srm://fndca1.fnal.gov:8443//pnfs/fnal.gov/usr/fermigrid/volatile/mis/file2 41767                                                                    \n ….\nTesting srmcp (from SE) : FAIL - returns error code 256\nVORS is developing a grid-scanner for Storage    Elements (coming soon) for OSG 0.6.0\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 6,
+            "text": "MonALISA\nMature OSG-wide real-time monitoring of jobs\nProvides templates for charting job and workflow progress on a site or per a collection of sites used by a Virtual Organization.\nProvides historical database records on past usage.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 7,
+            "text": "OSG Consortium Mtg March 2007\nQuick Start Guide to the OSG\nMonALISA Graph capability – Run-time performance of a LIGO App at 6 OSG sites"
+        },
+        {
+            "slide_number": 8,
+            "text": "OSG Consortium Mtg March 2007\nQuick Start Guide to the OSG\nMonALISA stats  – 7 day performance of a LIGO App at 6 OSG sites"
+        },
+        {
+            "slide_number": 9,
+            "text": "Gratia – Grid Accounting Package\nGoal: Accurate set of views of Grid resource usage.\nUniform accounting records independent of batch scheduler and operating system.\nGratia Probe installed as part of the OSG 0.60 Compute Element installation.\nGratia Reporting Facility at FNAL.\nSQL retrieval of records from FNAL DB.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 10,
+            "text": "Date range: 2007-02-26 00:00:00 GMT - 2007-03-05 23:59:59 GMT\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 11,
+            "text": "Virtual Organization(VO)  Issues\nYour Grid Certificate is tied to a specific VO.\nEach VO has a VO administrator. The VO admin manages a VOMS server.\nVOMS – Virtual Organization Membership Service is a DB which collects all the membership information for the organization.  \nThe Globus gatekeeper authentication process references your identity information from VOMS to determine if you are to be authenticated when you attempt to run a Globus job or GSIFTP a file.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 12,
+            "text": "Virtual Organization(VO)  Issues\nWhy can’t I run a job at site X?\nThe site X may not support your VO. A Production site on the OSG is not required to support all VOs. (check with your VO admin)\nThe site X may require additional configuration to support your VO (missing VO home directory, wrong permissions, no VO grid mapping) Your VO admin may need the GOC to fix this.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 13,
+            "text": "Grid Operations Center\nBased at Indiana University and provides a central repository of staff and monitoring systems for:\nReal time grid monitoring.\nProblem tracking via a trouble ticket system.\nSupport for developers and sys admins.\nMaintains infrastructure – VORS, MonALISA and registration DB.\nMaintains OSG software repositories.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 14,
+            "text": "Running jobs on the OSG\nCommand line tools –common idioms \nCheck the VORS page\nWe need to specify the gatekeeper (second column above) for a site:\n\nglobus-job-run grid3.aset.psu.edu /bin/date\nSun Mar  4 00:30:02 EST 2007\n\nCan we authenticate on OU_OCHEP_SW2 ?\nglobusrun  -a  -r   tier2-01.ochep.ou.edu\nGRAM Authentication test successful\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 15,
+            "text": "Running jobs on the OSG\nglobusrun and globus-job-run can be used for complex job specifications:\nBatch schedulers supported include:\nCondor, LSF, PBS and SGE\n To access many nodes on a remote resource specify the proper batch scheduler used at that site: \nglobus-job-run grid3.aset.psu.edu/jobmanager-pbs /bin/date\nCommand is queued on the batch scheduler and will run when the job reaches the front of the queue.  The job may wait in the queue for  minutes to hours depending on your priority and how busy the resource is.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 16,
+            "text": "Running jobs on the Grid\nGlobus is built on a Resource Specification Language (RSL) which can control batch schedulers that manage clusters.\nAn RSL example:\n&(executable=“/bin/ls”) (directory=“/tmp”) (arguments=“-l”)\nPlace the RSL string in a file: myjob.rsl\nTry:  globusrun -s -r osg-itb.ligo.caltech.edu -f myjob.rsl\nTry globusrun –s –r osg-itb.ligo.caltech.edu/jobmanager-condor –f myjob.rsl\nBut for more robust job management use Condor-G!\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 17,
+            "text": "GridFTP: File transfer and staging\nGridFTP is the globus protocol for transferring files between:\nGrid clients (submit hosts) and grid Compute Elements.\nSupport multiple simultaneously streams for high performance.\nSupports third-party copy: Host A requests Host B transfer files to Host C.\nglobus-url-copy is a wrapper on GridFTP with a convenient syntax.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 18,
+            "text": "globus-url-copy\nSyntax: globus-url-copy source-url destination-url\n\nExample:\nglobus-url-copy gsiftp://osg-itb.ligo.caltech.edu/archive/frames/H-H1_RDS-1024.gwf \ngsiftp://testwulf.hpcc.ttu.edu/mnt/hep/osg/workdir/H-H1_RDS-1024.gwf\n\nMany options exist. Please see the globus-url-copy of the GridIFTP User’s Guide:\nhttp://www.globus.org/toolkit/docs/3.2/gridftp/user/globusurlcopy.html#commandlineoptions\nfor details.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 19,
+            "text": "Condor-G/DAGman\nGlobus virtualized the interface to high performance computing resources and file transfers.\nHowever, run-time event management in distributed systems is needed:\nGatekeeper may be down.\nGridFTP server may be down.\nOperating system may become unresponsive.\nBatch scheduler may become unresponsive.\nSubmit host may not be able to stage-out results of a job due to a full disk. \nCondor-G/DAGman provides a means to monitor and manage end-to-end events during a Grid application execution.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 20,
+            "text": "Condor-G/DAGman\nCondor folks created the globus universe. Condor scripts submitted to the globus universe are submitted to a Globus gatekeeper or GridFTP server and  use all of the resources of  Globus jobs.\nCondor scripts are submitted by the user running a Condor client and having a local condor queue. So Grid job management is simplified for the user due to Condor toolset:\ncondor_submit:  submit a condor script.\ncondor_q:      check the status of a condor job.\ncondor_rm:  remove a condor job from the queue.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 21,
+            "text": "A simple Condor-G script\nuniverse = globus\n     executable = /bin/ls\n     notification = NEVER\n     globusrsl = (jobtype=single)\u000bglobusscheduler = osg-itb.ligo.caltech.edu/jobmanager-condor\u000bcopy_to_spool = false\u000berror = /home/dmeyers/osg-itb.err\u000blog = /home/dmeyers/osg-itb.log\u000boutput = /home/dmeyers/osg-itb.out\u000btransfer_executable = false\u000btransfer_error = true\u000btransfer_output = true\u000bperiodic_release = (NumSystemHolds <= 3)\u000bperiodic_remove = (NumSystemHolds > 3)\u000bremote_initialdir = /home/dmeyers\u000bqueue\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 22,
+            "text": "DAGman\nDAG manager (DAGman) is an extension to the Condor system that adds a Directed Acyclic Graph(DAG) abstraction.\nMany scientific and engineering workflows can be modeled as a collection of DAG nodes.\nEach DAG node is tracked and its status determined by the DAG manager. Errors are handled by auto-restarting a failed node to increase reliability. Condor has the notion of a rescue DAG which represents the place in the Graph where a workflow can be restarted from, to resume a workflow.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 23,
+            "text": "DAGman\nAn example input file for DAGMan is \n# Filename: diamond.dag \nJob A A.condor \nJob B B.condor \nJob C C.condor \nJob D D.condor \nScript PRE A top_pre.csh \nScript PRE B mid_pre.perl $JOB \nScript POST B mid_post.perl $JOB $RETURN \nScript PRE C mid_pre.perl $JOB \nScript POST C mid_post.perl $JOB $RETURN \nScript PRE D bot_pre.csh \nPARENT A CHILD B C \nPARENT B C CHILD D \nRetry C 3\nDiamond DAG\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 24,
+            "text": "DAGMan\nFor more information on DAGMan see the DAGMan section of the Condor manual:\n       http://www.cs.wisc.edu/condor/manual/v6.4/2_11DAGMan_Applications.html#fig:dagman-diamond\n\nAutomatic Tools exist to convert DAGs into Condor-G submit scripts that can be run with the Condor command: condor-submit-dag.\n\nOne of  these tools is the Pegasus Workflow Planner described at: http://pegasus.isi.edu/\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 25,
+            "text": "For More information on these topics see the references and URLs on the next page.\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        },
+        {
+            "slide_number": 26,
+            "text": "Trouble Shooting Info\nOSG Troubleshooting guide:\n\nhttp://grow.uiowa.edu/dokuwiki/doku.php/projects/troubleshooting/troubleshooting_guide\nIncludes Condor-G  and Globus Error Codes and \nEmail addresses for:\n              The OSG Grid Operations Center \n              The OSG Troubleshooting Working Group\n\nIf you have a problem that you can not resolve, contact your VO support center first.\nYour VO support center contact can be found at:\nhttp://www.grid.iu.edu/osg-includes/sc.php\nOSG Consortium Mtg March 2007\nQuick Start Guide to the OSG"
+        }
+    ]
+}

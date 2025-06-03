@@ -1,0 +1,61 @@
+{
+    "metadata": {
+        "filename": "3XE2TWYNT3XXZORIJFAHYRYPSDBCXXER.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "Opportunities for Experiments Based on Stored Muon Beams at Fermilab\u000b(in next ~5-10 years, for ~3-20M$)\nMilorad Popovic\n\nMAP Meeting\nMay, 2015"
+        },
+        {
+            "slide_number": 2,
+            "text": "How to get 100k events\nDecember 5, 2014\n<number>\nIn next year or two there will be stored muon beam at ~3 GeV/c in the storage ring with ~60 meters long straits (Debuncher ring as g-2 delay beam line).\nThere will be ~400 CC neutrino events in some imaginary 100 ton detector, 10 meters downstream from the one ring’s straits, running for 10^7 sec Booster at 3 Hz, 8 GeV beam(5x10^12 protons per pulse) and storing muons for 100 turns.\nNumbers in point 2., are g-2 beam , and are just to establish reference point. \nRunning (two Booster batches stacked) 120 GeV beam from MI on the same target and using ICARAUS (600 ton) detector for 2x10^7 seconds (Fermilab year) will create 40000 CC neutrino events.\nAll this is for investment of ~10M$ in building to house detector and willingness to move ICARUS detector in suggested location!"
+        },
+        {
+            "slide_number": 3,
+            "text": "Motivation\nMeasure neutrino cross-section with better than 10% precision  \nTake advantage of the existing accelerator complex configuration providing beam to the New Muon g-2 Experiment\nUtilize existing detectors (MicroBooNE, ICARUS)\nMinimize initial investment. Providing a suitable building to house the detector would be the only investment required \nDescribe possible improvements in collecting and storing muons that would allow cross-section measurements with a precision of a few percent with a modest additional investment.\nProvide a suitable test facility for future NF\nDecember 5, 2014\n<number>"
+        },
+        {
+            "slide_number": 4,
+            "text": "<number>\nMuon Campus = Mu2e + g-2 + ???\nMu2e\ng-2\n\n"
+        },
+        {
+            "slide_number": 5,
+            "text": "Proton Beam Like for g-2,\u000bbut with g-2 off\nDecember 5, 2014\n<number>\n5x1012 protons in a Booster pulse\n3 Hz, 8 GeV Booster\nMuons are stored for ~100 turns\nRunning time 107 Sec (1 year)\n100 ton detector, 10 meters downstream from ring\n~ 400 CC neutrino events\nThis is for about the cost of  moving an existing detector (BooNE??, 60T) and building a new detector housing (about 3M$)"
+        },
+        {
+            "slide_number": 6,
+            "text": "Looking in the near future ( cost~$3M)\nDecember 5, 2014\n<number>\n1x1013 protons from MI (two Booster pulses slip stacked)\n~1 Hz, 120 GeV  MI ( every 1.33 sec)\nMuons are stored for ~100 turns\nRunning time 1year(2x107 Sec)\n100 ton detector, 10 meters downstream from ring\n~ 2/3/1.33*120/8*2x400        6000 CC neutrino events\nSo in 10 bins even if detector is only 50% efficient, cross section\nCan be measured with error less then 10%"
+        },
+        {
+            "slide_number": 7,
+            "text": "Looking Into the Future ( cost~$10M)\nDecember 5, 2014\n<number>\n1x1013 protons from MI (two Booster pulses, slip stacked)\n\n~1 Hz, 120 GeV  MI (1.33 sec)\n\nRunning time 1year(2x107 Sec) Fermilab year is ~2x107 Sec\n\nLarger detector,  ~500 ton detector( x5) ICARUS is 600 ton\n~30000 CC neutrino events"
+        },
+        {
+            "slide_number": 8,
+            "text": "Looking Into the Future ( cost~$??)\nDecember 5, 2014\n<number>\n1x1013 protons from MI (two Booster pulses, slip stacked)\n\n1 Hz, 120 GeV  MI\n\nNew Li lens r = 2 cm to increase collection of pi’s ( x1.5) \n       CERN has made this size Lens\n\nMake ring to be racetrack (x1.5x2) Provide a suitable test facility for future NF\n\nRunning time 1year(2x107 Sec) Fermilab year is ~2107 Sec\n\nLarger detector,  ~500 ton detector( x5) ICARUS is 600 ton\n~100k CC neutrino events"
+        },
+        {
+            "slide_number": 9,
+            "text": "Questions ?\nDecember 5, 2014\n<number>\nThe End and New Beginning \nOr\nThe way to the nuSTORM\n(everything is used in upgrade)"
+        },
+        {
+            "slide_number": 10,
+            "text": "Questions ?\nDecember 5, 2014\n<number>\nnuSTORM can be moved to Muon Campus\n and there are two options. Depending what \nis distance needed to far detector we can use \nCDF or D0 Building to house far detector."
+        },
+        {
+            "slide_number": 11,
+            "text": "If Far Detector is in CDF\nDecember 5, 2014\n<number>\nIn this case A0 and CDF buildings\n can be used for detectors. Distance\nTo CDF is 1.5 km. Blue box is near \ndetector used initially. The red lines are\nnuSTORM upgrades.\nNew Target\nStation"
+        },
+        {
+            "slide_number": 12,
+            "text": "If Far Detector is in D0\nDecember 5, 2014\n<number>\nDistance to D0 is 1.1 km. Blue box is near \ndetector used initially. The red lines are\nnuSTORM upgrades."
+        },
+        {
+            "slide_number": 13,
+            "text": "Questions ?\nDecember 5, 2014\n<number>\nMay be there is more to all this"
+        }
+    ]
+}

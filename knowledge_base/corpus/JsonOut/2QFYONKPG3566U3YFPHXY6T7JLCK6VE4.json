@@ -1,0 +1,645 @@
+{
+    "metadata": {
+        "filename": "2QFYONKPG3566U3YFPHXY6T7JLCK6VE4.pptx",
+        "title": "PowerPoint Presentation",
+        "author": ""
+    },
+    "slides": [
+        {
+            "slide_number": 1,
+            "text": "NASIRC  (NASA Automated Systems Incident Response Capability)\nE-Mail:    nasirc@nasa.gov\nPhone:     1-800-7-NASIRC\nWWW:    http://nasirc.nasa.gov\nIntroduction to UNIX\nNASIRC  presents..."
+        },
+        {
+            "slide_number": 2,
+            "text": "NASIRC Contact Information\nElectronic Mail:\nnasirc@nasa.gov\nNASIRC Help Desk:\n(US)  1-800-7NASIRC or 1-800-762-7472\n(Int’l)  1-301-441-4398\nSecured  Phone Line  (STU-III):\n1-301-982-5480\n24  Hour Pager:\n1-800-skypage  pin # 2023056\nFAX #: \n1-301-441-1853\nU.S. Postal\nCode 630; GSFC; Greenbelt, MD, 20771\nFTP  Archive:\nftp  nasirc.nasa.gov (restricted to nasa.gov domain)\nNASIRC Homepage:\nhttp://nasirc.nasa.gov"
+        },
+        {
+            "slide_number": 3,
+            "text": "Intro to UNIX Syllabus\nHistory of Unix (pages 7 - 21)\nUnderstanding Unix (pages 22 - 24)\nBasic model (kernel and shell) (page 104, 135)\nUnix themes\nlicense-plate-jargon\npipes\nother\nUnix file system and Important directories (pages 30 - 32 and 95)\nBasic commands (pages 37 - 53, 69 - 73)\nOwnerships and Permissions (pages 54 - 59)\nElectronic Mail (pages 82 - 85)\nWildcards and Regular Expressions (pages 33 - 36, 74 - 81, 105 - 109)\nOutput Redirection (pages 25 - 29)\nProcesses and Job Control (pages 86 - 90)\nFiles, Devices, and Inodes (pages 96 - 103)\nShell Variables (pages 60 - 68)\nEnvironment Variables (pages 110 - 120, 136 - 137)\nFilters (grep, sed, awk, sort) (pages 124 - 134)\nShell Scripts (pages 91 - 94, 1201- 123)\nAdvanced Shell Scripting (pages 138 - 154)\nAliases and Functions (pages 155 - 159)"
+        },
+        {
+            "slide_number": 4,
+            "text": "Table of Contents\nSubject\t\t                      Page #\ncd and pwd\n\t  Change to Another Directory\t39\nmkdir\n\t  Make a New Directory\t\t40\nrmdir\n\t  Remove a Directory\t\t41\necho\n\t  Print Text on Screen\t\t42\nmore\n\t  View a Text File\t\t43\ncat\n\t  Concatenate and Print Files\t43\ncat\n\t  Entering Short Files\t\t45\nmv\n\t  Move or Rename Files\t\t46\nmv\n\t  Move or Rename Directories\t46\nmv\n\t  Options\t\t\t48\nrm\n\t  Remove Files\t\t49\nrm\n\t  Recursive Removal\t\t50\ncp\n\t  Copying Files\t\t51\ncp\n\t  Options\t\t\t52\nSubject\t\t                     Page #\nWhat is UNIX?\t\t\t6\nUNIX History\t\t\t7\nVendors and Versions\t\t11\nWhat makes it UNIX?\t\t12\n\tMultitasking\t\t13\n\tMultiuser\t\t\t14\n\tNetworked\n\t  TCP/IP\t\t\t15\n\t   uucp\t\t\t16\n\tPortable\t\t\t17\nStarting a UNIX Session\t\t18\n\tLogging into UNIX\t\t19\nThe Shell\t\t\t21\nShell Command Syntax\t\t22\nOptions vs Arguments\t\t23\nThe Standard Output\t\t24\nThe Standard Input\t\t25\nAppending\t\t\t26\nStandard Error\t\t\t27\nPipes and Filters\t\t\t28\nThe UNIX File System\t\t29\nUNIX File Names\t\t30\nThe UNIX File System Hierarchy\t\t31\nFile Name Expansion (Wildcards)\t\t32\nWildcard Characters\t\t33\nCommon UNIX Commands\t\t36\n\tls - List Contents of a Directory\t37\n\tls - More Options\t\t38"
+        },
+        {
+            "slide_number": 5,
+            "text": "Table of Contents\nSubject\t\t                      Page #\nFile Ownership\t\t\t53\nFile Access\t\t\t54\nchmod\t\t\t55\nGroups\t\t\t\n The Old Way\t\t\t56\nGroups\n The New Way\t\t\t57\nGroups\n Every Which Way\t\t58\nShell Variables\t\t\t59\nImportant shell variables\t\t60\nEnvironment variables\t\t61\nReferencing variables\t\t63\nQuoting\t\t\t64\nTilde expansion\t\t\t66\nCustomizing your Login\t\t67\nThe Online Manual\t\t68\nApropos\t\t\t69\nWho\t\t\t\t70\nW\t\t\t\t71\nFinger\t\t\t72\nRegular Expressions\t\t73\nSingle Character REs\t\t74\nCharacter Class REs\t\t75\nMore Complex REs\t\t76\nRE Examples\t\t\t77\ngrep\t\t\t\t78\nSubject\t\t                      Page #\negrep\t\t\t\t79\n\tAn egrep Example\t\t80\nMail\t\t\t\t81\n\tReading Mail\t\t82\n\tSending Mail\t\t83\nForeground vs Background\t\t85\nProcesses\t\t\t86\nKill\t\t\t\t87\nJob Control\t\t\t88\n\tJob Control Example\t\t89\nShell Scripts\t\t\t90\nSample Shell Script\t\t91\nControl Flow in Scripts\t\t92\nParameters\t\t\t93\nImportant Directories\t\t94\nManipulating Files and Inodes\t\t95\nDevice Files\t\t\t98\nDisk Devices\t\t\t100\nTerminal Devices\t\t\t101\nThe NULL Device\t\t102\nYet More Shells\t\t\t103\nShell Metacharacters\t\t104\nTable of Metacharacters\t\t105\nQuoting\t\t\t107\nContinuations and Comments\t\t108\nCreating New Commands\t\t109\nPATH Environment Variable\t\t111"
+        },
+        {
+            "slide_number": 6,
+            "text": "Table of Contents\nSubject\t\t                        Page #\nExercise 1. Finding shell scripts\t\t112\nArguments and Parameters\t\t113\nExample: 411, directory information\t114\nProgram Output as Arguments\t\t115\nShell Variables\t\t\t116\nExporting Shell Variables\t\t117\nModifying Shell Variables\n\tThe . command\t\t118\nHere Documents \t\t\t119\nLooping in Shell Programs\t\t120\nPutting it all together\t\t122\nFilters\t\t\t123\nOther Filters\t\t\t124\nsort\t\t\t\t125\nStream Editor, sed\t\t126\nSample sed Commands\t\t127\nSummary of sed Commands\t\t128\nExercise: sed\t\t\t129\nawk - \t\t\t130\n\tpattern scanning and processing language\nawk Arrays\t\t\t132\nsed and awk\t\t\t133\nBourne Shell Programming\t\t134\nShell Built-In Variables\t\t135\nThe set command\t\t\t136\nSubject\t\t                        Page #\ncase Statements\t\t\t137\nShell Pattern Matching Rules\t\t138\nExample case Statements\t\t139\nControl flow: which command?\t\t140\nwhich command? - PATH elements\t\t141\nConditional execution: if\t\t142\nTesting Things\t\t\t143\nWhich Command?  - which\t\t145\nfor loops revisited\t\t146\nwhile and until loops\t\t147\nExample: while and until\t\t148\nExercise: looping\t\t\t149\nEvaluation of shell variables\t\t150\nAccepting User Input: read\t\t151\nTraps: catching interrupts\t\t152\nShell Signal Numbers\t\t153\nAliases\t\t\t154\nShell Functions\t\t\t155\nExample Shell Function\t\t156\nStyle\t\t\t\t158"
+        },
+        {
+            "slide_number": 7,
+            "text": "What is UNIX?\nA trademark for any of several computer operating systems developed at AT&T Bell Labs.\n\nA computer operating system or interface that bears a significant resemblance to UNIX.\n\nAssociated with UNIX.  “The UNIX Shell.”"
+        },
+        {
+            "slide_number": 8,
+            "text": "UNIX History, Part 1\n1969\tVersion 1.  Written by Dennis Ritchie and Ken Thompson for the DEC PDP-7.\n\n1973\tVersion 4.  This was the first version written in C.  The translation into C made UNIX portable, and was fundamental to its eventual success.\n\n1975\tVersion 6.  This was the first version widely available outside AT&T, and the first version that was ported to several architectures.\n\n1979\tVersion 7.  The common ancestor of most commercial UNIX versions, version 7 was ported widely and documented in the famous blue and green books.  These were the first generally available references to UNIX."
+        },
+        {
+            "slide_number": 9,
+            "text": "UNIX History, Part 2\nEarly 1980s\n           University of California at Berkeley was contracted by DARPA to add virtual memory support to UNIX for use on DEC VAX computers.   Berkeley was later contracted to add Internet style networking to UNIX.  “Berkeley UNIX”, aka BSD, became very popular with academia and began to diverge from AT&T UNIX.\n\n1983\tSystem V.  AT&T released this version with much fanfare, declaring it to be the UNIX standard.  Many commercial versions were based on it.  The Great BSD vs AT&T War had begun."
+        },
+        {
+            "slide_number": 10,
+            "text": "UNIX History, Part 3\n1985\tBSD versions 4.2 and 4.3 were used as the basis for many commercial UNIX releases, including SunOS and Ultrix.  Many AT&T based releases include  “Berkeley enhancements”.\n\n1988\tSun, AT&T and Microsoft merged their versions of UNIX into System V, Release 4 (SVR4).  The BSD vs AT&T War ended with no winner, because...\n\n1988\tSeveral companies, unhappy with SVR4, form the Open Software Foundation.  OSF creates OSF/1, a UNIX clone based on Mach from Carnegie Mellon University.  The Great SVR4 vs OSF/1 War had begun..."
+        },
+        {
+            "slide_number": 11,
+            "text": "UNIX History, Part 4\n1992    Unix System Laboratories bought by Novell, ending 23 years of control by AT&T over UNIX.  Novell pledges to make UNIX a major desktop platform, fully integrated with Netware.  Move is widely viewed as a response to Microsoft’s upcoming Windows NT.\n\n1993    UNIX International and the OSF kiss and make up, with various members of each forming COSE, the Common Open Software Environment.   Move is widely viewed as a response to Microsoft’s upcoming Windows NT."
+        },
+        {
+            "slide_number": 12,
+            "text": "Vendors and Versions\nIBM\tAIX (Sys V)\nDEC\tUltrix (BSD)\nApple\tA/UX (Sys V)\nHP/Apollo\tHP/UX (Sys V, lots of BSD)\nCMU\tMach (kitchen sink)\nAT&T\tSystem V R2, R3, R4\nSun\tSunOS (BSD), now Solaris (SVR4)\nMicrosoft\tXenix (Sys V)\nSilicon Graphics\tIrix (Sys V)\nUnix International:\nOpen Software Foundation:"
+        },
+        {
+            "slide_number": 13,
+            "text": "What makes it UNIX?\nMultitasking\n\nMultiuser\n\nNetworked\n\nPortable"
+        },
+        {
+            "slide_number": 14,
+            "text": "Multitasking\nMultitasking is the ability of a computer system to execute more than one program at a time.   UNIX has always been a multitasking system.\n\nModern PC operating systems like Microsoft Windows 3.0 and Mac System 7 feature co-operative multitasking.  Under co-operative multitasking, an application must voluntarily give up the system to another task.\n\nUNIX, and PC operating systems such as OS/2 2.0 and Windows NT, use pre-emptive multitasking, under which the system can grab control from one application and give it to another."
+        },
+        {
+            "slide_number": 15,
+            "text": "Multiuser\nA multiuser system is one that can be used by more than one person at a time.  Multiuser systems are inherently multitasking.\n\nA multiuser system requires some method of determining the identity of any given user.  This login name is used to determine ownership of files and to control access to data and programs.\n\nLAN operating systems such as Novell and LAN Manager incorporate many of the ideas of multiuser systems.  Microsoft’s upcoming Windows NT is  multi-user, with restrictions."
+        },
+        {
+            "slide_number": 16,
+            "text": "Networked\u000bTCP/IP\nNetworking in UNIX is based almost entirely on the Berkeley TCP/IP implementation.\n\nThe cheap availability of the Berkeley networking code led to its incorporation into many commercial versions of UNIX and to the standardization of the sockets interface.\n\nEvery important networking standard is supported under UNIX:  Ethernet/802.3, TCP/IP, DECnet, Novell, Token Ring, XNS, etc."
+        },
+        {
+            "slide_number": 17,
+            "text": "Networked\u000buucp\nThe uucp program copies files from one UNIX computer to another over a serial port.  This basic transport layer provided the basis of the earliest networked UNIX mail systems and later the vast  “netnews” network.\nThe uucp network that lead to USENET began at Duke University and grew rapidly.  This user supported, phone based network carries mail and the netnews distributed bulletin board, the largest computer conferencing system in the world.\nUntil SVR4, uucp was the only networking capability provided by AT&T’s versions of UNIX."
+        },
+        {
+            "slide_number": 18,
+            "text": "Portable\nUNIX runs on systems ranging from 16-bit embedded microcontrollers up through the largest mainframes and supercomputers.\n\nThe IEEE POSIX specification defines the of the basic features of UNIX.  The POSIX standard further enhances the portability of UNIX applications.\n\nThis portability is possible because UNIX is written in a high level language, C, instead of assembly."
+        },
+        {
+            "slide_number": 19,
+            "text": "Starting a UNIX Session\nUNIX users are given a login name and a password.\nThe login name identifies you to the system\nThe password assures the system that you are who you claim to be.\n\nYour initial password will be assigned by the system administrator but you can change it at any time."
+        },
+        {
+            "slide_number": 20,
+            "text": "Logging into UNIX\nPrior to login, you will be presented with the login prompt, which typically contains the system name.\n\n\tnssdcs login:\n\nAt this point, enter your login name.\n\n\tnssdcs login: williams\n\tPassword:\n\nThe system will prompt for a password.  The characters of the password will not echo as you type them."
+        },
+        {
+            "slide_number": 21,
+            "text": "Logging into UNIX, Cont'd.\nAfter a successful login, you will be shown a greeting and possibly a “message of the day”.  \n\nA message may inform you that \"You have mail.\"  \n\nFinally, you will get a shell prompt, which defaults to $ or %, depending on your shell.\n\n\t%"
+        },
+        {
+            "slide_number": 22,
+            "text": "The Shell\nThe shell  is the UNIX command interpreter.  It serves the same basic function as COMMAND.COM under DOS or DCL under VAX/VMS.\n\nAll of the programs you run will be started by issuing commands to the shell.\n\nThere are several shells in common use:\n\nsh\t\tThe Bourne shell\ncsh\t\tThe C shell\nksh\t\tThe Korn shell\n\nUnder System V Release 4 ksh is the default shell."
+        },
+        {
+            "slide_number": 23,
+            "text": "Shell Command Syntax\nSimple commands are run just by typing their name.\n\n\t% \t\twho\n\tkirk     \t\tconsole \tOct  6  9:22\n\tspock    \tttya    \t\tOct  6  8:07\n\tscott    \t\tttyp3   \t\tOct  5 22:20 \t(eng.ncc1701.ufp)\n\tmccoy    \tttyp4   \t\tOct  6  8:03 \t\t(med.ncc1701.ufp)\n\twilliams \tttyp8   \t\tOct  6 10:16 \t(eng.ncc1701.ufp)\n\n\nMany commands take arguments, often one or more filenames.\n\n\t% cd myprograms\n\t% sort mydata1 mydata2"
+        },
+        {
+            "slide_number": 24,
+            "text": "Options vs Arguments\nIn addition to arguments, most commands have one or more options. \nArguments usually specify the objects on which the command is to operate\nOptions affect the nature of the operation and usually begin with a dash (-).\n\nThe command below includes both options and arguments.\n\n\t% sort -n -r datafile1 datafile2\n\nMost commands allow options to be either grouped or separated.\n\n\t% sort -rn datafile"
+        },
+        {
+            "slide_number": 25,
+            "text": "The Standard Output\nPrograms that produce output typically write it to the\nstandard output.  By default, the standard output is the terminal screen.\n\n\t% sort animals\n\taardvark\n\tcat\n\tgazelle\n\ttiger\n\nThe standard output can be made to go to into a file by\nredirecting it with >\n\n\t% sort animals > sorted_animals"
+        },
+        {
+            "slide_number": 26,
+            "text": "The Standard Input\nSimilarly, most programs read from the standard input, unless otherwise instructed.  The default standard input is the terminal keyboard.\n\n\t% sort\n\tgazelle\n\taardvark\n\tcat\n\ttiger\n\t^D\n\taardvark\n\tcat\n\tgazelle\n\ttiger\n\nThe standard input can also be redirected, using <\n\n\t% sort < animals\n\taardvark\n\tcat\n\tgazelle\n\ttiger\nControl D marks the end of input."
+        },
+        {
+            "slide_number": 27,
+            "text": "Appending\nWhen redirecting the standard output to a file, if the file already exists, the new contents will replace the old.  It is also possible to append the new contents to the old.  This is done with the symbol >>\n\n\t% cat > party_guests\n\tsamir\n\tgeorge\n\tanne\n\t^D\n\t% cat >> party_guests\n\tgrace\n\trick\n\t^D\n\t%"
+        },
+        {
+            "slide_number": 28,
+            "text": "Standard Error\nIn addition to the standard input and standard output, there is also a standard error output\nUsed for error messages.\nRedirection of standard output does not affect standard error.\n\n\t% sort aminals > sorted_animals\n\tsort: aminals: file not found.\n\nThe standard error may also be redirected or combined with the standard output.\nUnder the Korn or Bourne shells, use 2>.\nTo combine standard error with standard output, use 2>&1.\nUnder the C Shell, use >&, which redirects both stdout and stderr.\n\n\t% sort aminals 2>&1 > sorted_animals"
+        },
+        {
+            "slide_number": 29,
+            "text": "Pipes and Filters\nIt is possible to connect the standard output of one command to the standard input of another.  This is called a pipe.\n\n\t% who | sort\n\tkirk     \t\tconsole \tOct  6  9:22\n\tmccoy    \tttyp4   \t\tOct  6  8:03 \t\t(med.ncc1701.ufp)\n\tscott    \t\tttyp3   \t\tOct  5 22:20 \t(eng.ncc1701.ufp)\n\tspock    \tttya    \t\tOct  6  8:07\n\twilliams \tttyp8   \t\tOct  6 10:16 \t(eng.ncc1701.ufp)\n\nThe concepts of standard input, standard output, and the pipe were fundamental to creating the “tool building” philosophy that is central to UNIX."
+        },
+        {
+            "slide_number": 30,
+            "text": "The UNIX File System\nUNIX files are organized into a tree-structured hierarchy.  \n\nEach user is given a spot in the tree that is his or her default directory at login time.  This is the user's home directory.\n\nUsers may create any arrangment of subdirectories they like under their home directory."
+        },
+        {
+            "slide_number": 31,
+            "text": "UNIX File Names\nUNIX file names are versatile and nearly unrestricted.\n\nThey may contain almost any character\nFile names are case sensitive!  FooBar and foobar are different files!\nThey may be of almost any length (up to 255 characters on most systems).\n'.' is not a special character in UNIX.  File names such as this.is.a.very.peculiar.file.name are permitted and not uncommon."
+        },
+        {
+            "slide_number": 32,
+            "text": "The UNIX File System Hierarchy\nUNIX file name components are separated by slash characters (/).\n\nA typical UNIX system has a file tree that looks like the following.\n\n/ (root)\n\tbin/  Some programs live here\n\tusr/  System files for users are here\n\t\tbin/    \tLots of programs live here\t\n\t\tlib/    \tC libraries, special programs\n\t\tlocal/  \tLocally developed packages\n\t\tetc/    \tSystem administration programs\n\tetc/   System configuration files\n\thome/  User's home directories (sometimes /user or /u)\n\t\twilliams/\n\t\tkirk/\n\t\tspock/\n\t\tmccoy/\n\t\tscotty/"
+        },
+        {
+            "slide_number": 33,
+            "text": "File Name Expansion\u000b(Wildcards)\nThe shell allows file names to be specified using a pattern.  The shell expands the pattern into the actual file names.  The process of expanding a file name pattern is called file name expansion (or, by old-timers, globbing).\n\nThe special characters used to construct file name patterns are ?, *, and []."
+        },
+        {
+            "slide_number": 34,
+            "text": "Wildcard Characters\nThe ? character matches any single character.\n\n% ls foo.?\nfoo.h\nfoo.o\nfoo.c\n\nThe ? character can be used any where in the file name pattern and always matches exactly one character.\n\n% ls ???.c\nfoo.c\nbar.c\nzap.c"
+        },
+        {
+            "slide_number": 35,
+            "text": "Wildcard Characters,\u000bCont'd.\nThe * character matches any group of zero or more characters.\n\n% ls *.c\nmain.c\nio.c\nedit.c\n\nUnlike DOS's filename wildcards, the * character can be used more than once in a pattern, and can be the first character.\n\n% ls *cat*\ncatalog\nconcat.c\nscatter_plots"
+        },
+        {
+            "slide_number": 36,
+            "text": "Wildcard Characters,\u000bCont'd.\nThe characters [] are used to surround character classes.  Each character class matches exactly one character.  Thus,\n\n\t% ls [fbm]oo\n\nwill match foo, boo, and moo, but not zoo.  A range of characters can be specified by separating the first and last character of the range with a hyphen.\n\n\t% ls [A-Z]*\n\nThis pattern matches all files that begin with an upper case letter.  Character classes may contain ‘-’, but not as the first character."
+        },
+        {
+            "slide_number": 37,
+            "text": "Common UNIX Commands\nBelow are some common UNIX commands.  Each command will be explained in detail later.\n\nls\tList the contents of a directory\ncd\tChange to another directory\necho\tPrint text on screen\nmore\tView a file\ncat\tConcatenate and print files\nmv\tRename or move a file\ncp\tCopy a file\nmkdir\tMake a new directory\nrmdir\tRemove an empty directory"
+        },
+        {
+            "slide_number": 38,
+            "text": "ls\u000bList Contents of a Directory\nWith no arguments, lists the names of all files in the current directory.  The list will be sorted down the columns by default.\n\n   bin\t\tmbox\t\tprojects\n   calendar\tmystuff\tsrc\n\nls has a huge number of options.  A commonly used option is  -l, which produces a long listing.\n\n   % ls -l\n   -rw-r--r-- 1 \t\twilliams   \t261 \tOct  3 08:28 \tcalendar\n   -rw-rw-r-- 1 \twilliams \t17264 \tOct  6 13:17 \tmbox\n\nThis listing gives the permission bits, the number of links, the file owner's name, the size of the file in bytes, the date and time it was last modified, and the file's name."
+        },
+        {
+            "slide_number": 39,
+            "text": "ls - More Options\nFile names that begin with a . are normally hidden and most programs ignore them.  (They are not matched by ‘*’ or ‘?’ in file name patterns.)  The -a option to ls will include these files in the output:\n\n% ls -a\n.   .cshrc\t\t.profile\tcalendar\n..  .login\t\tbin\t\tmbox\n\nThe -F option will print a character at the end of each file which identifies the file's type.  A directory is suffixed with /, an executable with *, a symbolic link with @, and a plain file is left alone.\n\n% ls -F \nbin/\t\tmbox\tmyprog*\ncalendar\tmystuff/\tmyprog.c"
+        },
+        {
+            "slide_number": 40,
+            "text": "cd and pwd\u000bChange to Another Directory\nA cd by itself will take you to your home directory.\nUnder DOS, a plain cd prints your current directory.\nUnder UNIX, the pwd (print working directory) command will print the current directory.\n\n% cd\n% pwd\n/home/staff/williams\n\nGo to the directory src, in the current directory.\n% cd src\n\nGo to the directory immediately above this one.\n% cd .."
+        },
+        {
+            "slide_number": 41,
+            "text": "mkdir\u000bMake a New Directory\nmkdir is used to create a new directory.  The example below will make directories foo, bar, and baz, located in the current directory.  The current directory becomes their parent  directory.\n\n% mkdir foo bar baz\n\nNew directories can be made anywhere you have the necessary permissions (i.e., you must have \"write permission\" on the parent directory).\n\n% mkdir /tmp/jim"
+        },
+        {
+            "slide_number": 42,
+            "text": "rmdir\u000bRemove a Directory\nrmdir will remove an empty directory.  Only empty directories may be removed (but see rm -r, later).\n\n% rmdir /tmp/jim tmp\n\nTo remove a directory, it must be empty and you must have write permission on the parent.  Some systems put further restrictions on file and directory removal."
+        },
+        {
+            "slide_number": 43,
+            "text": "echo\u000bPrint Text on Screen\nThe echo command causes its arguments to be printed on the screen.\n\n% echo foo bar baz\nfoo bar baz\n\nThe -n option supresses the final newline, which is useful for prompts in shell scripts.\n\n% echo -n \"Enter name: \"\nEnter name: %\n\nThe System V R4 echo also supports several C-like escapes, which permit certain special effects.  Many UNIX purists hate this “feature”."
+        },
+        {
+            "slide_number": 44,
+            "text": "more\u000bView a Text File\nThe more command is the most common program used for file viewing.\n\n% more stuff.text\n\nmore will display one page at a time, waiting for the user to hit a key before going on to the next page.  DOS's crippled more is based on this program.\n\nSystem V based systems have pg (for “page”), rather than more.  pg is very primitive compared to more.  A much better pager is the freely available less program. less is rather more than more, and quite a bit more than pg.  This can be confusing."
+        },
+        {
+            "slide_number": 45,
+            "text": "cat\u000bConcatenate and Print Files\ncat is used to combine, or concatenate, files, and send them to the standard output.\nno pauses occur between screenfuls of text.\nmostly used  to combine several files into one\n\n% cat foo bar > foobar\n\nSome versions of cat have options for printing tabs and newlines as visible characters and for other special effects.  Some UNIX purists hate these, usually the same ones who hate the System VR4 echo escapes."
+        },
+        {
+            "slide_number": 46,
+            "text": "cat\u000bEntering Short Files\ncat can also be used to enter a small amount of text into a file.  With no arguments, cat will read from the standard input.\n\n% cat > shopping_list\nmilk\norange juice\napples\ncereal\n^D\n%"
+        },
+        {
+            "slide_number": 47,
+            "text": "mv\u000bMove or Rename Files\nTo rename a file, one moves it into a new name with mv.\n\n% mv foo bar\n\nUnlike DOS's ren command, the destination can be anywhere.\n\n% mv shopping_list mystuff/shopping_list\n\nIf the destination is a directory that the user can write in,\nthen a file of the same name as the original is created.\n\n% mv shopping_list mystuff\n% ls mystuff\nbirthday_list\tphonebook\tshopping_list"
+        },
+        {
+            "slide_number": 48,
+            "text": "mv\u000bMove or Rename Directories\nmv can also rename or move directories.\n\n% mv prog1 oldstuff/prog1\n\nIf the destination already exists and is a directory, then mv will make the source a sub-directory of the destination.\n\n% mv prog1 oldstuff"
+        },
+        {
+            "slide_number": 49,
+            "text": "mv\u000bOptions\nIf you mv a file on top of an already existing file, the old file is deleted, without warning.\n\n% ls\nbar foo\n% mv foo bar\n% ls\nbar\n\t\nThe -i option will cause mv to ask permission before removing a file of the same name as the destination.\n\n% mv -i foo bar\nremove bar? y\n%\nAny response that begins with y counts as yes."
+        },
+        {
+            "slide_number": 50,
+            "text": "rm\u000bRemove Files\nUse rm to remove one or more files.\n\n% rm a b c\n\nFilename expansion is both useful and dangerous with rm!\n\n% rm *.o\t\n\t\n% rm * .o\t\nrm: .o: file not found\n\nThe -i option can be used to prevent such tragedies.  This\noption will cause rm to prompt for confirmation before it removes each file.\nYIKES!"
+        },
+        {
+            "slide_number": 51,
+            "text": "rm\u000bRecursive Removal\nrm also has the -r option, which causes rm to recursively remove all files and subdirectories, including hidden files.\n\n\t% rm -r oldstuff\n\nObviously, the combination of the -r option and filename wildcards is very dangerous and should be used with great caution."
+        },
+        {
+            "slide_number": 52,
+            "text": "cp\u000bCopying Files\ncp  is used to make a copy of a file.\n\n% cp foo bar \t\t\n\nMultiple files can be copied into a subdirectory.\n\n% cp foo.c bar.c baz.c backups\n\nThe above command copies the three .c files into the directory backups.  The new files will have the same names as the originals.  If backups doesn't exist, cp will complain."
+        },
+        {
+            "slide_number": 53,
+            "text": "cp\u000bOptions\ncp can also act recursively, to copy an entire tree.\n\n\t% cp -R dir1 dir2\n\nLike mv and rm, cp supports the  -i option.\n\nThe -p option to cp will set the modification time of the copy to be the same as that of the original.  By default, the modification time of the copy will be the current time.  -p also tries to set the permission bits on the copy to be the same as on the original."
+        },
+        {
+            "slide_number": 54,
+            "text": "File Ownership\nAll files under UNIX have an owner and a group.  The owner and group for a file are found in a long ls listing.\n\n% ls -lg\ntotal 47\ndrwxrwsr-x \t3 williams staff    \t512 \tOct  6 13:41 \t./\ndrwxrwsr-x  \t4 williams staff    \t512 \tJul 17 09:46 \t../\ndrwxrwsr-x \t2 williams staff    \t512 \tOct  6 11:02 \tbin\n-rw-rw-r--  \t1 williams staff   \t1194 \tSep  9 13:27 \tcalendar\n-rw-rw-r--  \t1 williams staff  \t17264 \tOct  6 13:17 \tmbox\ndrwxrwxr-x  \t1 williams staff    \t161 \tOct  5 16:18 \tmystuff\n\nThe files above are owned by williams in the group staff. \nA file is owned by the user who creates it.\nThe initial group of a file depends on several things.\nFile ownership can be changed with the chown command.\nFile group can be changed with with chgrp command."
+        },
+        {
+            "slide_number": 55,
+            "text": "File Access\n% ls -l\ntotal 47\ndrwxrwsr-x  \t3 williams staff    512 \tOct  6 13:41 \t./\ndrwxrwsr-x  \t4 williams staff    512 \tJul 17 09:46 \t../\ndrwxr-sr-x  \t2 williams staff    512 \tOct  6 11:02 \tbin\n-rw-rw-r--  \t1 williams staff   1194 \tSep  9 13:27 \tcalendar\n-rw-------  \t1 williams staff  17264 \tOct  6 13:17 \tmbox\ndrwxrwxr-x  \t1 williams staff    161 \tOct  5 16:18 \tmystuff\n\nIn a long listing the first group of characters gives each file's permission bits, which define the access rights to the file.\n\nThe first character gives the file's type, the next nine give the file’s access permissions for the owner, the group, and others.\n- is used for a plain file, d is used for a directory, l is used for a symbolic link.\nr, indicates read permission, w indicates write permission, x and s indicate execute permission."
+        },
+        {
+            "slide_number": 56,
+            "text": "chmod\nThe chmod command is used to change the permission bits (the mode) of a file.  There are two different styles of argument to chmod.  The first style, used by old-timers and programmers, uses octal numbers to change the mode of a file.\n\n% chmod 644 myfile\n\nThis sets myfile to have permissions -rw-r--r--.  The other option syntax uses symbolic values and is a bit more user friendly.\n\n% chmod a=r myfile\t\teveryone gets just read permission\n% chmod ug+w myfile\towner (user) and group get write permission\n% chmod go-x myprog\tgroup and others have no execute permission"
+        },
+        {
+            "slide_number": 57,
+            "text": "Groups\u000bThe Old Way\nAt any given time, a user is “in” exactly one group.\n\nNew files and directories are given the group ID of the user when the user creates the file. \nThe newgroup command allows the user to switch amongst any of the groups for which the user is authorized.\nDoesn’t work well for users who work on many projects."
+        },
+        {
+            "slide_number": 58,
+            "text": "Groups\u000bThe New Way\nStarting with about BSD 4.1, a new method of setting the group ID was introduced which facilitated working on many projects at once.\n\nNew files and directories are given the group ID of the directory in which they are created.\nUsers are always “in” all the groups they are authorized for so newgroup command is not needed.\nGroup ID is a property of location, not the creator."
+        },
+        {
+            "slide_number": 59,
+            "text": "Groups\u000bEvery Which Way\nWhen the BSD and System V variants of UNIX were merged, some compromise on groups had to be made.  The solution allows both sorts of behavior, but is a little complex.\n\nAny directory with the set group id bit not set uses Old Way semantics.  Files created there will get the group id  of the creator.\nAny directory with the set group id bit set uses New Way semantics.  Files created there will have the group id of the parent directory.\nIn both cases, a new directory has its set group id bit set the same as the parent directory."
+        },
+        {
+            "slide_number": 60,
+            "text": "Shell Variables\nThe shell maintains certain information in its own variables.  Shell variables affect how the shell searches for commands, set the shell's prompt, and otherwise customize its behavior.  Under sh and ksh, shell variables are set by following them with an equal sign (=) and the value to be set.\n\n\t% prompt=giss:\n\tgiss:\n\nNote that NO SPACE is allowed on either side of the =.  To see what variables are set, use the\nset command with no arguments.\n\n\t% set"
+        },
+        {
+            "slide_number": 61,
+            "text": "Important shell variables\nThe shell sets up some variables automatically when you log in.  You can customize these values to suit personal preferences or for special situations.  The variables below are among the more important.\n\nhome -\tThe location of your home directory\npath -\tA list of directories to search when trying\n\t\tto  find a command\nuser -\tYour login name\nprompt -\tThe string to print when prompting for the\n\t\tnext command"
+        },
+        {
+            "slide_number": 62,
+            "text": "Environment variables\nShell variables affect only the shell and how it interprets your commands.  Programs you run can not access shell variables.  There is a separate set of variables, called the environment, that any program can access.  All shells provide commands for manipulating these environment variables.\n\nTo see all currently set environment variables, use printenv.\n\n\t% printenv\n\tHOME=/home/systems/williams\n\tPATH=.:/bin:/usr/bin:/usr/local/bin"
+        },
+        {
+            "slide_number": 63,
+            "text": "Environment variables,\u000bCont'd.\nTo change the value of an environment variable, or to create a new one, use setenv.\n\n\t% setenv TERM vt100\n\nSome common environment variables follow.\n\nHOME\t\t- your home directory\nTERM\t\t- type of terminal you are on\nPATH\t\t- search path for commands\nLOGNAME\t- your login name\nVISUAL\t\t- screen editor to use\nEDITOR\t\t- line editor to use\nPAGER\t\t- program to use for displaying text files\nPRINTER\t\t- default printer to use"
+        },
+        {
+            "slide_number": 64,
+            "text": "Referencing variables\nBoth shell and environment variables are referenced by preceding the name with a $.\n\n% echo your terminal type is $TERM\nyour terminal type is vt220\n\n% cd $home/mystuff"
+        },
+        {
+            "slide_number": 65,
+            "text": "Quoting\nThe shell interprets some characters specially.  To include these characters as arguments or options to a command, they must be quoted.  There are several quoting mechanisms, each of which serves a distinct purpose.  The simplest quoting method is to enclose the argument in single quote marks (').\n\n\t% echo 'this is a single argument'\n\t% grep '*foo*' list\n\nFilename expansion characters such as *, ?, [ and ] lose their special meaning inside single quotes."
+        },
+        {
+            "slide_number": 66,
+            "text": "Quoting, Cont'd.\nInside of single quote marks ('), shell and environment variables are not expanded.\n\n% echo 'your home directory is $HOME'\nyour home directory is $HOME\n\nIf double quotes (\") are used, then shell and environment variables are expanded.\n\n% echo \"your home directory is $HOME\"\nyour home directory is /home/williams"
+        },
+        {
+            "slide_number": 67,
+            "text": "Tilde expansion\nIn the Korn or C shells, the tilde character (~) can be used as a convenient short hand for home directories.  When a tilde is at the beginning of a word, and the next character is a /, the tilde is replaced by the contents of $home, your home directory.  The following command sets the current directory to $home/mystuff.\n\n% cd ~/mystuff\n\nIf the tilde is followed by a user name, it is replaced by that user's home directory.  The command below copies the file engine_specs from user scotty's home directory and puts the copy in my directory mystuff.\n\n% cp ~scotty/engine_specs mystuff"
+        },
+        {
+            "slide_number": 68,
+            "text": "Customizing your Login\nWhen a Bourne or Korn shells start up, it looks to see if a file named .profile exists in the user's home directory.  If so, the contents of that file are executed as if typed into the user's terminal before control is given to the user.  This allows the user to put customizing command in the .profile file.  This is much like the DOS autoexec.bat file.\n\nThe C shell also allows customization, but since it has a different syntax for many functions, it uses the files .cshrc and .login for customization."
+        },
+        {
+            "slide_number": 69,
+            "text": "The Online Manual\nUNIX provides an on-line version of the User's Manual which is accessed via the man command.  If you know the name of a command, the manual page for that command may be displayed with the man command shown below.\n\n\t% man grep\n\nman can also be used to look up information about library routines.\n\n\t% man strcpy\n\nThis command will return information on the C library string copy function, strcpy."
+        },
+        {
+            "slide_number": 70,
+            "text": "Apropos\nIf you are unsure of a command's name, but know what it does, you can use the -k option to search for the right entry.\n\n% man \t\t-k password\ngetpass (3V)\t- read a password\ngetpwent (3V)\t- get password file entry\npasswd (5)\t\t- password file\npasswd (1)\t\t- change password\nputpwent (3)\t- write password file entry\n\nOn many systems, the command apropos is the same as  man -k, but since no one can spell apropos without looking it up, this isn't of much help."
+        },
+        {
+            "slide_number": 71,
+            "text": "Who\nTo find out who is on the system, use who.\n\n% who\nkirk     \t\tconsole \tOct 25 10:00\nwilliams \tttya    \t\tOct 25 08:35\nspock    \tttyp1   \t\tOct 25 09:31 \t(sci.ncc1701.ufp)\nmccoy    \tttyp2   \t\tOct 25 10:12 \t(med.ncc1701.ufp)\nscott    \t\tttyp4   \t\tOct 23 10:01 \t(eng.ncc1701.ufp)"
+        },
+        {
+            "slide_number": 72,
+            "text": "W\nSome systems also have the  w command, which shows what users are doing.\n\n% w\n1:40pm  up 9 days,  3:12,  5 users,  load average: 0.07, 0.03, 0.00\n\nUser     \ttty       \t\tlogin@\t\t\tidle   \tJCPU   \tPCPU  \twhat\nwilliams \tttyp0     \t8:35am\t\t19  \t18:31      \t1  \t-csh \nkirk     \t\tttyp1     \t9:31am\t\t2     \t20         \t\tvi cptns_log\nspock    \tttyp2    \t10:12am\t\t4     \t15         \t\temacs pi.c \nmccoy    \tttyp4    \tWed10am\t1:12     \t38      \t1  \t-ksh\nscotty   \tttyp7    \t10:02am\t\t\t9:33      \t5  \tmail"
+        },
+        {
+            "slide_number": 73,
+            "text": "Finger\nIf you can't recall a user's login name, you can use finger to help find it.\n\n% finger bones\nLogin name: mccoy\t    In real life: Leonard \"Bones\" McCoy\nDirectory: /home/sickbay/mccoy  \tShell: /bin/ksh\nOn since Oct 25 08:35:30 on ttyp0 from med.ncc1701.ufp\n20 minutes Idle Time\nNo unread mail\nProject:  To keep the crew of the Enterprise in perfect health.\nPlan:\nI'm a doctor, not a bureaucrat!\nCabin Phone:\t1 301 555-1131\nLab Phone:\t\t1 301 555-7253"
+        },
+        {
+            "slide_number": 74,
+            "text": "Regular Expressions\nSeveral UNIX commands make use of the concept of a regular expression. Regular expressions are similar to filename wildcards, but much more powerful.  All of the standard editors use regular expressions, as well as commands such as grep, awk, and sed.  A solid understanding of regular expressions is vital to making full use of UNIX."
+        },
+        {
+            "slide_number": 75,
+            "text": "Single Character REs\nA single character matches itself.\n\n\ta\n\nThe character . matches any single character.\n\n\t."
+        },
+        {
+            "slide_number": 76,
+            "text": "Character Class REs\nA set of characters in a brackets ([]) matches any one of those characters.\n\n\t[abcd] - matches a, b, c, or d\n\nRanges are specified by using - to separate the first and last character in the range.\n\n\t[a-z] - matches any lowercase letter\n\nIf the first character is ^, then the range is complemented.\n\n\t[^1234567890] - matches any character that is not \t\t\t\t\ta digit"
+        },
+        {
+            "slide_number": 77,
+            "text": "More Complex REs\nFor any regular expressions re, re1, and re2, the following are valid combinations.\n\nre1re2\t\t- matches a match for re1, followed by a match for re2\nre*\t\t- matches 0 or more occurances of re\nre{m-n}\t- a range of repetitions, at least m, but no more then n\n^re\t\t- re must be at the beginning of the line\nre$\t\t- re must be at the end of the line\n\\(re\\)\t\t- label\n\\n\t\t- back reference to label n, in the range 1-9\n\nA regular expression always matches the longest string possible."
+        },
+        {
+            "slide_number": 78,
+            "text": "RE Examples\n[A-Za-z_][A-Za-z_0-9]*\n\nMatches any letter or underscore, followed by any number of\nletters, digits or underscores.\n\n[0-9][0-9]*[A-Za-z]*[0-9][0-9]*\n\nMatches at least one digit, followed by any number of letters\n(including none), followed by another sequence of digits.\n\n\\([0-9][0-9]*\\)[A-Za-z]*\\1\n\nMatches at least one digit, followed by any number of letters,\nfollowed by exactly the same sequence of digits."
+        },
+        {
+            "slide_number": 79,
+            "text": "grep\nThe grep command is used to search one or more files for lines matching a regular expression.  For a simple string, the command would be a follows.\n\n% grep Galileo data.1 data.2 data.3\n\nRegular expressions that contain special characters must be quoted, so that the shell doesn't give the characters its own special meanings.\n\n% grep '[aeiou].*[^aeiou]' wordlist\n\nThe name grep comes from the equivalent editor command, g/RE/p, which means to globally search for the given RE and print each matching line."
+        },
+        {
+            "slide_number": 80,
+            "text": "egrep\nThe egrep command supports extensions to the regular expression syntax.\n\nre+\t- one or more repetitions\nre?\t- zero or one repetitions\n       - alternation\n\nThe egrep command does  not allow back references via \\n.  Parentheses may be used for grouping.\n\n% egrep 'Galileo|Viking' data.1 data.2"
+        },
+        {
+            "slide_number": 81,
+            "text": "An egrep Example\nTo practice an extended pattern that contains a few of the \npattern-matching characters +, ?, I, (, and ), enter:\n\negrep “\\( *([a-xA-X]*I [0-9]*)” mygrepfile.txt\n\nThis displays lines that contain letters in parentheses or digits\nin parentheses, but not parenthisized letter - digit combinations.  It matches t and 873902, but not beta18b.\n\nNote that the reverse slash matches parentheses but without it both parentheses are used as a part of an expression (opposite to grep)."
+        },
+        {
+            "slide_number": 82,
+            "text": "Mail\nThere are several popular mail reading programs available under UNIX.  The most broadly available program is the Berkeley mail program.  To read your mail, you simply run mail with no arguments (on some versions of System V, this is called Mail, or mailx).\n\n% mail\nMail version SMI 4.0 Mon Apr 24 17:36:21 EDT 1989 Type ? for help\n\"/usr/spool/mail/williams\":3 messages\n\n>N  1 kirk       Fri Jul 14 12:01 21/455 Orders for wil\nN  2 spock      Sat Jul 15  8:45  4/78  With regard to \nN  3 scotty     Sat Jul 15 15:32 23/626 New engine spe\n\n&"
+        },
+        {
+            "slide_number": 83,
+            "text": "Reading Mail\nThe following commands can be given at the mail prompt (&).\n\n# - read the message given by the number\nd - delete one or more messages\nr - reply to just the sender of a message\nR - reply to all recipients of a message\nm - send mail\ns - save a message in a file\nc - copy a message to a file\nq - quit from mail, with unread mail staying in your system mailbox and undeleted mail going to the file mbox\nx - exit from mail as though you had done nothing"
+        },
+        {
+            "slide_number": 84,
+            "text": "Sending Mail\nTo send mail, run the mail command with the name of the recipients as arguments.\n\n% mail kirk spock\nSubject: Request for leave\nI would like to request shore leave the next time the Enterprise reaches a class M planet or a starbase.\n\nThanks,\nLt. Cmdr. Williams\n^D\ncc: scotty\n%"
+        },
+        {
+            "slide_number": 85,
+            "text": "Sending Mail\nWhen sending mail, several tilde escapes are available for special purposes.\n\n~m # - include the given message number in the reply\n~r filename - read the named file into the message\n~v - invoke the editor given in $VISUAL on the message\n~p - print out the message as entered so far\n~h - print out the message headers and allow corrections"
+        },
+        {
+            "slide_number": 86,
+            "text": "Foreground vs\u000bBackground\nNormally, UNIX programs are run in the foreground, which means that the user must wait for one command to finish before entering another.  If you wish to run a command that will take a long time,  you can put the command in the background, which allows you to get on with other work.\n\n% sort -o output very_long_file\n% edit report\n\nTo put a command in background, end it with an &. The process ID of the command will be printed.\n\n% sort -o output very_long_file &\n10324\n% edit report"
+        },
+        {
+            "slide_number": 87,
+            "text": "Processes\nTo see what processes you have running use the ps command.\n\n% sort -o output very_long_file &\n6542\n% ps\n PID TT STAT   TIME COMMAND\n6542 p0 R      0:00 sort very_long_file\n6543 p0 R      0:00 ps\n\nps has many options, which vary from system to system.  Consult your local man page for details."
+        },
+        {
+            "slide_number": 88,
+            "text": "kill\nSometimes it is necessary to terminate a process that is hung, or running amok, or otherwise has become undesirable.  The kill command is provided for this.  \n\n% kill 1283\n\nThe above command will send the KILL signal to process 1283.  Other signals are possible.  They\nare given as options to kill.\n\n% kill -TERM 1283\n\nThe  TERM signal allows the application to clean up before quitting.  The default KILL signal halts an application without notice."
+        },
+        {
+            "slide_number": 89,
+            "text": "Job Control\nUnder traditional UNIX, once a command has been started in foreground or background, that's where it stays until completion.  Berkeley UNIX introduced the notion of job control, which allows processes to be moved from foreground to background while they are running.  Job control is available in the Berkeley C shell and the Korn shell.\n\nA job that is currently running in foreground can be stopped  by typing ^Z.  Once a job is stopped, it can be restarted in either the foreground or background with the fg or bg commands, respectively.  The jobs command displays the status of all current processes."
+        },
+        {
+            "slide_number": 90,
+            "text": "Job Control Example\n% sort bigfile.1 > sorted.1 &\n[1] 18828\n% sort bigfile.2 > sorted.2\n^Z\n% jobs\n[2]   + Stopped sort bigfile.2 > sorted.2\n[1]   - Running sort bigfile.1 > sorted.1\n% bg\n[2]   sort -o bigfile.2 > sorted.2\n% jobs\n[1]     Running sort bigfile.2 > sorted.2\n[2]   + Running sort bigfile.1 > sorted.1\n% fg %1\nsort bigfile.1 > sorted.1\n% kill %2\n[2]   Terminated   sort bigfile.2 > sorted.2"
+        },
+        {
+            "slide_number": 91,
+            "text": "Shell Scripts\nThe UNIX shells all allow for the creation and execution of shell scripts, which are simply files that contain lists of commands for the shell to run.  Unlike .BAT files  under DOS, or .COM files under VMS, there is no special extension required on UNIX shell script files.  It is, however, necessary to set the execute permission bit on a shell script file, or the shell will not execute the script."
+        },
+        {
+            "slide_number": 92,
+            "text": "Sample Shell Script\nAll shell scripts should start with the characters #!, followed by the name of the shell for which the script was written.  Since the different shells have different syntaxes, this prevents errors caused when the wrong shell tries to execute a given script.\n\n\n#!/bin/sh\n#\n# This is a korn shell script.\n# A pound sign (#) begins a comment, which\n# extends to the end of the line.\necho -n \"Today is \"\ndate\necho \"The users currently logged in are:\"\nusers"
+        },
+        {
+            "slide_number": 93,
+            "text": "Control Flow in Scripts\nShell scripts often make use of control flow statements such as those found in high level languages.\n\n#!/bin/sh\n# This script removes .o files that are\n# older than the corresponding .c file.\n\nfor cf in *.c\ndo\n\tof=${cf%.c}.o\n\tif [ -e $of -a $of -ot $cf ]\n\tthen\n\t\techo \"Removing \" $of\n\t\trm $of\n\tfi\ndone"
+        },
+        {
+            "slide_number": 94,
+            "text": "Parameters\nShell scripts can take arguments and options just like programs.  These are called the positional parameters and  are refered to in the script by the variable names $1 through $9.  The number of positional parameters passed to a script is given by $#.  Parameter $0 is the name of the script.  The first argument is in $1. Under the Bourne shell, parameters beyond $9 must be accessed via the shift command, which shifts arguments left by one, starting with $1.  Under the Korn shell, arguments beyond $9 require braces, for example, ${16}."
+        },
+        {
+            "slide_number": 95,
+            "text": "Important Directories\n/\t\t\troot of the file system\n/bin\t\t\tessential programs in executable form\n/dev\t\t\tdevice files\n/etc\t\t\tessential and miscellaneous system configuration files\n/lib\t\t\tessential libraries\n/tmp\t\t\ttemporary files; writable by all users\n/usr\t\t\tuser file system\n/usr/adm\t\tsystem administration; accounting info\n/usr/bin\t\tuser binaries; cut, tar, troff, etc.\n/usr/include\t\theader files for C programs\n/usr/lib\t\tlibraries for C, Fortran, other system services\n/usr/man\t\ton-line manual pages\n/usr/man/man1\tmanual pages for section 1\n/usr/spool\t\tworking directories for communications programs\n/usr/spool/lpd\t\tline printer spool\n/usr/spool/mail\telectronic mail boxes\n/usr/class\t\tvarious places where user home directories reside\n/usr/users/class\n/home/class"
+        },
+        {
+            "slide_number": 96,
+            "text": "Manipulating Files and Inodes\nln(1)makes a new link to an existing file\nUsing the link(2) system call\nThe same file will then have two names\n$ ln junk linktojunk\t\t# Create a new link\n$ ls -li \n14209 -r--r--r-- 2 leb users    \t\t29 Jul 28 15:20 junk\n14209 -r--r--r-- 2 leb users    \t\t29 Jul 28 15:20 linktojunk\n$ chmod u+w linktojunk\t\t# Change permissions\n$ ls -li\n14209 -rw-r--r-- 2 leb users    \t\t29 Jul 28 15:20 junk\n14209 -rw-r--r-- 2 leb users   \t\t29 Jul 28 15:20 linktojunk\n$ rm linktojunk\t\t\t# Remove the link\n14209 -rw-r--r-- 1 leb users   \t\t 29 Jul 28 15:20 junk"
+        },
+        {
+            "slide_number": 97,
+            "text": "Manipulating Files and Inodes\u000b(continued)\nrm(1) breaks links (using the unlink(2) system call). When the link count is zero, the file contents are released.\nOnce the file is gone, it is gone forever.  BE CAREFUL!\ncp (1) makes a real copy: name, contents, and inode\n$ cp junk copyofjunk\t\t# Create a new copy\n$ ls -li \n14211 -rw-r--r-- 1 leb users    \t\t29 Jul 28 15:28 copyofjunk\n14209 -rw-r--r-- 1 leb users    \t\t29 Jul 28 15:20 junk\n$ chmod -w copyofjunk\t\t# Make the copy hard to delete\n$ ls -li \n14211 -r--r--r-- 1 leb users    \t\t29 Jul 28 15:28 copyofjunk\n14209 -rw-r--r-- 1 leb users    \t\t29 Jul 28 15:20 junk\n$ rm copyofjunk\t\t\t\t# rm will complain...\nrm: remove 'copyofjunk', overriding mode 0444? y"
+        },
+        {
+            "slide_number": 98,
+            "text": "Manipulating Files and Inodes\u000b(continued)\nmv(1) renames files by moving links (using a combination of the link(2) and unlink(2) system calls)\n$ mv junk samejunk\t\t# Move a link\n$ ls -li \n14209 -rw-r--r-- 1 leb users    29 Jul 28 15:20 samejunk\nmv also renames directories, effectively moving all files and subdirectories they contain\nmv and cp have a special syntax for multiple files:\n$ mv file1 file2 ... directory\n$ cp file1 file2 ... directory\nRemember that . and .. are directories:\n$ cp /etc/passwd /tmp/myfile ."
+        },
+        {
+            "slide_number": 99,
+            "text": "Device Files\nUNIX treats peripherals as files\nThere are two classes of device files\n“Block” devices (tapes and disks)\n“Character” devices (terminals, printers, serial ports, etc.)\nDenoted by ‘b’ and ‘c’, respectively, in an “ls -l” listing\nDevice files are maintained in a table in the kernel\nThe table is indexed by the major and minor numbers\nMajor number denotes the kind of device\nMinor number denotes instances of the device \nThe kernel translates calls to open, close, read, and write a device file into the hardware commands to control the device"
+        },
+        {
+            "slide_number": 100,
+            "text": "Device Files\u000b(continued)\nDevice files are traditionally found in /dev\n$ ls -l /dev\ncrw--w--w- 1 root      \t0,  \t0 \tSep 27 23:09 \tconsole\ncrw-r--r-- 1 root      \t3,  \t1 \tSep 27 14:37 \tkmem\ncrw-r--r-- 1 root      \t3,  \t0 \tMay  6, 1981 \tmem\nbrw-r--r-- 1 root      \t1, \t64 \tAug 24 17:41 \tmt0\ncrw-rw-rw- 1 root     \t3,  \t2 \tSep 28 02:03 \tnull\ncrw-rw-rw- 1 root      \t5,  \t0 \tJul  5 08:04 \ttty\ncrw--w--w- 1 root      \t4,  \t0 \tSep 28 02:38 \ttty0\ncrw--w--w- 1 root      \t4,  \t1 \tSep 27 23:09 \ttty1\nbrw-r----- 1 root      \t8,  \t0 \tSep  8 08:07 \tsda\nbrw-r--r-- 1 root      \t8,  \t1 \tSep  8 08:07 \tsda1\nbrw-r--r-- 1 root      \t8,  \t2 \tSep  8 08:08 \tsda2"
+        },
+        {
+            "slide_number": 101,
+            "text": "Disk Devices\nDisk devices are usually named after the kind of drive\nFor example, /dev/sda is SCSI Disk A\nDisks are divided into partitions\n/dev/sda1   /dev/sda2\nEach partition is mounted, or attached, to a directory\n$ /sbin/mount\n/dev/sda1 on /\n/dev/sda2 on /usr \nEach partition contains its own file system\nA file system is a complete collection of Inodes, directories, and file blocks\nInode numbers are not unique on different file systems, so links between file systems are not allowed\n$ ln /bin/mail /home/class/mail\nln: Cross-device link"
+        },
+        {
+            "slide_number": 102,
+            "text": "Terminal Devices\nWhile loging in a terminal, or tty, line is assigned\n$ tty\n/dev/tty1\n$ ls -l /dev/tty1\ncrw--w--w- 1 class       4,  1 Sep 27 02:39 /dev/tty1\n$ date >/dev/tty1\nWed Sep 27 02:39:45 EDT 1994\ntty is owned by the user, with read & write access\nAll others have write access, to send messages\n$ echo Greetings Earthling >/dev/tty3\nThe  mesg(1) command changes write access for others \nThe file /dev/tty is a synonym for whatever terminal is assigned when you login"
+        },
+        {
+            "slide_number": 103,
+            "text": "The NULL Device\n/dev/null is a “bit-bucket”, anything written to that file is quietly discarded, reads return an end-of-file\nCan be used to discard standard output to reveal only standard error\n$ time grep e /usr/dict/words >/dev/null\nreal    13.0\nuser     9.0\nsys      2.7\n   This example discards output of grep(1) to reveal only the output of time(1), which writes its output to stderr"
+        },
+        {
+            "slide_number": 104,
+            "text": "Yet More Shells\nTerminal-mode C Shell, tcsh\nSometimes pronounced “Taco-shell”\nAdds command line editing, and some addtional control features\nBourne-Again Shell, bash\nDistributed by Free Software Foundation under GNU Public License\nBased on Bourne Shell, with command history, command line editing and many other features\nOther Shells, ash, zsh, et al.\nOffer more, fewer, and/or different features\nChoice of shell is a personal decision\nThis course is based on Bourne Shell, which is available on every UNIX system"
+        },
+        {
+            "slide_number": 105,
+            "text": "Shell Metacharacters\n“Metacharacters” have a  special meaning to the shell\nThey control input, output, sequencing and conditional execution of commands\nThey provide convenient “shorthand” for file names\nFilename expansion wildcards replace explicit filenames \n* matches zero or more characters\n? matches exactly one character\nBy convention, expansion avoids filenames that begin with “.” (like the directories, “.” and “..”)\n$ echo .*\t# all files that begin with .\nQuestion: in the following...\n$ rm *\n   Why can’t rm warn you that you are about to delete all files?"
+        },
+        {
+            "slide_number": 106,
+            "text": "Table of Metacharacters\n>file\t\tdirect stdout to file\n>>file\t\tappend stdout to file\n<file\t\ttake stdin from  file\np1 | p2\t\tconnect stdout of program p1 to stdin of program p2\nn>file\t\tdirect output from file descriptor (filedes) n to file\nn>>file\t\tappend output from filedes n to file\nn>&m\t\tmerge output from filedes n with filedes m\nn<&m\t\tmerge input from filedes n with filedes m\n<<str\t\there document; stdin follows, up to next str on a line by itself\n<<\\s\t\there document with no substitution\n<<'s'\t\there document with no substitution\n*\t\t\tmatch 0 or more characters in filenames\n?\t\t\tmatch any 1 character in filenames\n[ccc]\t\tmatch any 1 character from ccc in filenames; \n\t\t\tranges like 0-9 or a-z allowed"
+        },
+        {
+            "slide_number": 107,
+            "text": "Table of Metacharacters\u000b(continued)\n;\t\t\tcommand terminator; p1 ; p2 runs p1, then p2\n&\t\t\tlike ; but doesn’t wait for p1 to finish\n`...`\t\t\trun commands in ...; output replaces `...`\n(...)\t\t\trun commands in ... in a sub-shell\n{...}\t\trun commands in ... in current shell\n$1, $2, ...\t\t$1 ... $9 replaced by arguments to shell file\n$var\t\tvalue of shell variable var\n${var}\t\tvalue of shell variable var when concatenated to text\n\\\t\t\t\\c takes character c literally; \\newline discarded\n'...'\t\t\ttake ... literally\n\"...\"\t\t\ttake ... literally after $, `...`, and \\ interpreted\n#\t\t\tif # starts a word, rest of line is a comment\nvar=value\t\tassign to variable var\np1 && p2\t\trun p1; if successful, run p2\np1 || p2\t\trun p1; if unsuccessful, run p2"
+        },
+        {
+            "slide_number": 108,
+            "text": "Quoting\nMetacharacters are “protected” by ...\nPreceding each metacharacter with a backslash, \\\n$ echo \\?\\?\\?\t# echo three question marks\nEnclosing in single quotes\n$ echo '*'\t# echo a single asterisk\nEnclosing in double quotes\n$ echo \"***\"\t# echo three asterisks\nThe shell “peeks” inside double quotes to look for dollar signs, $, backquotes, `, and backslashes, \\ \nQuoted strings can contain newline characters\n$ echo 'hello\n> world'\nhello\nworld\n$"
+        },
+        {
+            "slide_number": 109,
+            "text": "Continuations and Comments\nA backslash at the end of a line ‘quotes’ the newline, continuing the command\n$ echo abc\\\n> def\\\n> ghi\nabcdefghi\nNote that the newline is discarded from the input\nA hash symbol delimits a comment\n$ echo hello # there\nhello\n$ echo hello#there\nhello#there\nNote that the hash symbol must be preceded by whitespace"
+        },
+        {
+            "slide_number": 110,
+            "text": "Creating New Commands\nShell programs are text files containing UNIX commands\nAll shells provide normal programming constructs\nVariables\nConditional execution\nLoops\nShell programs are best suited for:\nRepetitive tasks\nFile manipulation (moves, copies, backups, etc.)\nAdministrative tasks (checking mail, running complex programs, etc.)\nText processing\nFilters to transform or analyse files\nCreating new files automatically, including new shell programs"
+        },
+        {
+            "slide_number": 111,
+            "text": "Creating New Commands\u000b(continued)\nNew commands (called scripts) are created with an editor (vi or emacs)\nVery good typists can use echo\n$ echo 'who | wc -l' >nu\nWithout qoutes, what would be in nu?\nScripts need to be executable\n$ chmod +x nu\n$ who\nleb      tty1     Aug 17 12:35\nroot     tty3     Aug 17 12:36\nclass    tty2     Aug 17 12:35\n$ nu\n3"
+        },
+        {
+            "slide_number": 112,
+            "text": "PATH Environment Variable\nFor personal scripts, keep a personal library\nThe shell finds commands by searching the PATH variable\n$ echo $PATH\n/usr/local/bin:/bin:/usr/bin\n$ pwd\n/home/class\n$ mkdir bin\n$ PATH=/home/class/bin:$PATH\n$ echo $PATH\n/home/class/bin:/usr/local/bin:/bin:/usr/bin\n$ mv nu bin\n$ ls nu\nls: nu: No such file or directory\n$ nu\n     3"
+        },
+        {
+            "slide_number": 113,
+            "text": "Exercise 1. Finding shell scripts\nLook in /bin and /usr/bin to see how many files are shell scripts.  Can you do it with one command (i.e. pipeline)?\nHint:  Look at file(1)"
+        },
+        {
+            "slide_number": 114,
+            "text": "Arguments and Parameters\nUsually, a script needs to be given arguments\nfile names, search strings, options, etc.\nBuilt-in variable $* represents all the arguments\n$1, $2, ..., $9 represents the first 9 args\nBuilt-in command, shift, moves all args one space “to the left”\n$ cat shift_echo\necho $1 $2 $3 $4\nshift\necho $1 $2 $3 $4\nshift\necho $1 $2 $3 $4\n$ shift_echo This is a Test of Shift\nThis is a Test\nis a Test of\na Test of Shift"
+        },
+        {
+            "slide_number": 115,
+            "text": "Example: 411, directory information\nConsider a phone book:\n$ cat /home/class/lib/phone-book\nFront Desk   441-4000\nLee Hingle   794-5094\nAccounting   794-5540\nLee Brotzman 776-0324\nCreate a very simple search program:\n$ cat 'grep $* /home/class/lib/phone-book' >411\n$ chmod +x 411\n$ 411 Accounting\nAccounting   794-5540\n$ 411 Lee\nLee Hingle   794-5094\nLee Brotzman 776-0324\n$ 411 Front Desk\ngrep: Desk: No such file or directory\nSomething is wrong!?  What, and how can it be fixed?"
+        },
+        {
+            "slide_number": 116,
+            "text": "Program Output as Arguments\nArguments can be created from the output of other commands by enclosing the command in backquotes\n$ echo At the tone the time will be `date`\nAt the tone the time will be Mon Aug 15 16:40:20 EDT 1994\nBackquotes are interpreted inside double quotes\nExample: cheap mailing lists\n$ cat mailinglist\necho john paul george ringo\n$ chmod +x mailinglist\n$ mailinglist\njohn paul george ringo\n$ mail `mailinglist` <new_song"
+        },
+        {
+            "slide_number": 117,
+            "text": "Shell Variables\nShells have variables (parameters) like other languages\nPositional Parameters:    $1, $2, ..., $9\nEnvironment Variables:  $HOME, $PATH, etc.\nVariables are assigned with an equals sign\nNo spaces are allowed before or after the equals sign\n$ PATH=/bin:/usr/bin:/home/class/bin\nVariables are referenced by preceding with a dollar sign\n$ PATH=$PATH:/usr/games\t# Add /usr/games to PATH\n$ echo $PATH\n/bin:/usr/bin:/home/class/bin:/usr/games\nThe set command displays all of the currently set variables"
+        },
+        {
+            "slide_number": 118,
+            "text": "Exporting Shell Variables\nVariables are associated with the shell that creates them, not subshells (like shell scripts)\n$ x=Hello\n$ echo $x\nHello\n$ sh\t\t# Run a new shell\n$ echo $x\t# Variable x isn’t there!\n\n$ exit\t\t# Leave the subshell\nThe shell is told to copy variables to subshells with the export command\n$ export x\n$ sh\n$ echo $x\nHello\n$ exit"
+        },
+        {
+            "slide_number": 119,
+            "text": "Modifying Shell Variables\u000bThe . command\nThe . (dot) command will run a shell script in the current shell, not in a subshell\nCommonly used to reexecute the .profile startup script without logging in again\n$ cat chvar\t\t# Change the value of variable x\nx=$1\necho $x\n$ echo $x\t\t# What is x now?\nHello\n$ chvar Goodbye\t\t# Change x to \"Goodbye\" -- NOT!\nGoodbye\n$ echo $x\t\t# See?  It didn't change in the current shell\nHello\n$ . chvar Goodbye\t\t# Now execute chvar in the current shell\nGoodbye\n$ echo $x\t\t# And x actually gets changed\nGoodbye"
+        },
+        {
+            "slide_number": 120,
+            "text": "Here Documents\u000bInput from within a Shell script\nA shell script can provide a standard input stream from within the script itself, using the << metacharacters\nA new version of the 411 program makes it self-contained\n$ cat new411\ngrep -i \"$*\" <<End\nFront Desk   441-4000\nLee Hingle   794-5094\nAccounting   794-5540\nLee Brotzman 776-0324\nEnd\n$ new411 lee\nLee Hingle   794-5094\nLee Brotzman 776-0324\nThe shell substitutes for $, `...`, and \\ unless the here document marker is quoted or preceded by a \\"
+        },
+        {
+            "slide_number": 121,
+            "text": "Looping in Shell Programs\nThe for loop is provided for looping over the items in a list, such as filenames:\nA simple example, echo all filenames one per line\n$ for i in *\n> do\n> \t  echo $i\n> done\nThis multi-line format can be condensed to one line\n$ for i in *; do echo $i; done\nThe i can be any variable name.  \nNote that for refers to a bare variable name, i, while inside the loop, the variable is referred to as $i"
+        },
+        {
+            "slide_number": 122,
+            "text": "Looping in Shell Programs\u000b(continued)\nWhen writing scripts, be aware of commands that already loop over a list of files\nBAD\tfor i in $*\n\t\tdo\n\t\t   chmod +x $i\n\t\tdone\nGOOD\tchmod +x $*\nKnow the difference between\nfor i in *\t   and       for i in $*\nThe list can come from anywhere, not just file wildcards\nfor i in `cat users`\ndo\n\t\tfinger $i\n\t\techo ------------------------\ndone >user-report"
+        },
+        {
+            "slide_number": 123,
+            "text": "Putting it all together\nScript bundle concatenates files in a way that the shell can later extract them, for sending files through the mail, for instance\n\n# bundle:  group files into a distribution package\necho '# To unbundle, sh this file'\nfor i in $*\ndo\n   echo \"echo $i 1>&2\"\n   echo \"cat >$i <<'End of $i'\"\n   cat $i\n   echo \"End if $i\"\ndone"
+        },
+        {
+            "slide_number": 124,
+            "text": "Filters\nFilters are programs that accept data on standard input, process it, and write the modified data to standard output.\nHow many unique lines are in all of my data files?\n$ cat *.dat | sort | uniq | wc -l\ngrep is one of the most often used filters \nUses “regular expressions” as patterns for matching text\nHas many options for altering the kind of output generated\nsed and awk are general purpose programmable filters\nsed stands for “stream-editor”, it uses a “program” of ed (line editor) commands to transform data as it streams by\nawk, named after the authors, is a more complete programming language, including variables, arithmetic, control flow, etc."
+        },
+        {
+            "slide_number": 125,
+            "text": "Other Filters\nUNIX comes with a myriad of small single-purpose filters\nBetter to do one thing fast and well than many things slowly and badly\nCombining many small filters is easier than programming one big one\nhead(1) and tail(1) list the start or end of files, respectively\ncut(1) returns specified columns from the input, paste(1) puts files together in columns.\nuniq(1) returns only unique lines from the input\ntr(1) transliterates characters\n$      # \"fold\" lowercase to upper case\n$ tr a-z A-Z <lower.txt >upper.txt"
+        },
+        {
+            "slide_number": 126,
+            "text": "sort\nsort is one of the more useful filters\nMany switches to control the sorting process\n-f \t“Fold” upper and lower case\n-d \t“Dictionary order” - ignore all but letters, digits and blanks\n-r \tSort in reverse order\n-n \tSort by numeric value, rather than by ASCII collating sequence\n+n \tSort within a column n\nExamples\n$ ls -l | sort +3nr\t\t# sort by byte count, largest first\n$ sort -d phone-book\t# dictionary order, Dewitt after de Kalb"
+        },
+        {
+            "slide_number": 127,
+            "text": "Stream Editor, sed\nsed(1) was originally derived from ed(1), the original UNIX line-oriented text editor\nBasic command is simple:\n$ sed 'list of ed commands' filenames ...\nreads a line at a time\napplies each command to the line, in order\nwrites the edited line to standard output\nwithout a list of filenames, sed edits standard input\nHas -f  switch to include sed commands from an external file"
+        },
+        {
+            "slide_number": 128,
+            "text": "Sample sed Commands\nConvert all instances of 'UNIX' to 'UNIX(TM)'\n$ sed 's/UNIX/UNIX(TM)/g' class.txt >class.new.txt\nList userids and login times\n$ who | sed 's/ .* / /'\nPrint the header of a mail message (up to the first blank line)\n$ sed '/^$/q' mail.msg \nDelete the header of a mail message\n$ sed '1,/^$/d' mail.msg >mail.body\nPrint only the lines containing an E-mail address (userid@host)\n$ sed -n '/ [^ ]+@[^ ]+/p'\n-n switch tells sed to print only with explicit print commands (p)\nDoublespace a document (insert an extra newline)\n$ sed 's/$/\\\n> /'"
+        },
+        {
+            "slide_number": 129,
+            "text": "Summary of sed Commands\na\\\t\t\tappend lines to output until one not ending in \\\nb label\t\tbranch to command : label\nc\\\t\t\tchange lines to following text as in a command\nd\t\t\tdelete line; read next input line\ni\\\t\t\tinsert following text before next output\nl\t\t\tlist line, making all non-printing characters visible\np\t\t\tprint line\nq\t\t\tquit\nr file\t\t\tread file, copy contents to output\ns/old/new/f\t\tsubstitute new for old.  If f=g, replace all occurrences;  f=p, print; f=w file, write to f\t\t\tile\nt label\t\ttest; branch to label if substitution made to current line\nw file\t\twrite line to file\ny/str1/str2/\t\treplace each character from str1 with corresponding character from str2 (no ranges \t\t\tallowed)\n=\t\t\tprint current input line number\n!cmd\t\tdo sed cmd only if line is not selected\n: label \t\tset label for b and t commands\n{\t\t\ttreat commands up to matching } as a group"
+        },
+        {
+            "slide_number": 130,
+            "text": "Exercise: sed\nModify the sample sed command to list userids and login times so that the login times appear at the beginning of the line, e.g.\n   \t\t$ who | sed ...\n  \t\t\t11:14 root\n   \t\t\t10:52 class\n   \t\t\t09:39 leb\nHint: remember tagged regular expressions from grep"
+        },
+        {
+            "slide_number": 131,
+            "text": "awk \u000bpattern scanning and processing language\nawk overcomes some of the limitations of sed\narithmetic and builtin functions\nvariables and arrays\ncontrol flow (if, for, while)\nBasic awk  programs are lists of patterns and actions, which are applied to each line of the input in turn\npattern { action }\npattern { action }\nPatterns in awk can be regular expressions, ala sed\n$ awk '/[^ ]@[^ ]/ { print }' mail.msg\nPatterns can be logical expressions\n$ awk 'NF == 1 { print $1 }' test.dat  \nprints lines with only one field"
+        },
+        {
+            "slide_number": 132,
+            "text": "awk\u000b(continued)\nawk automatically splits each input line into fields, called $1, $2, ... $NF, where NF is a variable set to the total number of fields.\nHere is an easier way to print the login times and userids from our exercise in sed programming:\n$ who | awk '{ print $5, $1 }'\nThe -Fc switch sets the field delimiter from whitespace (blanks and tabs) to the character c\n$ awk -F: '{ print $1, $7 }' /etc/passwd\nprints userids and the shells they use\nTwo special \"patterns\", BEGIN and END match the beginning and end of the file, respectively\nNormally used for initialization and cleanup"
+        },
+        {
+            "slide_number": 133,
+            "text": "awk Arrays\nArrays are allowed as in other languages\n$ cat backwards\n# backwards: print output in reverse line order\nawk '{ line[NR] = $0 }\nEND  { for (i = NR; i > 0; i--) print line[i] }' $*\nAssociative arrays are indexed by strings rather than by numbers\n$ cat wordfreq\n# wordfreq: print word counts from input\nawk '{ for (i = 1; i <= NF; i++) num[$i]++ }\nEND  { for (word in num) print num[word], \"  \", word } \n' $* | sort -nr"
+        },
+        {
+            "slide_number": 134,
+            "text": "sed and awk\nThere is much more to say about sed and especially about awk\nGet the O'Reilly and Associates book for sed and awk programming\nsed is generally useful for quick general purpose filters to supplement those already provided by every typical UNIX\nawk is a powerful, full-fledged text processor and report generator, with a rather complete suite of features and tools"
+        },
+        {
+            "slide_number": 135,
+            "text": "Bourne Shell Programming\nThe Bourne shell is the original UNIX shell.\nIt is available on all variants of UNIX, unlike the C shell (csh).\nThe Korn Shell is compatible on a source code level with Bourne shell.\nThe Bourne-Again Shell (bash) is a popular replacement from the Foundation for Software Freedom (FSF).\nThe features studied here are the most basic elements of the shell, see the man pages and the text for more detailed information."
+        },
+        {
+            "slide_number": 136,
+            "text": "Shell Built-In Variables\n$# \t\tthe number of arguments\n$* \t\tall arguments to shell\n$@ \tsimilar to $*, explained in detail later\n$- \t\toptions supplied to the shell\n$? \t\treturn value of the last command executed\n$$ \t\tprocess-id of the shell\n$! \t\tprocess-id of the last command started with &\n$HOME \tdefault argument for cd command\n$IFS \tlist of characters that separate words in arguments\n$MAIL \tfile that, when changed, triggers \"you have mail\" message\n$PATH \tlist of directories to search for commands\n$PS1 \tprompt string, default '$ '\n$PS2 \tprompt string for continued command line, default '> '"
+        },
+        {
+            "slide_number": 137,
+            "text": "The set command\nset is a builtin shell command that does too much\nby itself prints values of current variables\nwith ordinary arguments, it resets $1, $2, etc. to those arguments\nSeveral options are available (depending on the implementation).  These are good for debugging:\n-e    cause the shell to exit when a command terminates with \tnon-zero status\n-n    read commands but don't execute (used to check syntax)\n-v    print shell input lines as they are read\n-x    after expanding commands, display command and \t\texpanded arguments"
+        },
+        {
+            "slide_number": 138,
+            "text": "case Statements\ncase statements allow for selecting one of several choices\ncase word in\npattern) commands ;;\npattern) commands ;;\n...\nesac\ncompares word to each of the patterns in turn and executes the commands for the first match found\nEfficient way to check arguments\ncase $# in\n0)\techo \"Usage: $0 args...\" ; exit 1 ;;\n1)  arg1=$1; arg2=\"default\" ;;\n*)  arg1=$1; arg2=$2 ;;\nesac"
+        },
+        {
+            "slide_number": 139,
+            "text": "Shell Pattern Matching Rules\n*\t\tmatch any string, including the null string\n?\t\tmatch any single character\n[ccc]\tmatch any of the characters in ccc, ranges are allowed\n\"...\"\tmatch ... exactly; quotes protect special characters.  Also '...'\n\\c\t\tmatch c literally\na|b\t\tin case expressions only, matches either a or b\n/\t\tin filenames, matched only by an explicit / in the expression; in \tcase, matched like any other character\n.\t\tas the first character of a filename, is matched only \t\tby an explicit . in the expression"
+        },
+        {
+            "slide_number": 140,
+            "text": "Example case Statements\n# cal: nicer interface to /usr/bin/cal, with month names\ncase $# in\n0)      \tset `date`; m=$2; y=$6 ;; \t\t# no args: use today\n1)     \tm=$1; set `date`; y=$6 ;; \t\t# 1 arg: use this year\n*)      \tm=$1; y=$2 ;;             \t\t# 2 args: month and year\nesac\n\ncase $m in\njan*|Jan*)      \tm=1 ;;\nfeb*|Feb*)      \tm=2 ;;\n...\ndec*|Dec*)      \tm=12 ;;\n[1-9]|10|11|12) \t;;              \t\t# numeric month\n*)              \t\ty=$m; m=\"\" ;;   \t# plain year\nesac\n\n/usr/bin/cal $m $y             \t\t # run the real cal program"
+        },
+        {
+            "slide_number": 141,
+            "text": "Control flow: which command?\nIn the next few slides we will use some basic control flow structures to determine where in the PATH a command can be found, e.g.\n$ which ls\n/bin/ls\n$ which cut\n/usr/bin/cut\nBasic algorithm:\n \t\tfor i in each component of PATH\n \t\tdo\n  \t\t if given name is in directory i  print its full pathname\n \t\tdone\nFirst, we need to get a list of the PATH directories"
+        },
+        {
+            "slide_number": 142,
+            "text": "which command? \u000bPATH elements\nIn the PATH, “::” is equivalent to “:.:”, as is a bare “:” at the beginning or end of the PATH list\n$ echo $PATH\n/bin:/usr/bin:/home/class/bin:\nWe use sed to change each “:” to a blank, taking into account the “phantom dot” directory, if it exists\n$ echo $PATH | sed 's/^:/.:/\n>                   s/::/:.:/g\n>                   s/:$/:./\n>                   s/:/ /g'\n/bin /usr/bin /home/class/bin ."
+        },
+        {
+            "slide_number": 143,
+            "text": "Conditional execution: if\nBasic structure\nif command\nthen\n\t\tcommands if condition true\nelse\n\t\tcommands if condition false\nfi\nUNIX commands return a status of 0 (true) on success or nonzero (usually 1 for false) on failure.\n$ if who | grep class >/dev/null\n> then\n>   echo \"Class logged on\"\n> fi\nThe status code returned by a pipeline is that of the last command in the pipe"
+        },
+        {
+            "slide_number": 144,
+            "text": "Testing Things\ntest(1) returns a true/false based on some condition\n\t-d file\t\tTrue if file exists and is a directory\n\t-e file\t\tTrue if file exists\n\t-f file\t\tTrue if file exists and is a regular file\n\t-r file\t\tTrue if file exists and is readable\n\t-s file\t\tTrue is file exists and has a size greater than zero\n\t-w file\t\tTrue if file exists and is writable\n\t-x file\t\tTrue if file exists and is executable\n\t-z string\t\tTrue if the length of string is zero\n\t-n string\t\tTrue if length of string is nonzero\n\tstring\t\tTrue if length of string is nonzero\n\tstring1 = string2 \tTrue if strings are equal\n\tstring1 != string2 \tTrue if strings are not equal\n\t! expr \t\tTrue if expr is false\n\texpr1 -a expr2 \tTrue if both expr1 and expr2 are true\n\texpr1 -o expr2 \tTrue if either expr1 or expr2 are true\n\targ1 OP arg2 \tWhere OP is -eq, -ne, -lt, -le, -gt or -ge\n\t\t\tTrue if numeric values meet condition"
+        },
+        {
+            "slide_number": 145,
+            "text": "test continued\ntest and its synonym, [, are usually builtin operators of the shell\n[ requires a closing bracket, ]\nif [ -r /home/class/lib/phone-book ]\nthen\n\t\tgrep -i \"$*\" /home/class/lib/phone-book\nelse\n\t\techo Call 441-4000 for information\nfi\nFor our which command, we want to find executables\nif [ -x file in PATH directory ]\nthen\n\t\techo complete pathname\nfi"
+        },
+        {
+            "slide_number": 146,
+            "text": "Which Command? \u000bwhich\n# which cmd:  which cmd in PATH is executed\ncase $# in\n0)      echo \"Usage: $0 command\" 1>&2; exit 2\nesac\nfor i in `echo $PATH | sed 's/^:/.:/\n                          s/::/:.:/g\n                          s/:$/:./\n                          s/:/ /g'`\ndo\n       if [ -x $i/$1 ]\n       then\n               echo $i/$1\n               exit 0\n       fi\ndone\nexit 1"
+        },
+        {
+            "slide_number": 147,
+            "text": "for loops revisited\nfor is the most common loop, iterating over a list of items\nThere are two basic forms, the one we’ve seen:\nfor i in list of words\ndo\n   loop body, $i set to successive elements of list\ndone\nAnd one specifically for looping over the input arguments\nfor i    (List is implicitly all arguments, i.e. $*)\ndo\n   loop body, $i set to successive elements of list\ndone"
+        },
+        {
+            "slide_number": 148,
+            "text": "while and until loops\nwhile and until loops use the exit status of a command to control termination of the loop\nwhile and until complement each other in interpretation of the exit status\nwhile continues looping if the exit status is true\nuntil continues looping if the exit status is false\nBasic structure\n[while|until] command\ndo\n   loop body\ndone"
+        },
+        {
+            "slide_number": 149,
+            "text": "Example: while and until\nThe following two examples do the same thing: wait for user class to log in\nwhile sleep 60\ndo\n       who | grep class\ndone\n\nuntil who | grep class\ndo\n       sleep 60\ndone\nWhich do you prefer and why?\nRemember that the exit status of a pipeline is the status of the last command in the pipe"
+        },
+        {
+            "slide_number": 150,
+            "text": "Exercise: looping\nUse an until loop to watch for a list of users given on the command line.  The script will exit when any one of the users logs in.\nHint: this will require egrep regular expressions and a sed filter."
+        },
+        {
+            "slide_number": 151,
+            "text": "Evaluation of shell variables\n$var\t\tvalue of var; nothing if var undefined\n${var}\t\tsame; useful if alphanumerics follow variable name\n${var-value}\tvalue of var if defined; otherwise value.  $var \t\t\tunchanged\n${var=value}\tvalue of var if defined; otherwise value. If undefined, \t\t\t$var set to value\n${var?message}\tif defined, $var.  Otherwise, print message and exit \t\t\tshell.  If message empty, print default message \t\t\t\"parameter not set\"\n${var+value}\tvalue if $var defined, otherwise nothing\n\nTake a few moments to try some of these by setting variables and echoing them (or echoing non-existent variables)"
+        },
+        {
+            "slide_number": 152,
+            "text": "Accepting User Input: read\nread reads in one line of input from standard input and assigns the text(without a newline) as the value of the named variable\n$ read something\nHello, world\n$ echo $something\nHello, world\nOlder versions of the shell did not allow redirection of standard input (read is a builtin command)\nModern shells allow redirection, but not with pipes.\n$ echo $upper\nALL UPPER CASE\n$ echo $upper | tr A-Z a-z | sed 's/upper/lower/' >/tmp/var\n$ read lower </tmp/var\n$ echo $lower\nall lower case"
+        },
+        {
+            "slide_number": 153,
+            "text": "Traps: catching interrupts\nIf a shell script is interrupted by a ^C or some other signal, any temporary files will be left behind\nNeed to \"catch\" the interrupt signal, cleanup anything that needs it, and exit\nBasic command:\ntrap sequence-of-commands list-of-signal-numbers\nExample: clean up a temporary file on receiving an interrupt or terminate signal\ntrap 'rm -f /tmp/tmpfile; exit 1' 1 15\nSee the next slide for common signal numbers"
+        },
+        {
+            "slide_number": 154,
+            "text": "Shell Signal Numbers\n0\t\tshell exit (for any reason, including end of file)\n1\t\thangup\n2\t\tinterrupt (^C)\n3\t\tquit (^\\; causes program to produce core dump)\n9\t\tkill (cannot be caught or ignored)\n15\tterminate, default signal generated by kill(1)"
+        },
+        {
+            "slide_number": 155,
+            "text": "Aliases\nMost implementations of shells allow for aliases\nCommonly used to set default switches for commands\nalias ls='ls -F'\nalias ll='ls -l'\nalias rm='rm -i'\nCan be used to string several commands together\nalias dir='pwd; ls -l'\nalias logout='clear; exit'\nalias whoops='ps -axu | grep'\nAny arguments following the alias are appending to the replacement text after the alias is expanded\nHowever, there is no mechanism for using arguments within the replacement text\nIf arguments are needed, use a shell function"
+        },
+        {
+            "slide_number": 156,
+            "text": "Shell Functions\nModern versions of the Bourne shell allow functions\nFunctions store a series of commands for later execution\nFunctions declared in .profile are available as interactive commands, like aliases\nFunctions are executed in the context of the current shell; not a subshell\nArguments to the function become positional parameters, $1, $2, ...\nAfter the function exits, the original positional parameters are restored\nVariables local to the function can be declared by “local” builtin command\nThese variables exist only during the execution of the function"
+        },
+        {
+            "slide_number": 157,
+            "text": "Example Shell Function\nRename a list of files to all lowercase characters\ntolow()\n{\n\t\tfor i\n\t\tdo\n\t\t    mv $i `echo $i | tr [A-Z] [a-z]`\n\t\tdone\n}\ne.g.\n$ ls\nThis      That      TheOther\n$ tolow *; ls\nthis      that      theother\nWhat happens if the filename is already all lowercase?\nHow can this behavior be avoided?"
+        },
+        {
+            "slide_number": 158,
+            "text": "Example Shell Function\u000b(continued)\nRepeat a command:  \nUsage:  repeat n  command\ne.g.:       repeat 80 echo -n \"-\"\n\t  repeat()\n{\n\tlocal count=$1\n\tshift\n\twhile [ \"$count\" -gt 0 ]\n\tdo\n \t\t$*\n \t\tcount=`expr $count - 1`\n\tdone\n}\nNote:  This function is really slow.  Repeated arithmetic with expr takes a lot of CPU time."
+        },
+        {
+            "slide_number": 159,
+            "text": "Style\nUse script “magic number” to unambiguously identify the shell\n#!/bin/sh\nUse liberal comments!\nUse tabs and blank lines for readability\nKeep things simple if at all possible\nUse several small single-purpose scripts, not one large general- purpose one\nTry to keep a UNIX “flavor”\nPrint Usage message if arguments are required but not supplied\nKeep intermediate (“OK to here, Bob”) messages to a minimum\nUse proper exit status for success (0) or failure (1 or some other nonzero value)"
+        }
+    ]
+}
