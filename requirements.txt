@@ -2,3 +2,4 @@ pymilvus==2.5.5
 python-pptx 
 pymilvus 
 sentence-transformers
+streamlit 
