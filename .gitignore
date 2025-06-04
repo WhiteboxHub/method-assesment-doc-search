@@ -8,3 +8,4 @@ knowledge_base/milvus_vector_store/volumes/
 *.log
 myenv
 __pycache__
+/volumes

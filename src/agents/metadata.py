@@ -1,6 +1,6 @@
 
 
-def get_metadata():
+def get_metadata(data):
+    "return the metadata for the retrived chunks"
 
-
-    return
+    return data

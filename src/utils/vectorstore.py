@@ -31,7 +31,7 @@ class Milvus_init:
                     uri= self.MILVUS_URI,
                     token = self.MILVUS_TOKEN
                 )
-        self.METRIC_TYPE = "COSINE"
+        self.METRIC_TYPE = "COSINE" # L2 , IVF
         
     def initialize_collection(self,collection_name = None,Drop_collection = False):
         with _mivus_thread:
@@ -137,7 +137,7 @@ class Milvus_init:
     def retriver(self,
                 query_text : str,
                  collection_name: str = None ,  
-                 k=4):
+                 k=10):
         
         embed = Embedding()
 
@@ -159,8 +159,9 @@ class Milvus_init:
         "metric_type": self.METRIC_TYPE,
         "params": {"nprobe": 100},
     }
-    
-        result = milvusdb.search([embed_query_text],"embeddings",search_params, limit=k, output_fields=["slide_title","isfullslide","slideno","embed_text","file_title","filename"])
+        filter_expression = "isfullslide == true"
+
+        
+        result = milvusdb.search([embed_query_text],"embeddings",search_params,expr=filter_expression, limit=k, output_fields=["slide_title","isfullslide","slideno","embed_text","file_title","filename"])
 
         return result
-

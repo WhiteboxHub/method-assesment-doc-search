@@ -55,6 +55,7 @@ def process_retrived_text(text: str):
 
     # Replace single quotes with double quotes
     entity_part = entity_part.replace("'", '"')
+    entity_part = entity_part.replace("\\", "\\\\")
 
     # Fix Python-style boolean
     entity_part = entity_part.replace("False", "false").replace("True", "true")
@@ -62,6 +63,5 @@ def process_retrived_text(text: str):
     # Convert to JSON
     entity_json = json.loads(entity_part)
 
-    # Optional: Pretty print
-    ak = json.dumps(entity_json, indent=4)
-    return ak
+    
+    return dict(entity_json)

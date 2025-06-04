@@ -4,6 +4,8 @@ pymilvus
 sentence-transformers
 streamlit 
 unstructured
-langchain_community
-langchain_openai
+langchain-community
+langchain-openai
 langgraph
+openai
+uvicorn

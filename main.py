@@ -1,18 +1,19 @@
 import streamlit as st
-
+from src.agents import find_doc_agent,metadata,qa_agent,rag
 # Simulated functions for demo purposes
-def get_documents(query):
-    return [f"Document {i+1} related to '{query}'" for i in range(3)]
 
-def generate_answer(query, documents):
-    return f"This is a generated answer for the query: '{query}'. Based on documents."
+# def get_documents(query):
+#     return [f"Document {i+1} related to '{query}'" for i in range(3)]
 
-def get_metadata(query):
-    return {
-        "Query Length": len(query),
-        "Documents Found": 3,
-        "Answer Length": 50
-    }
+# def generate_answer(query, documents):
+#     return f"This is a generated answer for the query: '{query}'. Based on documents."
+
+# def get_metadata(query):
+#     return {
+#         "Query Length": len(query),
+#         "Documents Found": 3,
+#         "Answer Length": 50
+#     }
 
 # App layout
 st.title("AI Assistance")
@@ -23,23 +24,26 @@ query = st.text_input("Enter your query:")
 if query:
     # Stage 2: Show Output Documents
     st.subheader("Documents Retrieved:")
-    documents = get_documents(query)
+    data = rag.data_retriver(query)
+
+    documents = find_doc_agent.find_docs(data)
     for doc in documents:
         st.write(f"- {doc}")
     
     # Stage 3: Ask to Generate Answer
     if st.button("Generate Answer"):
-        answer = generate_answer(query, documents)
+        answer = qa_agent.QAagent(query, data)
         st.subheader("Generated Answer:")
         st.write(answer)
 
     if st.button("Generate Meta Data"):
-        answer = generate_answer(query, documents)
         st.subheader("Generated Meta data:")
-        st.write(answer)    
+        st.write(data)    
 
             # Stage 4: Show Metadata
         st.subheader("Metadata:")
-        metadata = get_metadata(query)
-        for key, value in metadata.items():
-            st.write(f"{key}: {value}")
+        answer = data
+
+        for a in answer:
+            for key, value in a.items():
+                st.write(f"{key}: {value}")
