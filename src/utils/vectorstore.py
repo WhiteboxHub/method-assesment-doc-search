@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 import os
 from typing import Annotated
 import threading
-
+from src.utils.embedding.embedder import Embedding
 
 load_dotenv()
 
@@ -31,6 +31,7 @@ class Milvus_init:
                     uri= self.MILVUS_URI,
                     token = self.MILVUS_TOKEN
                 )
+        self.METRIC_TYPE = "COSINE"
         
     def initialize_collection(self,collection_name = None,Drop_collection = False):
         with _mivus_thread:
@@ -62,7 +63,7 @@ class Milvus_init:
                     index_params.add_index(
                         field_name="embeddings",
                         index_type="AUTOINDEX",
-                        metric_type = "COSINE"
+                        metric_type = self.METRIC_TYPE
                     )
 
 
@@ -119,71 +120,47 @@ class Milvus_init:
     
     def milvus_insert_data(self,data : list[dict]):
         try:
-            print("insert started")
             connections.connect("default", host=self.MILVUS_HOST, port=self.MILVUS_PORT)
             insert_data = []
-            print('connection 1')
             collection = Collection(self.COLLECTION_NAME)
-            print('connection 2')
             
             collection.insert(data)
-            print('connection 3')
 
             collection.flush()
-            # for d in data:
-            #     info = {}
-            #     for key,value in d.items():
-            #         info[key] = value
-                
-            #     insert_data.append(info)
-            # res = self.CLIENT.insert(
-            #     collection_name = self.COLLECTION_NAME,
-            #     data = insert_data
-            # )
-            # inserting = milvusdb.insert(insert_data)
-            # milvusdb.flush()
             print("data inserted successfully ")
             return "data inserted successfully "    
 
         except Exception as e:
             print(e)
             return f"Error: {e} has occured"
-    # def milvus_insert_data(self, data: list[dict]):
-    #     try:
-    #         print("Insert started")
-    #         connections.connect("default", host=self.MILVUS_HOST, port=self.MILVUS_PORT)
+    
+    def retriver(self,
+                query_text : str,
+                 collection_name: str = None ,  
+                 k=4):
+        
+        embed = Embedding()
 
-    #         # Load the collection
-    #         collection = Collection(self.COLLECTION_NAME)
+        embed_query_text = embed.emb_text(query_text)
 
-    #         # insert_data = []
+        if collection_name == None:
+            collection_name = self.COLLECTION_NAME
 
-    #         # d = {}
-    #         # for i in data:
-    #         #     for key,value in i.items():
-    #         #         if d[key]:
-    #         #             d[key].append(value)
-    #         #         else:
-    #         #             d[key] = [value]
+        # 1. Connect to Milvus
+        connections.connect("default", host= self.MILVUS_HOST, port=self.MILVUS_PORT)
 
-    #         # for key,value in d.items():
-    #         #     insert_data.append(value)
-    #         # Validate schema and order fields properly
-    #         field_names = [field.name for field in collection.schema.fields]
+        
+        milvusdb = Collection(collection_name)
+        milvusdb.load()
+        
+    
 
-    #         # Milvus expects column-wise data (i.e., list of lists)
-    #         insert_data = [[doc[field] for doc in data] for field in field_names]
+        search_params = {
+        "metric_type": self.METRIC_TYPE,
+        "params": {"nprobe": 100},
+    }
+    
+        result = milvusdb.search([embed_query_text],"embeddings",search_params, limit=k, output_fields=["slide_title","isfullslide","slideno","embed_text","file_title","filename"])
 
-    #         # Insert and flush
-    #         print(insert_data)
-    #         collection.insert(insert_data)
-    #         collection.flush()
-
-    #         print("Data inserted successfully")
-    #         return "Data inserted successfully"
-
-    #     except Exception as e:
-    #         print(f"Error: {e}")
-    #         return f"Error: {e} has occurred"
-
+        return result
 

@@ -1,6 +1,7 @@
 from typing import List
 from src.utils.embedding.embedder import Embedding
-
+import json
+import re
 def preprocess_text(data: List[dict], file_name: str):
     embed = Embedding()
     insert_data = []
@@ -44,3 +45,23 @@ def preprocess_text(data: List[dict], file_name: str):
         insert_data.append(doc)
 
     return insert_data
+
+
+
+def process_retrived_text(text: str):
+    
+ # Extract the 'entity' part using string operations
+    entity_part = text.split("entity:")[1].strip()
+
+    # Replace single quotes with double quotes
+    entity_part = entity_part.replace("'", '"')
+
+    # Fix Python-style boolean
+    entity_part = entity_part.replace("False", "false").replace("True", "true")
+
+    # Convert to JSON
+    entity_json = json.loads(entity_part)
+
+    # Optional: Pretty print
+    ak = json.dumps(entity_json, indent=4)
+    return ak
